@@ -1349,7 +1349,7 @@
 								                       		<div class="form-group row mt-lg">
 									                            <label for="province" class="control-label col-sm-4">Province</label> 
 									                            <div class="col-sm-8">
-									                            	<select name="province" class="form-control"  disabled>
+									                            	<select name="province" class="form-control" >
 									                            		<!-- On charge ici dynamiquement la liste des province de la région -->
 									                            	</select>
 									                            </div>
@@ -1357,7 +1357,7 @@
 								                       		<div class="form-group row mt-lg">
 									                            <label for="etablissement" class="control-label col-sm-4">Etablissement</label> 
 									                            <div class="col-sm-8">
-									                            	<select name="etablissement" class="form-control" disabled>
+									                            	<select name="etablissement" class="form-control" required>
 									                            		<!-- On charge ici la liste des établissement de la province -->
 									                            	</select>
 									                            </div>
@@ -2354,8 +2354,8 @@
   				$("#etudiant_Update_Form select[name=province]").html("");
   				$("#etudiant_Update_Form select[name=etablissement]").html("");
   				
-  				$("#etudiant_Update_Form select[name=province]").prop('disabled', true);
-  				$("#etudiant_Update_Form select[name=etablissement]").prop('disabled', true);
+  				//$("#etudiant_Update_Form select[name=province]").prop('disabled', true);
+  				//$("#etudiant_Update_Form select[name=etablissement]").prop('disabled', true);
 	  			//Chargement des Filiers dans Select filiere
 					$.ajax({
 					url : "../Filiere/List",
@@ -2513,8 +2513,8 @@
 						
 						var itemEtablissement  ='<option class="bg-danger text-white" value="'+response.etabOrigine.id+'">'+response.etabOrigine.code+'</option>';
 						$("#etudiant_Update_Form select[name=etablissement]").prepend(itemEtablissement);
-						$("#etudiant_Update_Form select[name=etablissement]").val(response.etabOrigine.id);
-						$("#etudiant_Update_Form select[name=etablissement]").prop('disabled', true);
+						//$("#etudiant_Update_Form select[name=etablissement]").prop('disabled', true);
+						
 						
 						var itemTitreParent  ='<option class="bg-danger text-white" value="'+response.parent.titre+'">'+response.parent.titre+'</option>';
 						$("#etudiant_Update_Form select[name=titreParent]").prepend(itemTitreParent);
@@ -2578,7 +2578,7 @@
 				   		$('#modalError .modal-body p').modal('show'); 
 				        },
 					complete: function (response,textStatus ,jqXHR) {
-						$("#etudiant_Update_Form select[name=province]").prop('disabled', false);
+						//$("#etudiant_Update_Form select[name=province]").prop('disabled', false);
 				    }
 				});
 			});
@@ -2597,7 +2597,7 @@
 						$("#etudiant_Update_Form select[name=etablissement]").html("");
 						for(i=0;i<response.length;i++){
 							var item  ='<option value="'+response[i].id+'">'+response[i].code+'</option>';
-							$("#etudiant_Update_Form select[name=etablissement]").append(item);       
+							$("#etudiant_Update_Form select[name=etablissement]").append(item); 
 						}
 				    },
 				    error: function(response,textStatus ,jqXHR){
@@ -2606,11 +2606,19 @@
 				   		$('#modalError .modal-body p').modal('show'); 
 				        },
 					complete: function (response,textStatus ,jqXHR) {
-						$("#etudiant_Update_Form select[name=etablissement]").prop('disabled', false);
+						//$("#etudiant_Update_Form select[name=etablissement]").prop('disabled', false);
 				    }
 				});
 			});
-  			/* 5- Envoie du formulaire de modification */
+	  		// debut : juste pour le Test
+	  		$("#etudiant_Update_Form select[name=etablissement]").change(function(){
+				
+				//On recupere l Id de l'établissement
+				var etablissementId=$(this).val();
+				//alert("EtablissementId : "+etablissementId);
+	  		});
+	  		//Fin : juste pour le Test
+	  		/* 5- Envoie du formulaire de modification */
   			
   			$("#etudiant_Update_Form").submit(function(event){ 
 				var post_url = $(this).attr("action"); 			//Lire l'action (URL) du formulaire

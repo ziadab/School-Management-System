@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="43" version="2.0">
+<workbench progressCount="58" version="2.0">
 <workbenchAdvisor/>
 <window height="738" maximized="true" width="1024" x="50" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -8,7 +8,7 @@
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="153" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="340" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.vp.vpsde.ec.editors.ClassDiagramEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.vp.vpsde.ec.editors.EntityRelationshipDiagramEditor" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -17,7 +17,7 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="84" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="91" y="22"/>
-<coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -29,23 +29,30 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.vp.vpsde.ec.editors.UseCaseDescriptionEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem itemType="typeToolBarContribution" x="137" y="22"/>
-<coolItem itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem itemType="typeToolBarContribution" x="92" y="22"/>
+<coolItem itemType="typeToolBarContribution" x="237" y="22"/>
+<coolItem itemType="typeToolBarContribution" x="92" y="22"/>
 </coolbarLayout>
 <page focus="true" label="Workspace - Java EE">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jst.jsp.core.jspsource.source" name="Etudiants.jsp" partName="Etudiants.jsp" path="D:/projet Git/School-Management-System/BTS/WebContent/WEB-INF/E.DirecteurEtudes/Etudiants.jsp" title="Etudiants.jsp" tooltip="BTS/WebContent/WEB-INF/E.DirecteurEtudes/Etudiants.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BTS/WebContent/WEB-INF/E.DirecteurEtudes/Etudiants.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1331" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
@@ -92,10 +99,7 @@
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
-<expanded>&#x0A;<category IMemento.internal.id="Java Problems"/>
-<category IMemento.internal.id="Classpath Dependency Validator Message"/>
-</expanded>
-<columnWidths org.eclipse.ui.ide.allSeverityField="496" org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94"/>
+<columnWidths org.eclipse.ui.ide.allSeverityField="0" org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -122,9 +126,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 <view id="com.vp.vpsde.ec.views.DocumentationPaneView" partName="Documentation"/>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline"/>
 <view id="com.vp.vpsde.ec.views.ClassRepositoryTreeView" partName="Class Repository">
 <viewState/>
 </view>
@@ -135,7 +137,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="com.vp.vpsde.ec.actions.GeneralActionSet"/>
@@ -229,8 +231,8 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24979919" ratioLeft="311" ratioRight="934" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.6988543" ratioLeft="427" ratioRight="184" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.wst.internet.monitor.view" appearance="2" expanded="2">
+<info folder="true" part="bottomRight" ratio="0.57730263" ratioLeft="351" ratioRight="257" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
@@ -316,13 +318,18 @@
 <view id="com.vp.vpsde.ec.views.MessagePaneView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="com.vp.vpsde.ec.views.DiagramTreeView" appearance="2" expanded="2">&#x0A;<page content="com.vp.vpsde.ec.views.DiagramTreeView" label="Diagram Navigator"/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="com.vp.vpsde.ec.views.ModelTreeView" appearance="2" expanded="2">
+<page content="com.vp.vpsde.ec.views.DiagramTreeView" label="Diagram Navigator"/>
 <page content="com.vp.vpsde.ec.views.ModelTreeView" label="Model Explorer"/>
 <page content="com.vp.vpsde.ec.views.ClassRepositoryTreeView" label="Class Repository"/>
 <page content="com.vp.vpsde.ec.views.LogicalView" label="Logical View"/>
 <page content="com.vp.vpsde.ec.views.ORMPaneView" label="ORM"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -331,25 +338,33 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25943395" ratioLeft="330" ratioRight="942" relationship="2" relative="topLeft"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@14829aa" ratio="0.82222223" ratioLeft="518" ratioRight="112" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="com.vp.vpsde.ec.views.MessagePaneView" label="Message"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@14829aa" ratio="0.82222223" ratioLeft="518" ratioRight="112" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.vp.vpsde.ec.views.MessagePaneView" appearance="2" expanded="2">
+<page content="com.vp.vpsde.ec.views.MessagePaneView" label="Message"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.63968253" ratioLeft="403" ratioRight="227" relationship="4" relative="topLeft">&#x0A;<folder activePageID="com.vp.vpsde.ec.views.PropertyPaneView" appearance="2" expanded="2">&#x0A;<page content="com.vp.vpsde.ec.views.PropertyPaneView" label="Property"/>
+<info folder="true" part="bottomLeft" ratio="0.63968253" ratioLeft="403" ratioRight="227" relationship="4" relative="topLeft">
+<folder activePageID="com.vp.vpsde.ec.views.PropertyPaneView" appearance="2" expanded="2">
+<page content="com.vp.vpsde.ec.views.PropertyPaneView" label="Property"/>
 <page content="com.vp.vpsde.ec.views.DocumentationPaneView" label="Documentation"/>
 <page content="com.vp.vpsde.ec.views.PreviewPaneView" label="Diagram Overview"/>
 <page content="com.vp.vpsde.ec.views.StencilPaneView" label="Stencil"/>
 <page content="com.vp.vpsde.ec.views.TeamworkFilesView" label="Teamwork Files"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -362,7 +377,153 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BTS/src/controllers/etudiant/EtudiantUpdate.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/BTS/WebContent/WEB-INF/E.DirecteurEtudes/Etudiants.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/BTS/WebContent/WEB-INF/E.DirecteurEtudes/Etudiants.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BTS/src/controllers/etudiant/EtudiantAdd.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/BTS/WebContent/WEB-INF/E.DirecteurEtudes/Etudiants.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BTS/src/controllers/etudiant/EtudiantAdd.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BTS/src/controllers/document/DocumentDownload.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BTS/src/controllers/etudiant/EtudiantUpdate.java"/>
+</editors>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="4703" y="0"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="1">
+<position info="not_deleted" x="136634" y="0"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3892" y="0"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="1">
+<position info="not_deleted" x="136699" y="13"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3892" y="0"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3549" y="87"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="2">
+<position info="not_deleted" x="79489" y="0"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3612" y="13"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position/>
+</item>
+<item historyLabel="EtudiantAdd.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="2">
+<position info="not_deleted" x="79489" y="0"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3549" y="87"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3636" y="0"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="2">
+<position info="not_deleted" x="142071" y="15"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3625" y="0"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="2">
+<position info="not_deleted" x="142071" y="15"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3557" y="0"/>
+</item>
+<item historyLabel="EtudiantAdd.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3641" y="0"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="2">
+<position info="not_deleted" x="142071" y="15"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3625" y="0"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="2">
+<position info="not_deleted" x="79328" y="0"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3636" y="0"/>
+</item>
+<item historyLabel="EtudiantAdd.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3636" y="0"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="2">
+<position info="not_deleted" x="79286" y="0"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3625" y="0"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="2">
+<position info="not_deleted" x="79300" y="13"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3625" y="0"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="0">
+<position info="not_deleted" x="3549" y="87"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="4">
+<position info="not_deleted" x="79291" y="13"/>
+</item>
+<item historyLabel="EtudiantAdd.java" index="5">
+<position info="not_deleted" x="3582" y="87"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="4">
+<position info="not_deleted" x="79335" y="0"/>
+</item>
+<item historyLabel="EtudiantAdd.java" index="5">
+<position info="not_deleted" x="3582" y="87"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="4">
+<position info="not_deleted" x="79335" y="0"/>
+</item>
+<item historyLabel="DocumentDownload.java" index="6">
+<position info="not_deleted" x="2069" y="53"/>
+</item>
+<item historyLabel="DocumentDownload.java" index="6">
+<position info="not_deleted" x="2307" y="0"/>
+</item>
+<item historyLabel="DocumentDownload.java" index="6">
+<position info="not_deleted" x="2069" y="53"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="4">
+<position info="not_deleted" x="141617" y="0"/>
+</item>
+<item historyLabel="EtudiantAdd.java" index="5">
+<position info="not_deleted" x="3791" y="0"/>
+</item>
+<item historyLabel="Etudiants.jsp" index="4">
+<position info="not_deleted" x="141617" y="0"/>
+</item>
+<item historyLabel="EtudiantUpdate.java" index="7">
+<position info="not_deleted" x="3549" y="87"/>
+</item>
+<item active="true" historyLabel="Etudiants.jsp" index="4">
+<position info="not_deleted" x="141617" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -382,11 +543,32 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.vp.vpsde.ec.editors.EntityRelationshipDiagramEditor" name="ERD1_ ERD Général.vperd" tooltip="BTS/vpproject/diagrams/ERD1_ ERD Général.vperd">
-<persistable path="/BTS/vpproject/diagrams/ERD1_ ERD Général.vperd"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DocumentDownload.java" tooltip="BTS/src/controllers/document/DocumentDownload.java">
+<persistable path="/BTS/src/controllers/document/DocumentDownload.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EtudiantAdd.java" tooltip="BTS/src/controllers/etudiant/EtudiantAdd.java">
+<persistable path="/BTS/src/controllers/etudiant/EtudiantAdd.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="Etudiants.jsp" tooltip="BTS/WebContent/WEB-INF/E.DirecteurEtudes/Etudiants.jsp">
+<persistable path="/BTS/WebContent/WEB-INF/E.DirecteurEtudes/Etudiants.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EtudiantUpdate.java" tooltip="BTS/src/controllers/etudiant/EtudiantUpdate.java">
+<persistable path="/BTS/src/controllers/etudiant/EtudiantUpdate.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="web.xml" tooltip="Servers/Tomcat v7.0 Server at localhost-config/web.xml">
+<persistable path="/Servers/Tomcat v7.0 Server at localhost-config/web.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.vp.vpsde.ec.editors.ClassDiagramEditor" name="Class Diagram1.vpclassd" tooltip="BTS/vpproject/diagrams/Class Diagram1.vpclassd">
+<persistable path="/BTS/vpproject/diagrams/Class Diagram1.vpclassd"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.vp.vpsde.ec.editors.ClassDiagramEditor" name="CD 1 _ Diagramme de classes général.vpclassd" tooltip="BTS/vpproject/diagrams/CD 1 _ Diagramme de classes général.vpclassd">
 <persistable path="/BTS/vpproject/diagrams/CD 1 _ Diagramme de classes général.vpclassd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="BTS/WebContent/WEB-INF/web.xml">
+<persistable path="/BTS/WebContent/WEB-INF/web.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.vp.vpsde.ec.editors.EntityRelationshipDiagramEditor" name="ERD1_ ERD Général.vperd" tooltip="BTS/vpproject/diagrams/ERD1_ ERD Général.vperd">
+<persistable path="/BTS/vpproject/diagrams/ERD1_ ERD Général.vperd"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.vp.vpsde.ec.editors.SequenceDiagramEditor" name="SD2 _ S&apos;authentifier.vpseqd" tooltip="BTS/vpproject/diagrams/SD2 _ S&apos;authentifier.vpseqd">
 <persistable path="/BTS/vpproject/diagrams/SD2 _ S&apos;authentifier.vpseqd"/>
@@ -405,27 +587,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.vp.vpsde.ec.editors.UseCaseDiagramEditor" name="UCD _ Gestion des emploies de temps.vpucd" tooltip="BTS/vpproject/diagrams/UCD _ Gestion des emploies de temps.vpucd">
 <persistable path="/BTS/vpproject/diagrams/UCD _ Gestion des emploies de temps.vpucd"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.vp.vpsde.ec.editors.UseCaseDiagramEditor" name="UCD _ Partie publique.vpucd" tooltip="BTS/vpproject/diagrams/UCD _ Partie publique.vpucd">
-<persistable path="/BTS/vpproject/diagrams/UCD _ Partie publique.vpucd"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" tooltip="BTS/WebContent/WEB-INF/E.DirecteurEtudes/index.jsp">
-<persistable path="/BTS/WebContent/WEB-INF/E.DirecteurEtudes/index.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" tooltip="BTS/WebContent/WEB-INF/E.Etudiant/index.jsp">
-<persistable path="/BTS/WebContent/WEB-INF/E.Etudiant/index.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="MenuDirecteurEtudes.jsp" tooltip="BTS/WebContent/WEB-INF/E.DirecteurEtudes/MenuDirecteurEtudes.jsp">
-<persistable path="/BTS/WebContent/WEB-INF/E.DirecteurEtudes/MenuDirecteurEtudes.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Authentification.java" tooltip="BTS/src/controllers/securite/Authentification.java">
-<persistable path="/BTS/src/controllers/securite/Authentification.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="UnitesMatieresModules.jsp" tooltip="BTS/WebContent/WEB-INF/E.DirecteurEtudes/UnitesMatieresModules.jsp">
-<persistable path="/BTS/WebContent/WEB-INF/E.DirecteurEtudes/UnitesMatieresModules.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="Unites.jsp" tooltip="BTS/WebContent/WEB-INF/E.DirecteurEtudes/Unites.jsp">
-<persistable path="/BTS/WebContent/WEB-INF/E.DirecteurEtudes/Unites.jsp"/>
 </file>
 </mruList>
 </workbench>
