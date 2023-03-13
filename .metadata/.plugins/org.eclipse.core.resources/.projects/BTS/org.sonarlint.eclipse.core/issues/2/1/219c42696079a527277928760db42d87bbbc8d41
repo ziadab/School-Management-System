@@ -1,0 +1,33 @@
+
+‚	java:S116
+"QRename this field "nom_Ar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬¯õ¿şÿÿÿÿHŒÎRMINORZ
+CODE_SMELL
+	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÇå†øÿÿÿÿHÎRMINORZ
+CODE_SMELL
+‚	java:S116	"QRename this field "nom_Fr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÓ€‡ûÿÿÿÿHÎRMINORZ
+CODE_SMELL
+‚	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ä²ıÿÿÿÿHÎRMINORZ
+CODE_SMELL
+‹
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(×“±”ùÿÿÿÿHÎRMINORZ
+CODE_SMELL
+z	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ëßËH’ÎRMINORZ
+CODE_SMELL
+
+java:S13197"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ı»÷£H“ÎRMINORZ
+CODE_SMELL
+z	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğµ—šH–ÎRMINORZ
+CODE_SMELL
+
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(¬‡á¶H—ÎRMINORZ
+CODE_SMELL
+‹	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±·äûùÿÿÿÿH™ÎRMINORZ
+CODE_SMELL
+	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ä²ıÿÿÿÿHšÎRMINORZ
+CODE_SMELL
+‚	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÅîÅûÿÿÿÿH›ÎRMINORZ
+CODE_SMELL
+‚	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÅîÅûÿÿÿÿHœÎRMINORZ
+CODE_SMELL
+‚	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÇå†øÿÿÿÿHÎRMINORZ
+CODE_SMELL

@@ -1,0 +1,71 @@
+
+‹	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğ¦‡œıÿÿÿÿHéøRMINORZ
+CODE_SMELL
+
+java:S1319`"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Òêß›HêøRMINORZ
+CODE_SMELL
+c
+java:S1135."2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHíøRINFOZ
+CODE_SMELL
+
+java:S1128	"TRemove this unnecessary import: same package classes are always implicitly imported.(Ç†õçHîøRMINORZ
+CODE_SMELL
+‹
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(íáõúÿÿÿÿHğøRMINORZ
+CODE_SMELL
+|	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ğõ
+HòøRMINORZ
+CODE_SMELL
+†
+java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(Õñ«HóøRMINORZ
+CODE_SMELL
+†
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(ëğ±öHõøRMINORZ
+CODE_SMELL
+|	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ğõ
+H÷øRMINORZ
+CODE_SMELL
+|	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸öö HøøRMINORZ
+CODE_SMELL
+œ
+java:S1319f"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(µâÌHùøRMINORZ
+CODE_SMELL
+‚	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÍáÚúÿÿÿÿHüøRMINORZ
+CODE_SMELL
+†
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰åûºHıøRMINORZ
+CODE_SMELL
+†
+java:S1128
+"TRemove this unnecessary import: same package classes are always implicitly imported.(ı¡åßûÿÿÿÿHÿøRMINORZ
+CODE_SMELL
+¢
+java:S1319Z"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ô¯µúüÿÿÿÿHùRMINORZ
+CODE_SMELL
+…
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(œëçgH„ùRMINORZ
+CODE_SMELL
+|	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ğõ
+H†ùRMINORZ
+CODE_SMELL
+}	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÂóH‡ùRMINORZ
+CODE_SMELL
+‚	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÍáÚúÿÿÿÿHˆùRMINORZ
+CODE_SMELL
+
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Üÿ˜éH‰ùRMINORZ
+CODE_SMELL
+£
+java:S1319…"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¨Ö™ïüÿÿÿÿH‹ùRMINORZ
+CODE_SMELL
+|	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸öö HùRMINORZ
+CODE_SMELL
+†
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(‹é§‰şÿÿÿÿHùRMINORZ
+CODE_SMELL
+€
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(‹Ü¶`H‘ùRMINORZ
+CODE_SMELL
+
+java:S1319l"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(şˆ˜½H“ùRMINORZ
+CODE_SMELL

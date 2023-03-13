@@ -1,0 +1,17 @@
+
+†
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(í‹ªóHíêRMINORZ
+CODE_SMELL
+†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªÒ’ÒHïêRMINORZ
+CODE_SMELL
+¢
+java:S1319("pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ª×ÆêıÿÿÿÿHğêRMINORZ
+CODE_SMELL
+n	java:S107"BConstructor has 17 parameters, which is greater than 7 authorized.(€Ì£×HóêRMAJORZ
+CODE_SMELL
+c
+java:S1135"2Complete the task associated to this TODO comment.(â†ÆÅøÿÿÿÿHôêRINFOZ
+CODE_SMELL
+
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(™å©¸HõêRMINORZ
+CODE_SMELL

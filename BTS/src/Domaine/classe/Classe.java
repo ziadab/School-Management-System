@@ -3,7 +3,7 @@ package Domaine.classe;
 public class Classe {
 	private int id;
 	private String label;
-	//Attribut dérivé non perssistant : constuit à partir du : Label de le classe + Code de la classe générique
+	//Attribut dï¿½rivï¿½ non perssistant : constuit ï¿½ partir du : Label de le classe + Code de la classe gï¿½nï¿½rique
 	private String code;
 	private ClasseGenerique classeGenerique;
 	private AnneeScolaire anneeScolaire;

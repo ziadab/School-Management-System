@@ -1,0 +1,118 @@
+package dao.evaluation;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.PreparedStatement;
+
+import Domaine.classe.Classe;
+import Domaine.classe.ClasseGenerique;
+import Domaine.classe.Cycle;
+import Domaine.classe.Filiere;
+import Domaine.classe.Niveau;
+import Domaine.evaluation.Controle;
+import Domaine.evaluation.DocumentEvaluation;
+import Domaine.locaux.Salle;
+import Domaine.matiere.Matiere;
+import Domaine.matiere.Module;
+import Domaine.personnel.Professeur;
+import dao.database.Db;
+
+public class ControleDAO {
+	private Connection con;
+	public ControleDAO() {
+		this.con = Db.getInstance().con;
+	}
+	public ArrayList<Controle> getAll() throws SQLException{
+		String query ="SELECT `controle`.*, `matiere`.`ID` AS `matID`, `matiere`.`Code` AS `matCode`,"
+				+ " `matiere`.`Nom_Fr` AS `matNom_Fr`, `matiere`.`Nom_Ar` AS `matNom_Ar`, `module`.`ID` AS `modID`, "
+				+ "`module`.`Code` AS `modCode`, `module`.`Nom_Fr` AS `modNom_Fr`, `module`.`Nom_Ar` AS `modNom_Ar`, "
+				+ "`documentevaluation`.`ID` AS `docevID`, `documentevaluation`.`Code` AS `docevCode`,"
+				+ " `documentevaluation`.`Nom` AS `docevNom`, `documentevaluation`.`Emplacement` AS `docevEmplacement`,"
+				+ " `documentevaluation`.`Type` AS `docevType`, `documentevaluation`.`Taille` AS `docevTaille`, "
+				+ "`documentevaluation`.`DateUpload` AS `docevDateUpload`, `professeur`.*, `utilisateur`.*,"
+				+ " `formeevaluation`.`ID` AS `feID`, `formeevaluation`.`Code` AS `feCode`, `formeevaluation`.`Nom_Fr` AS `feNom_Fr`,"
+				+ " `formeevaluation`.`Nom_Ar` AS `feNom_Ar`\r\n"
+				+ "FROM `controle` \r\n"
+				+ "	LEFT JOIN `matiere` ON `controle`.`MatiereID` = `matiere`.`ID` \r\n"
+				+ "	LEFT JOIN `module` ON `controle`.`ModuleID` = `module`.`ID` \r\n"
+				+ "	LEFT JOIN `documentevaluation` ON `controle`.`DocumentEvaluationID` = `documentevaluation`.`ID` \r\n"
+				+ "	LEFT JOIN `professeur` ON `controle`.`ProfesseurUtilisateurID` = `professeur`.`UtilisateurID` \r\n"
+				+ "	LEFT JOIN `utilisateur` ON `professeur`.`UtilisateurID` = `utilisateur`.`ID` \r\n"
+				+ "	LEFT JOIN `formeevaluation` ON `controle`.`FormeEvaluationID` = `formeevaluation`.`ID`;";
+		PreparedStatement statement = (PreparedStatement) con.prepareStatement(query);
+		ResultSet rs = statement.executeQuery();
+		ArrayList<Controle> Controles = new ArrayList<Controle>();
+		
+		while (rs.next()) {
+			Controle controle =new Controle();
+			controle.setComptabilise(rs.getBoolean("Comptabilise"));
+			controle.setCode(rs.getString("Code"));
+			controle.setDateDepotNotes(rs.getDate("DateDepotNotes"));
+			controle.setDatePassage(rs.getDate("DatePassage"));
+			controle.setDatePlanifiee(rs.getDate("DatePlanifiee"));
+			controle.setDescription(rs.getString("Description"));
+			controle.setDuree(rs.getShort("Duree"));
+			controle.setEtat(rs.getString("Etat"));
+			controle.setObservation(rs.getString("Observation"));
+			
+			Classe classe = new Classe();
+			classe.setId(rs.getInt("ClasseID"));
+			controle.setClasse(classe);
+			
+			Salle salle = new Salle();
+			salle.setId(rs.getInt("SalleID"));
+			controle.setSalle(salle);
+			
+			Matiere matiere = new Matiere();
+			matiere.setId(rs.getInt("matID"));
+			matiere.setCode(rs.getString("matCode"));
+			matiere.setNom_Fr(rs.getString("matNom_Fr"));
+			matiere.setNom_Ar(rs.getString("matNom_Ar"));
+			controle.setMatiere(matiere);
+			
+			Module module = new Module();
+			module.setId(rs.getInt("modID"));
+			module.setCode(rs.getString("modCode"));
+			module.setNom_Fr(rs.getString("modNom_Fr"));
+			module.setNom_Ar(rs.getString("modNom_Ar"));
+			controle.setModule(module);
+			
+			DocumentEvaluation docEvsujet = new DocumentEvaluation();
+			
+			
+			Cycle cycle= new Cycle();
+			cycle.setId(rs.getInt("cycleID"));
+			cycle.setCode(rs.getString("cycleCode"));
+			cycle.setNom_Fr(rs.getString("cycleNom_Fr"));
+			cycle.setNom_Ar(rs.getString("cycleNom_Ar"));
+			
+			Filiere filiere = new Filiere();
+			filiere.setId(rs.getInt("filiereID"));
+			filiere.setCode(rs.getString("filiereCode"));
+			filiere.setNom_Fr(rs.getString("filiereNom_Fr"));
+			filiere.setNom_Ar(rs.getString("filiereNom_Ar"));
+			
+			Niveau niveau= new Niveau();
+			niveau.setId(rs.getInt("niveauID"));
+			niveau.setCode(rs.getString("niveauCode"));
+			niveau.setNom_Fr(rs.getString("niveauNom_Fr"));
+			niveau.setNom_Ar(rs.getString("niveauNom_Ar"));
+			
+			classeGenerique.setCycle(cycle);
+			classeGenerique.setFiliere(filiere);
+			classeGenerique.setNiveau(niveau);
+			
+			classeGenerique.setId(rs.getInt("classegeneriqueID"));
+			classeGenerique.setDescription(rs.getString("Description"));
+			classeGenerique.setCode();
+			
+			classesGeneriques.add(classeGenerique);
+		}
+		rs.close();
+		statement.close();
+		return classesGeneriques;
+	}
+}

@@ -1,0 +1,27 @@
+
+l
+java:S1161&":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHÄêRMAJORZ
+CODE_SMELL
+}	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©Þ»ØHÆêRMINORZ
+CODE_SMELL
+g
+java:S1161*":Add the "@Override" annotation above this method signature(‹¨¯¿HÇêRMAJORZ
+CODE_SMELL
+~
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ä¶°ÐHÉêRMAJORZBUG
+c
+java:S1135""2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHÊêRINFOZ
+CODE_SMELL
+r
+java:S1858<"@"toJson" returns a string, there's no need to call "toString()".(ÁÃöÄýÿÿÿÿHËêRMINORZ
+CODE_SMELL
+…
+java:S1989?"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿHÍêRMINORZVULNERABILITY
+g
+java:S1161!":Add the "@Override" annotation above this method signature(®´š¥HÎêRMAJORZ
+CODE_SMELL
+}	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á€¬¯HÐêRMINORZ
+CODE_SMELL
+¶
+java:S1186&"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ïû©ÖûÿÿÿÿHÑêRCRITICALZ
+CODE_SMELL

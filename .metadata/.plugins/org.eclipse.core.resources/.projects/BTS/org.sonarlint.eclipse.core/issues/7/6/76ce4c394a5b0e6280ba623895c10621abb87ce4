@@ -1,0 +1,7 @@
+
+Ü
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(æ§¸öH€ÂRMINORZ
+CODE_SMELL
+ù
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Îæ¡ÆH›ÂRMINORZ
+CODE_SMELL

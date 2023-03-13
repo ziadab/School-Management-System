@@ -1,0 +1,30 @@
+
+‹
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(îÁ×êûÿÿÿÿH¸ÏRMINORZ
+CODE_SMELL
+±
+java:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹¨¯¿HºÏRCRITICALZ
+CODE_SMELL
+g
+java:S1161&":Add the "@Override" annotation above this method signature(®´š¥H¼ÏRMAJORZ
+CODE_SMELL
+c
+java:S1135'"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH¾ÏRINFOZ
+CODE_SMELL
+l
+java:S1161+":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿH¿ÏRMAJORZ
+CODE_SMELL
+¡
+java:S1989,"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿHÁÏRMINORZVULNERABILITY
+¿
+java:S19898"‰Handle the following exceptions that could be thrown by "writeValueAsString": IOException, JsonGenerationException, JsonMappingException.(æ‹ªøÿÿÿÿHÂÏRMINORZVULNERABILITY
+…
+java:S1989<"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿHÃÏRMINORZVULNERABILITY
+c
+java:S1135A"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÄÏRINFOZ
+CODE_SMELL
+g
+java:S1161F":Add the "@Override" annotation above this method signature(‹¨¯¿HÅÏRMAJORZ
+CODE_SMELL
+ƒ
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ŞÌ„ƒûÿÿÿÿHÇÏRMAJORZBUG

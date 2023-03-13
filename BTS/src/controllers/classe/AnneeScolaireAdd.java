@@ -25,7 +25,7 @@ import dao.classe.AnneeScolaireDAO;
 @WebServlet("/AnneeScolaire/Add")
 public class AnneeScolaireAdd extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-    private AnneeScolaireDAO anneeScolaireDAO;  
+    private AnneeScolaireDAO anneeScolaireDAO;
     public AnneeScolaireAdd() {
         super();
         anneeScolaireDAO = new AnneeScolaireDAO();
@@ -58,9 +58,9 @@ public class AnneeScolaireAdd extends HttpServlet {
 				anneeScolaire.setDateDebut(dateDebut);
 				anneeScolaire.setDateFin(dateFin);
 				anneeScolaireDAO.insert(anneeScolaire);
-				message="L'année scolaire à été ajoutée avec succès";
+				message="L'annï¿½e scolaire ï¿½ ï¿½tï¿½ ajoutï¿½e avec succï¿½s";
 			} catch (SQLException e) {
-				message="Impossible d'ajouter l'année scolaire";
+				message="Impossible d'ajouter l'annï¿½e scolaire";
 				e.printStackTrace();
 			}
 		} catch (ParseException e1) {

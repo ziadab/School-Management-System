@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item value="false" key="isRegEx"/>
-		<item value="alert" key="selection"/>
-		<item value="true" key="casesensitive"/>
-		<item value="false" key="incremental"/>
-		<item value="true" key="wrap"/>
-		<item value="true" key="wholeword"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="data_table_controle"/>
+		<item key="casesensitive" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="wrap" value="true"/>
+		<item key="wholeword" value="false"/>
 		<list key="findhistory">
-			<item value="alert"/>
-			<item value="Ajouter"/>
-			<item value="absencesProfesseur"/>
-			<item value="listeFonctions"/>
-			<item value="Employe"/>
-			<item value="employe"/>
-			<item value="horaireS1"/>
-			<item value="horaireHebdo"/>
+			<item value="class=&quot;dropdown-item classe-full-details text-primary&quot;"/>
+			<item value="data_table_controle"/>
+			<item value="populateControleDataTable"/>
+			<item value="evt"/>
+			<item value="Réinitialiser"/>
+			<item value="add"/>
+			<item value="controle_Details_Modal"/>
+			<item value="classe_Details_Modal"/>
 		</list>
 		<list key="replacehistory">
 			<item value="absences"/>
@@ -29,10 +29,10 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="257" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="376" key="DIALOG_HEIGHT"/>
-		<item value="52" key="DIALOG_X_ORIGIN"/>
-		<item value="237" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="257"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="376"/>
+		<item key="DIALOG_X_ORIGIN" value="52"/>
+		<item key="DIALOG_Y_ORIGIN" value="237"/>
 	</section>
 </section>

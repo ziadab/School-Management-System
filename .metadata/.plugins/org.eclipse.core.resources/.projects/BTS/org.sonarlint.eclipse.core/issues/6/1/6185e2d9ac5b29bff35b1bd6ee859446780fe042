@@ -1,0 +1,31 @@
+
+g
+java:S1161#":Add the "@Override" annotation above this method signature(®´š¥H©RMAJORZ
+CODE_SMELL
+g
+java:S1161,":Add the "@Override" annotation above this method signature(‹¨¯¿H ©RMAJORZ
+CODE_SMELL
+g
+java:S11417"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿH¢©RMAJORZ
+CODE_SMELL
+…
+java:S1989J"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿH¤©RMINORZVULNERABILITY
+l
+java:S1161(":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿH¥©RMAJORZ
+CODE_SMELL
+l
+java:S1858G"@"toJson" returns a string, there's no need to call "toString()".(Ëî­jH§©RMINORZ
+CODE_SMELL
+~
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(õËËÛH©©RMAJORZBUG
+¶
+java:S1186("€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ïû©ÖûÿÿÿÿHª©RCRITICALZ
+CODE_SMELL
+]
+java:S14810"+Remove this unused "result" local variable.(ĞĞî…ıÿÿÿÿH¬©RMINORZ
+CODE_SMELL
+c
+java:S1135$"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH®©RINFOZ
+CODE_SMELL
+¡
+java:S1989."lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿH¯©RMINORZVULNERABILITY
