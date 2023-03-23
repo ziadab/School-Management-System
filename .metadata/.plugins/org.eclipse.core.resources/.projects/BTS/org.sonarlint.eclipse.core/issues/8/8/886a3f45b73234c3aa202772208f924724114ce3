@@ -1,97 +1,97 @@
 
-n
-java:S1106 "AMove this left curly brace to the beginning of next line of code.(«¤ÜÕHöíRMINORZ
-CODE_SMELL
-r	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(«¤ÜÕHéíRMAJORZ
-CODE_SMELL
-w	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‚ëô¡şÿÿÿÿHèíRMAJORZ
-CODE_SMELL
-h
-java:S3414";Move this test class to the test folder in current project.(‹¤«îHˆîRMAJORZ
-CODE_SMELL
-M
-java:S1451"&Add or update the header of this file.HşíRBLOCKERZ
-CODE_SMELL
-u
-java:S1106F"AMove this left curly brace to the beginning of next line of code.(û–˜æ8ßæéè0H•îRMINORZ
-CODE_SMELL
-w	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Šò”ÔúÿÿÿÿHçíRMAJORZ
-CODE_SMELL
-n
-java:S1106$"AMove this left curly brace to the beginning of next line of code.(¸°³¼H÷íRMINORZ
-CODE_SMELL
-n
-java:S11062"AMove this left curly brace to the beginning of next line of code.(§ÜœµHüíRMINORZ
-CODE_SMELL
-s
-java:S1106)"AMove this left curly brace to the beginning of next line of code.(æÂ—œıÿÿÿÿHøíRMINORZ
-CODE_SMELL
-f
-java:S1108,"2Move this "catch" keyword to a new dedicated line.(É®£8ßæéè0H˜îRMINORZ
-CODE_SMELL
-Y
-java:S1166,"%Either log or rethrow this exception.(É®£8ßæéè0H“îRMAJORZ
-CODE_SMELL
-n
-java:S1106"AMove this left curly brace to the beginning of next line of code.(‹¤«îHòíRMINORZ
-CODE_SMELL
-s
-java:S1106*"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿHùíRMINORZ
-CODE_SMELL
-r	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¨¶˜ßHæíRMAJORZ
-CODE_SMELL
-¶
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚ëô¡şÿÿÿÿH„îRCRITICALZ
-CODE_SMELL
-s
-java:S1106<"AMove this left curly brace to the beginning of next line of code.(²×æüÿÿÿÿHûíRMINORZ
-CODE_SMELL
-¶
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Šò”ÔúÿÿÿÿH‚îRCRITICALZ
-CODE_SMELL
-n
-java:S1106"AMove this left curly brace to the beginning of next line of code.(¨¶˜ßHóíRMINORZ
-CODE_SMELL
-‰
-java:S1192%"TDefine a constant instead of duplicating this literal "Not yet implemented" 5 times.(µ¢Ü¡şÿÿÿÿHêíRCRITICALZ
-CODE_SMELL
  
-java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¨¶˜ß8ßæéè0H–îRMINORZ
-CODE_SMELL
-s
-java:S1106"AMove this left curly brace to the beginning of next line of code.(‚ëô¡şÿÿÿÿHõíRMINORZ
-CODE_SMELL
-z
-java:S1106A"AMove this left curly brace to the beginning of next line of code.(Œ¸·øÿÿÿÿÿ8ßæéè0H”îRMINORZ
-CODE_SMELL
-s
-java:S11063"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿHıíRMINORZ
-CODE_SMELL
-±
-java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«¤ÜÕH†îRCRITICALZ
-CODE_SMELL
-n
-java:S1106,"AMove this left curly brace to the beginning of next line of code.(É®£HúíRMINORZ
-CODE_SMELL
-s
-java:S1106"AMove this left curly brace to the beginning of next line of code.(Šò”ÔúÿÿÿÿHôíRMINORZ
-CODE_SMELL
-i	java:S105"EReplace all tab characters in this file by sequences of white-spaces.HÿíRMINORZ
-CODE_SMELL
-…	java:S1094"RAssign this magic number 2 to a well-named constant, and use the constant instead.(§Í†İ8Áõééè0H®îRMAJORZ
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¨¶˜ß8ßæéè0Hù¿ RMINORZ
 CODE_SMELL
 Y
-java:S11665"%Either log or rethrow this exception.(É®£8Áõééè0H¯îRMAJORZ
-CODE_SMELL
-u
-java:S11065"AMove this left curly brace to the beginning of next line of code.(É®£8Áõééè0H°îRMINORZ
-CODE_SMELL
-u
-java:S1106K"AMove this left curly brace to the beginning of next line of code.(„Ğ©½8Áõééè0H±îRMINORZ
-CODE_SMELL
-f
-java:S11085"2Move this "catch" keyword to a new dedicated line.(É®£8Áõééè0H²îRMINORZ
+java:S11665"%Either log or rethrow this exception.(É®£8Áõééè0Hû¿ RMAJORZ
 CODE_SMELL
 j
-java:S11356"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8Áõééè0H³îRINFOZ
+java:S11356"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8Áõééè0Hü¿ RINFOZ
+CODE_SMELL
+s
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Šò”ÔúÿÿÿÿHı¿ RMINORZ
+CODE_SMELL
+z
+java:S1106A"AMove this left curly brace to the beginning of next line of code.(Œ¸·øÿÿÿÿÿ8ßæéè0Hş¿ RMINORZ
+CODE_SMELL
+s
+java:S1106"AMove this left curly brace to the beginning of next line of code.(‚ëô¡şÿÿÿÿHÿ¿ RMINORZ
+CODE_SMELL
+s
+java:S1106<"AMove this left curly brace to the beginning of next line of code.(²×æüÿÿÿÿH€À RMINORZ
+CODE_SMELL
+r	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¨¶˜ßHÀ RMAJORZ
+CODE_SMELL
+f
+java:S11085"2Move this "catch" keyword to a new dedicated line.(É®£8Áõééè0H‚À RMINORZ
+CODE_SMELL
+w	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Šò”ÔúÿÿÿÿHƒÀ RMAJORZ
+CODE_SMELL
+M
+java:S1451"&Add or update the header of this file.H„À RBLOCKERZ
+CODE_SMELL
+n
+java:S1106"AMove this left curly brace to the beginning of next line of code.(‹¤«îH…À RMINORZ
+CODE_SMELL
+Y
+java:S1166,"%Either log or rethrow this exception.(É®£8ßæéè0H†À RMAJORZ
+CODE_SMELL
+s
+java:S11063"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿH‡À RMINORZ
+CODE_SMELL
+n
+java:S11062"AMove this left curly brace to the beginning of next line of code.(§ÜœµHˆÀ RMINORZ
+CODE_SMELL
+¶
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚ëô¡şÿÿÿÿH‰À RCRITICALZ
+CODE_SMELL
+w	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‚ëô¡şÿÿÿÿH‹À RMAJORZ
+CODE_SMELL
+±
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«¤ÜÕHŒÀ RCRITICALZ
+CODE_SMELL
+¶
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Šò”ÔúÿÿÿÿHÀ RCRITICALZ
+CODE_SMELL
+f
+java:S1108,"2Move this "catch" keyword to a new dedicated line.(É®£8ßæéè0HÀ RMINORZ
+CODE_SMELL
+r	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(«¤ÜÕH‘À RMAJORZ
+CODE_SMELL
+n
+java:S1106,"AMove this left curly brace to the beginning of next line of code.(É®£H’À RMINORZ
+CODE_SMELL
+u
+java:S11065"AMove this left curly brace to the beginning of next line of code.(É®£8Áõééè0H“À RMINORZ
+CODE_SMELL
+u
+java:S1106F"AMove this left curly brace to the beginning of next line of code.(û–˜æ8ßæéè0H”À RMINORZ
+CODE_SMELL
+n
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¨¶˜ßH•À RMINORZ
+CODE_SMELL
+n
+java:S1106$"AMove this left curly brace to the beginning of next line of code.(¸°³¼H–À RMINORZ
+CODE_SMELL
+‰
+java:S1192%"TDefine a constant instead of duplicating this literal "Not yet implemented" 5 times.(µ¢Ü¡şÿÿÿÿH—À RCRITICALZ
+CODE_SMELL
+s
+java:S1106)"AMove this left curly brace to the beginning of next line of code.(æÂ—œıÿÿÿÿHÀ RMINORZ
+CODE_SMELL
+h
+java:S3414";Move this test class to the test folder in current project.(‹¤«îHÀ RMAJORZ
+CODE_SMELL
+i	java:S105"EReplace all tab characters in this file by sequences of white-spaces.HŸÀ RMINORZ
+CODE_SMELL
+…	java:S1094"RAssign this magic number 2 to a well-named constant, and use the constant instead.(§Í†İ8Áõééè0H À RMAJORZ
+CODE_SMELL
+s
+java:S1106*"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿH¡À RMINORZ
+CODE_SMELL
+n
+java:S1106 "AMove this left curly brace to the beginning of next line of code.(«¤ÜÕH¢À RMINORZ
+CODE_SMELL
+u
+java:S1106K"AMove this left curly brace to the beginning of next line of code.(„Ğ©½8Áõééè0H£À RMINORZ
 CODE_SMELL

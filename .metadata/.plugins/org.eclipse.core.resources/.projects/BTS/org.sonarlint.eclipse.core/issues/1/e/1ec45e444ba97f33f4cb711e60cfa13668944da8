@@ -1,31 +1,31 @@
 
-[	Web:S1827ú")Remove this deprecated "width" attribute.(»ôÑ‘úÿÿÿÿHíÇRMAJORZ
+XWeb:TableWithoutCaptionCheck§" Add a description to this table.(Æ¥¬iHº° RMINORZBUG
+v	Web:S5255À"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(„çÚèùÿÿÿÿH¾° RMAJORZ
 CODE_SMELL
-[	Web:S1827Œ")Remove this deprecated "width" attribute.(“‹¼ğıÿÿÿÿHçÇRMAJORZ
+^Web:TableWithoutCaptionCheckú" Add a description to this table.(»ôÑ‘úÿÿÿÿH®° RMINORZBUG
+U	Web:S1827§")Remove this deprecated "width" attribute.(Æ¥¬iH½° RMAJORZ
 CODE_SMELL
-XWeb:ImgWithoutAltCheckÎ"%Add an "alt" attribute to this image.(¦±ñÒHåÇRMINORZBUG
-p	Web:S5255±"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(¤“ì0HòÇRMAJORZ
+XWeb:ImgWithoutAltCheckÎ"%Add an "alt" attribute to this image.(¦±ñÒH´° RMINORZBUG
+j	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿH²° RMAJORZBUG
+[	Web:S1827Œ")Remove this deprecated "width" attribute.(“‹¼ğıÿÿÿÿH·° RMAJORZ
 CODE_SMELL
-j	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHãÇRMAJORZBUG
-a	Web:S1827ú"/Remove this deprecated "cellspacing" attribute.(»ôÑ‘úÿÿÿÿHîÇRMAJORZ
+a	Web:S1827ú"/Remove this deprecated "cellspacing" attribute.(»ôÑ‘úÿÿÿÿH¿° RMAJORZ
 CODE_SMELL
-v	Web:S5255À"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(„çÚèùÿÿÿÿHôÇRMAJORZ
+[	Web:S1827ú")Remove this deprecated "width" attribute.(»ôÑ‘úÿÿÿÿH±° RMAJORZ
 CODE_SMELL
-a	Web:S1827Œ"/Remove this deprecated "cellspacing" attribute.(“‹¼ğıÿÿÿÿHèÇRMAJORZ
+q	Web:S5255ò"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(¡˜ÁHµ° RMAJORZ
 CODE_SMELL
-fWeb:AvoidCommentedOutCodeCheck–"Remove this commented out code.(‹òá¤ıÿÿÿÿHïÇRMAJORZ
+]Web:ImgWithoutAltCheckÉ"%Add an "alt" attribute to this image.(Ö”Á¸úÿÿÿÿH¼° RMINORZBUG
+^Web:TableWithoutCaptionCheckŒ" Add a description to this table.(“‹¼ğıÿÿÿÿH¯° RMINORZBUG
+a	Web:S1827Œ"/Remove this deprecated "cellspacing" attribute.(“‹¼ğıÿÿÿÿH¸° RMAJORZ
 CODE_SMELL
-[	Web:S1827§"/Remove this deprecated "cellspacing" attribute.(Æ¥¬iHêÇRMAJORZ
+fWeb:AvoidCommentedOutCodeCheck¾"Remove this commented out code.(ÕÍ«òşÿÿÿÿH³° RMAJORZ
 CODE_SMELL
-^Web:TableWithoutCaptionCheckŒ" Add a description to this table.(“‹¼ğıÿÿÿÿHæÇRMINORZBUG
-^Web:TableWithoutCaptionCheckú" Add a description to this table.(»ôÑ‘úÿÿÿÿHìÇRMINORZBUG
-q	Web:S5255«"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(¤¢²èHñÇRMAJORZ
+fWeb:AvoidCommentedOutCodeCheck–"Remove this commented out code.(‹òá¤ıÿÿÿÿH¹° RMAJORZ
 CODE_SMELL
-]Web:ImgWithoutAltCheckÉ"%Add an "alt" attribute to this image.(Ö”Á¸úÿÿÿÿHäÇRMINORZBUG
-U	Web:S1827§")Remove this deprecated "width" attribute.(Æ¥¬iHëÇRMAJORZ
+[	Web:S1827§"/Remove this deprecated "cellspacing" attribute.(Æ¥¬iH°° RMAJORZ
 CODE_SMELL
-XWeb:TableWithoutCaptionCheck§" Add a description to this table.(Æ¥¬iHéÇRMINORZBUG
-fWeb:AvoidCommentedOutCodeCheck¾"Remove this commented out code.(ÕÍ«òşÿÿÿÿHğÇRMAJORZ
+q	Web:S5255«"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(¤¢²èH¶° RMAJORZ
 CODE_SMELL
-q	Web:S5255ò"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(¡˜ÁHóÇRMAJORZ
+p	Web:S5255±"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(¤“ì0H»° RMAJORZ
 CODE_SMELL

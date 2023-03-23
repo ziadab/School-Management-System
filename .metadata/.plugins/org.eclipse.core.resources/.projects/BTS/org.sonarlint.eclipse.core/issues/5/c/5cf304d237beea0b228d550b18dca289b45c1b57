@@ -1,0 +1,116 @@
+
+f
+java:S1108o"2Move this "catch" keyword to a new dedicated line.(É®£8…ŞÀÔî0Hİ RMINORZ
+CODE_SMELL
+u
+java:S1106"AMove this left curly brace to the beginning of next line of code.(‡ìãŒ8ÆÜ°Òî0HñÜ RMINORZ
+CODE_SMELL
+£
+java:S13198"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(©ÄÊ#8‘ğ–Óî0HşÜ RMINORZ
+CODE_SMELL
+z
+java:S1106m"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8ÆÜ°Òî0Hœİ RMINORZ
+CODE_SMELL
+~	java:S103"KSplit this 156 characters long line (which is greater than 120 authorized).(›Ã…ß8°ÎÓî0Hİ RMAJORZ
+CODE_SMELL
+M
+java:S1451"&Add or update the header of this file.H—İ RBLOCKERZ
+CODE_SMELL
+}
+java:S11209"DMake this line start after 4 spaces to indent the code consistently.(´Ø¨Ëıÿÿÿÿ8ÆÜ°Òî0HíÜ RMINORZ
+CODE_SMELL
+p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8…ŞÀÔî0Hİ RMINORZ
+CODE_SMELL
+x
+java:S1120L"DMake this line start after 4 spaces to indent the code consistently.(˜©Í¶8ÆÜ°Òî0HîÜ RMINORZ
+CODE_SMELL
+w
+java:S1120R"DMake this line start after 6 spaces to indent the code consistently.(¸Âû8ğëªÓî0H’İ RMINORZ
+CODE_SMELL
+
+java:S1192."VDefine a constant instead of duplicating this literal "EtudiantUtilisateurID" 3 times.(–æ¬Ô8ğëªÓî0H İ RCRITICALZ
+CODE_SMELL
+j
+java:S1135p"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8…ŞÀÔî0HıÜ RINFOZ
+CODE_SMELL
+…	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(½×»Œ8ÆÜ°Òî0H˜İ RMAJORZ
+CODE_SMELL
+x
+java:S1120'"DMake this line start after 4 spaces to indent the code consistently.(æºÕ¦8‘ğ–Óî0HŠİ RMINORZ
+CODE_SMELL
+u
+java:S1106"AMove this left curly brace to the beginning of next line of code.(µ´ÅÃ8ç’ÔÓî0HòÜ RMINORZ
+CODE_SMELL
+u
+java:S1106o"AMove this left curly brace to the beginning of next line of code.(É®£8…ŞÀÔî0Hİ RMINORZ
+CODE_SMELL
+©
+java:S1319K"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(òÄ¹Ùşÿÿÿÿ8‘ğ–Óî0H™İ RMINORZ
+CODE_SMELL
+~
+java:S11920"GDefine a constant instead of duplicating this literal "Valide" 3 times.(áÏöâ8‘ğ–Óî0HõÜ RCRITICALZ
+CODE_SMELL
+u
+java:S1106"AMove this left curly brace to the beginning of next line of code.(§”Óš8ÆÜ°Òî0HğÜ RMINORZ
+CODE_SMELL
+u
+java:S1106&"AMove this left curly brace to the beginning of next line of code.(Ò×¯Ä8ÆÜ°Òî0HüÜ RMINORZ
+CODE_SMELL
+}
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(èÜ¼Éüÿÿÿÿ8ÆÜ°Òî0HóÜ RMINORZ
+CODE_SMELL
+z
+java:S1106K"AMove this left curly brace to the beginning of next line of code.(òÄ¹Ùşÿÿÿÿ8…ŞÀÔî0HŒİ RMINORZ
+CODE_SMELL
+…	java:S109"RAssign this magic number 3 to a well-named constant, and use the constant instead.(²ß‘Å8ÆÜ°Òî0Hˆİ RMAJORZ
+CODE_SMELL
+x
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(›Ã…ß8°ÎÓî0Hİ RMINORZ
+CODE_SMELL
+z
+java:S1106^"AMove this left curly brace to the beginning of next line of code.(Ù¦ÓØşÿÿÿÿ8ÆÜ°Òî0H‘İ RMINORZ
+CODE_SMELL
+Y
+java:S1166o"%Either log or rethrow this exception.(É®£8…ŞÀÔî0H–İ RMAJORZ
+CODE_SMELL
+}
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(äÍüÿÿÿÿ8ÆÜ°Òî0H•İ RMINORZ
+CODE_SMELL
+‚
+java:S11921"LDefine a constant instead of duplicating this literal "Observation" 3 times.(äº÷z8‘ğ–Óî0H‚İ RCRITICALZ
+CODE_SMELL
+R	java:S113"'Add a new line at the end of this file.8ğëªÓî0HïÜ RMINORZ
+CODE_SMELL
+u
+java:S1106d"AMove this left curly brace to the beginning of next line of code.(Çµí‘8…ŞÀÔî0H“İ RMINORZ
+CODE_SMELL
+t
+java:S11068"AMove this left curly brace to the beginning of next line of code.(©ÄÊ#8ÆÜ°Òî0H‰İ RMINORZ
+CODE_SMELL
+u
+java:S1106Q"AMove this left curly brace to the beginning of next line of code.(ËûÏ8ÆÜ°Òî0Hİ RMINORZ
+CODE_SMELL
+u
+java:S1106>"AMove this left curly brace to the beginning of next line of code.(ËûÏ8ÆÜ°Òî0H‹İ RMINORZ
+CODE_SMELL
+…	java:S109 "RAssign this magic number 4 to a well-named constant, and use the constant instead.(“»Úş8ÆÜ°Òî0H‡İ RMAJORZ
+CODE_SMELL
+w
+java:S1120,"DMake this line start after 6 spaces to indent the code consistently.(¸Âû8ğëªÓî0HìÜ RMINORZ
+CODE_SMELL
+w
+java:S1120?"DMake this line start after 6 spaces to indent the code consistently.(¸Âû8‘ğ–Óî0Hİ RMINORZ
+CODE_SMELL
+…	java:S109!"RAssign this magic number 5 to a well-named constant, and use the constant instead.(¬ôÛ‘8ÆÜ°Òî0HŸİ RMAJORZ
+CODE_SMELL
+‹	java:S109g"SAssign this magic number 18 to a well-named constant, and use the constant instead.(õƒ«¼ıÿÿÿÿ8…ŞÀÔî0H”İ RMAJORZ
+CODE_SMELL
+¤
+java:S1319&"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ò×¯Ä8‘ğ–Óî0HùÜ RMINORZ
+CODE_SMELL
+}
+java:S1120_"DMake this line start after 4 spaces to indent the code consistently.(Ä×´šüÿÿÿÿ8ç’ÔÓî0HôÜ RMINORZ
+CODE_SMELL
+u
+java:S1106+"AMove this left curly brace to the beginning of next line of code.(ËûÏ8ÆÜ°Òî0H†İ RMINORZ
+CODE_SMELL

@@ -1,3 +1,63 @@
 
-‹	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ΑζψÿÿÿÿHχκRMINORZ
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(µΦΆ—ϊÿÿÿÿ8„Ά¬ήν0Hι­ RMINORZ
+CODE_SMELL
+~	java:S103$"KSplit this 196 characters long line (which is greater than 120 authorized).(ψΫι8„Ά¬ήν0Hϊ­ RMAJORZ
+CODE_SMELL
+t
+java:S1106"AMove this left curly brace to the beginning of next line of code.(‡ξμ8„Ά¬ήν0Hλ­ RMINORZ
+CODE_SMELL
+p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8„Ά¬ήν0Hψ­ RMINORZ
+CODE_SMELL
+~	java:S103"KSplit this 199 characters long line (which is greater than 120 authorized).(„‹¬8„Ά¬ήν0Hω­ RMAJORZ
+CODE_SMELL
+‹	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ΑζψÿÿÿÿHζ­ RMINORZ
+CODE_SMELL
+R	java:S113"'Add a new line at the end of this file.8„Ά¬ήν0Hθ­ RMINORZ
+CODE_SMELL
+~	java:S103'"KSplit this 199 characters long line (which is greater than 120 authorized).(„‹¬8„Ά¬ήν0Hϋ­ RMAJORZ
+CODE_SMELL
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Ν†„¦ϊÿÿÿÿ8„Ά¬ήν0Hξ­ RMINORZ
+CODE_SMELL
+u
+java:S1106
+"AMove this left curly brace to the beginning of next line of code.( ΦχΔ8„Ά¬ήν0Hκ­ RMINORZ
+CODE_SMELL
+T
+java:S1451"&Add or update the header of this file.8„Ά¬ήν0Hχ­ RBLOCKERZ
+CODE_SMELL
+u
+java:S1106,"AMove this left curly brace to the beginning of next line of code.(ύεΎά8„Ά¬ήν0Hσ­ RMINORZ
+CODE_SMELL
+x
+java:S1120$"DMake this line start after 4 spaces to indent the code consistently.(ψΫι8„Ά¬ήν0Hη­ RMINORZ
+CODE_SMELL
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(»»¶ωÿÿÿÿ8„Ά¬ήν0Hμ­ RMINORZ
+CODE_SMELL
+t
+java:S1106"AMove this left curly brace to the beginning of next line of code.(’ΉΎ
+8„Ά¬ήν0Hν­ RMINORZ
+CODE_SMELL
+t
+java:S1106 "AMove this left curly brace to the beginning of next line of code.(Λν\8„Ά¬ήν0Hο­ RMINORZ
+CODE_SMELL
+u
+java:S1106&"AMove this left curly brace to the beginning of next line of code.(²Ψέ§8„Ά¬ήν0Hρ­ RMINORZ
+CODE_SMELL
+u
+java:S1106#"AMove this left curly brace to the beginning of next line of code.(βΜ¨Β8„Ά¬ήν0Hπ­ RMINORZ
+CODE_SMELL
+z
+java:S1106/"AMove this left curly brace to the beginning of next line of code.(ΫΛ΄ώÿÿÿÿ8„Ά¬ήν0Hτ­ RMINORZ
+CODE_SMELL
+u
+java:S1106)"AMove this left curly brace to the beginning of next line of code.(ΣΤΛ°8„Ά¬ήν0Hς­ RMINORZ
+CODE_SMELL
+z
+java:S11062"AMove this left curly brace to the beginning of next line of code.(Ρ’ƒώÿÿÿÿ8„Ά¬ήν0Hυ­ RMINORZ
+CODE_SMELL
+u
+java:S11066"AMove this left curly brace to the beginning of next line of code.(Α»›κ8ΗΝοήν0HΌ» RMINORZ
 CODE_SMELL

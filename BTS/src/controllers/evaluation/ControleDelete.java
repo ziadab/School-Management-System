@@ -13,14 +13,17 @@ import com.google.gson.Gson;
 
 import Domaine.evaluation.Controle;
 import dao.evaluation.ControleDAO;
+import dao.evaluation.NoteControleDAO;
 
 @WebServlet("/Controle/Delete")
 public class ControleDelete extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-    ControleDAO controleDAO;
+    private ControleDAO controleDAO;
+    private NoteControleDAO noteControleDAO;
     public ControleDelete() {
         super();
         controleDAO = new ControleDAO();
+        noteControleDAO = new NoteControleDAO();
         // TODO Auto-generated constructor stub
     }
 
@@ -32,6 +35,7 @@ public class ControleDelete extends HttpServlet {
 		String message = null;
 		try {
 			controleDAO.delete(controle);
+			noteControleDAO.deleteNoteControleByControle(id);
 			message="La classe � �t� supprim�e avec succ�s";
 		} catch (Exception e) {
 			message="Impossible de supprimer la classe";

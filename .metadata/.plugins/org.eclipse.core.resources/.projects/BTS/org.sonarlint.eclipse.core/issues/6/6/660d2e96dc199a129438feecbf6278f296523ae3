@@ -1,7 +1,57 @@
 
 †
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±ıÔéHœÇRMINORZ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±ıÔéHÅÑ RMINORZ
 CODE_SMELL
 
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ü½ŠHÇRMINORZ
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ü½ŠHÇÑ RMINORZ
+CODE_SMELL
+…	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(åØßç8ñ®’Òî0HÊÑ RMAJORZ
+CODE_SMELL
+Š	java:S109"RAssign this magic number 3 to a well-named constant, and use the constant instead.(²§Şûÿÿÿÿ8ñ®’Òî0HËÑ RMAJORZ
+CODE_SMELL
+…	java:S109>"RAssign this magic number 2 to a well-named constant, and use the constant instead.(åØßç8ñ®’Òî0HÌÑ RMAJORZ
+CODE_SMELL
+Š	java:S109?"RAssign this magic number 3 to a well-named constant, and use the constant instead.(²§Şûÿÿÿÿ8ñ®’Òî0HÍÑ RMAJORZ
+CODE_SMELL
+Š	java:S109@"RAssign this magic number 4 to a well-named constant, and use the constant instead.(„èú‹øÿÿÿÿ8ñ®’Òî0HÎÑ RMAJORZ
+CODE_SMELL
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ÿ§Òûÿÿÿÿ8ñ®’Òî0HÏÑ RMINORZ
+CODE_SMELL
+u
+java:S1106"AMove this left curly brace to the beginning of next line of code.(öšà±8ñ®’Òî0HĞÑ RMINORZ
+CODE_SMELL
+u
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Êóã¾8ñ®’Òî0HÑÑ RMINORZ
+CODE_SMELL
+u
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ü½Š8ñ®’Òî0HÒÑ RMINORZ
+CODE_SMELL
+z
+java:S1106 "AMove this left curly brace to the beginning of next line of code.(íôÚÇşÿÿÿÿ8ñ®’Òî0HÓÑ RMINORZ
+CODE_SMELL
+u
+java:S1106,"AMove this left curly brace to the beginning of next line of code.(ä‹ÏÕ8ñ®’Òî0HÔÑ RMINORZ
+CODE_SMELL
+z
+java:S11061"AMove this left curly brace to the beginning of next line of code.(íôÚÇşÿÿÿÿ8ñ®’Òî0HÕÑ RMINORZ
+CODE_SMELL
+t
+java:S1106;"AMove this left curly brace to the beginning of next line of code.(ãñ‚[8ñ®’Òî0HÖÑ RMINORZ
+CODE_SMELL
+z
+java:S1106C"AMove this left curly brace to the beginning of next line of code.(Ôìïùÿÿÿÿ8ñ®’Òî0H×Ñ RMINORZ
+CODE_SMELL
+T
+java:S1451"&Add or update the header of this file.8ñ®’Òî0HØÑ RBLOCKERZ
+CODE_SMELL
+p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8ñ®’Òî0HÙÑ RMINORZ
+CODE_SMELL
+ƒ	java:S103"KSplit this 148 characters long line (which is greater than 120 authorized).(î»ùèüÿÿÿÿ8ñ®’Òî0HÚÑ RMAJORZ
+CODE_SMELL
+~	java:S103"KSplit this 123 characters long line (which is greater than 120 authorized).(ËÔ•€8ñ®’Òî0HÛÑ RMAJORZ
+CODE_SMELL
+~	java:S103-"KSplit this 137 characters long line (which is greater than 120 authorized).(Ú¬­‡8ñ®’Òî0HÜÑ RMAJORZ
+CODE_SMELL
+~	java:S103<"KSplit this 144 characters long line (which is greater than 120 authorized).(ğ·Ú8ñ®’Òî0HİÑ RMAJORZ
 CODE_SMELL

@@ -1,30 +1,71 @@
 
-‹
-java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(îÁ×êûÿÿÿÿH¸ÏRMINORZ
+¡
+java:S1989,"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿH°‰ RMINORZVULNERABILITY
+…
+java:S1989<"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿH±‰ RMINORZVULNERABILITY
+ƒ
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ŞÌ„ƒûÿÿÿÿH²‰ RMAJORZBUG
+c
+java:S1135A"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH³‰ RINFOZ
 CODE_SMELL
 ±
-java:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹¨¯¿HºÏRCRITICALZ
+java:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹¨¯¿H´‰ RCRITICALZ
 CODE_SMELL
+¿
+java:S19898"‰Handle the following exceptions that could be thrown by "writeValueAsString": IOException, JsonGenerationException, JsonMappingException.(æ‹ªøÿÿÿÿH¶‰ RMINORZVULNERABILITY
 g
-java:S1161&":Add the "@Override" annotation above this method signature(®´š¥H¼ÏRMAJORZ
+java:S1161F":Add the "@Override" annotation above this method signature(‹¨¯¿H·‰ RMAJORZ
 CODE_SMELL
-c
-java:S1135'"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH¾ÏRINFOZ
+‹
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(îÁ×êûÿÿÿÿH¹‰ RMINORZ
 CODE_SMELL
 l
-java:S1161+":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿH¿ÏRMAJORZ
-CODE_SMELL
-¡
-java:S1989,"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿHÁÏRMINORZVULNERABILITY
-¿
-java:S19898"‰Handle the following exceptions that could be thrown by "writeValueAsString": IOException, JsonGenerationException, JsonMappingException.(æ‹ªøÿÿÿÿHÂÏRMINORZVULNERABILITY
-…
-java:S1989<"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿHÃÏRMINORZVULNERABILITY
-c
-java:S1135A"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÄÏRINFOZ
+java:S1161+":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿH»‰ RMAJORZ
 CODE_SMELL
 g
-java:S1161F":Add the "@Override" annotation above this method signature(‹¨¯¿HÅÏRMAJORZ
+java:S1161&":Add the "@Override" annotation above this method signature(®´š¥H½‰ RMAJORZ
 CODE_SMELL
-ƒ
-java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ŞÌ„ƒûÿÿÿÿHÇÏRMAJORZBUG
+c
+java:S1135'"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH¿‰ RINFOZ
+CODE_SMELL
+}
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ŞÌ„ƒûÿÿÿÿ8˜êÜí0HÀ‰ RMINORZ
+CODE_SMELL
+}
+java:S1120!"DMake this line start after 4 spaces to indent the code consistently.(ŸäåÖıÿÿÿÿ8˜êÜí0HÁ‰ RMINORZ
+CODE_SMELL
+Y
+java:S1166@"%Either log or rethrow this exception.(É®£8˜êÜí0HÂ‰ RMAJORZ
+CODE_SMELL
+u
+java:S1106"AMove this left curly brace to the beginning of next line of code.(“¥8˜êÜí0HÃ‰ RMINORZ
+CODE_SMELL
+z
+java:S1106 "AMove this left curly brace to the beginning of next line of code.(æ÷‚Ôûÿÿÿÿ8˜êÜí0HÄ‰ RMINORZ
+CODE_SMELL
+u
+java:S1106&"AMove this left curly brace to the beginning of next line of code.(®´š¥8˜êÜí0HÅ‰ RMINORZ
+CODE_SMELL
+z
+java:S1106+"AMove this left curly brace to the beginning of next line of code.(Ïû©Öûÿÿÿÿ8˜êÜí0HÆ‰ RMINORZ
+CODE_SMELL
+z
+java:S1106/"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8˜êÜí0HÇ‰ RMINORZ
+CODE_SMELL
+u
+java:S1106@"AMove this left curly brace to the beginning of next line of code.(É®£8˜êÜí0HÈ‰ RMINORZ
+CODE_SMELL
+u
+java:S1106F"AMove this left curly brace to the beginning of next line of code.(‹¨¯¿8˜êÜí0HÉ‰ RMINORZ
+CODE_SMELL
+T
+java:S1451"&Add or update the header of this file.8˜êÜí0HÊ‰ RBLOCKERZ
+CODE_SMELL
+p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8˜êÜí0HË‰ RMINORZ
+CODE_SMELL
+S
+java:S4926"Remove this "serialVersionUID".(‘Îê8˜êÜí0HÌ‰ RMINORZ
+CODE_SMELL
+f
+java:S1108@"2Move this "catch" keyword to a new dedicated line.(É®£8˜êÜí0HÍ‰ RMINORZ
+CODE_SMELL

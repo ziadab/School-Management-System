@@ -282,7 +282,7 @@ public class ScolariteDAO {
 		ResultSet rs = statement.executeQuery();
 		Scolarite scolarite = new Scolarite();
 		while (rs.next()) {
-			//TODO : Compléter plus tard
+			//TODO : Complï¿½ter plus tard
 		}
 		rs.close();
 		statement.close();
@@ -542,7 +542,7 @@ public class ScolariteDAO {
 		statement.close();
 	}
 	/*
-	 * Retourne les étudiants inscrit et qui non pas de classe pour l'année scolaire passée comme paramètre
+	 * Retourne les ï¿½tudiants inscrit et qui non pas de classe pour l'annï¿½e scolaire passï¿½e comme paramï¿½tre
 	 */
 	public ArrayList<Etudiant> getEtudiantNonAffectes(AnneeScolaire anneScolaire)throws SQLException{
 
@@ -730,5 +730,16 @@ public class ScolariteDAO {
 		rs.close();
 		statement.close();
 		return etudiants;
+	}
+	public static void main(String[] args) {
+		Classe classe = new Classe();
+		classe.setId(2);
+		ScolariteDAO scolariteDAO = new ScolariteDAO();
+		try {
+			System.out.println(scolariteDAO.getByClasse(classe));
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

@@ -10,6 +10,7 @@ import org.codehaus.jackson.map.ObjectMapper;
 
 import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.PreparedStatement;
+import com.mysql.jdbc.Statement;
 
 import Domaine.classe.Classe;
 import Domaine.classe.ClasseGenerique;
@@ -19,6 +20,7 @@ import Domaine.classe.Niveau;
 import Domaine.evaluation.Controle;
 import Domaine.evaluation.DocumentEvaluation;
 import Domaine.evaluation.FormeEvaluation;
+import Domaine.evaluation.NoteControle;
 import Domaine.locaux.Salle;
 import Domaine.matiere.Matiere;
 import Domaine.matiere.Module;
@@ -232,20 +234,25 @@ public class ControleDAO {
 		return controles;
 	}
 
-	public void insert(Controle controle) throws SQLException{
-		PreparedStatement statement =(PreparedStatement) con.prepareStatement("INSERT INTO `controle` (`MatiereID`, `ModuleID`,`ClasseID`, `SalleID`, `ProfesseurUtilisateurID`, `FormeEvaluationID`) VALUES (?,?,?,?,?,?)");
-		statement.setInt(1, controle.getMatiere().getId());
-		if(controle.getModule().getId() != -1) {
-			statement.setInt(2, controle.getModule().getId());
-		}else {
-			statement.setNull(2, Types.INTEGER);
-		}
-		statement.setInt(3, controle.getClasse().getId());
-		statement.setInt(4, controle.getSalle().getId());
-		statement.setInt(5, controle.getProfesseur().getId());
-		statement.setInt(6, controle.getFormeEvaluation().getId());
-		statement.execute();
-		statement.close();
+	public int insert(Controle controle) throws SQLException {
+	    PreparedStatement statement = (PreparedStatement) con.prepareStatement("INSERT INTO `controle` (`MatiereID`, `ModuleID`,`ClasseID`, `SalleID`, `ProfesseurUtilisateurID`, `FormeEvaluationID`) VALUES (?,?,?,?,?,?)", Statement.RETURN_GENERATED_KEYS);
+	    statement.setInt(1, controle.getMatiere().getId());
+	    if (controle.getModule().getId() != -1) {
+	        statement.setInt(2, controle.getModule().getId());
+	    } else {
+	        statement.setNull(2, Types.INTEGER);
+	    }
+	    statement.setInt(3, controle.getClasse().getId());
+	    statement.setInt(4, controle.getSalle().getId());
+	    statement.setInt(5, controle.getProfesseur().getId());
+	    statement.setInt(6, controle.getFormeEvaluation().getId());
+	    statement.execute();
+	    ResultSet rs = statement.getGeneratedKeys();
+	    if (rs.next()) {
+	        return rs.getInt(1);
+	    }
+	    statement.close();
+	    return -1;
 	}
 	public void update(Controle controle) throws SQLException{
 		PreparedStatement statement =(PreparedStatement) con.prepareStatement("update `controle` set `MatiereID` = ?, `ModuleID` = ?,`ClasseID` = ?, `SalleID` = ?, `ProfesseurUtilisateurID` = ?, `FormeEvaluationID` = ? where `ID` = ?");
@@ -358,4 +365,25 @@ public class ControleDAO {
 		}
 		return controle;
 	}
+	public ArrayList<NoteControle> getNoteByControle(int controleId) throws SQLException{
+		Controle controle = getById(controleId);
+		String sql = "SELECT`ClasseID` FROM `controle` WHERE `ID` = ?";
+		PreparedStatement preparedStatement = (PreparedStatement) con.prepareStatement(sql);
+		preparedStatement.setInt(1,controleId);
+		ResultSet rs = preparedStatement.executeQuery();
+		rs.next();
+		int classId = rs.getInt("ClasseID");
+		
+		return null;
+	}
+	public static void main(String[] args) {
+		ControleDAO controleDAO = new ControleDAO();
+		try {
+			controleDAO.getNoteByControle(3);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 }

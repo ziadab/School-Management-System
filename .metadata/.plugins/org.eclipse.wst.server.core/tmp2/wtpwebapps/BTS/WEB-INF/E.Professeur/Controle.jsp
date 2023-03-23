@@ -258,20 +258,19 @@
 		    <div class="panel-body">
 		    	<!-- Tab content -->
 				<div class="tab-content" id="Tab-Content">
-						<!-- Content tab 1	: Programme-->
-						<div id="content-tab-Etudiants" class="tab-pane active" role="tabpanel" aria-labelledby="">
+						<!-- Content tab 1	: Notes-->
+						<div id="content-tab-notes" class="tab-pane active" role="tabpanel" aria-labelledby="">
 					   		<div class="alert bg-light text-secondary" role="alert">
 					   			<i class="fa fa-users mr-2"></i>
 					   			Etudiants
-						        <a href="#" data-toggle="modal" data-target="#etudiants_Add_Modal" class="btn btn-outline-info float-right" title="Ajouter des étudiants à la classe"><i class="fa fa-plus"></i></a>
-						    </div>
-							<!-- Début : Table Etudiants -->
-							<table id="data_table_etudiants" class="table table-striped table-bordered" cellspacing="0" width="100%">
+				    </div>
+							<!-- Début : Table Notes -->
+							<table id="data_table_notes" class="table table-striped table-bordered" cellspacing="0" width="100%">
 								<thead>
 									<tr>
 										<th>N°</th>
 										<th>Nom</th>
-										<th>CNE</th>
+										<th>Note</th>
 							            <th>Action</th>
 									</tr>
 								</thead>
@@ -279,71 +278,6 @@
 								</tbody>
 							</table>
 							<!-- Fin : Table Etudiants  -->
-							<!-- Début : Modal Add New Etudiants -->
-								<div id="etudiants_Add_Modal" class="modal" tabindex="-1" role="dialog">
-									<div class="modal-dialog modal-lg">
-									<form id="etudiants_Add_Form" method="POST" action="../Scolarite/Etudiants/Add" >
-								      	<div class="modal-content shadow-lg p-3 mb-5 bg-white rounded">
-								          	<div class="modal-header bg-info">
-								        		<h4 class="modal-title text-white">
-								        			Ajouter des étudiants à la classe
-								        		</h4>
-								        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							    					<span aria-hidden="true">&times;</span>
-							  					</button>
-								        	</div>
-								          	<div class="modal-body">
-								          		<table id="data_table_etudiants_non_affectes" class="table table-striped table-bordered" cellspacing="0" width="100%">
-													<thead>
-														<tr>
-															<th></th>
-															<th>N°</th>
-															<th>Nom</th>
-															<th>CNE</th>
-												            <th>Action</th>
-														</tr>
-													</thead>
-													<tbody>
-													</tbody>
-												</table>
-												<input type="hidden" name="classeId" value="<%= request.getParameter("id")%>">
-								      		</div>
-								        <div class="modal-footer ">
-							        		<input type="submit" class="btn btn-primary" value="Enregistrer" />
-									        <button type="button" class="btn btn-secondary" data-dismiss="modal"> Annuler</button>
-							      		</div>
-								        </div>
-								   	</form>
-									</div>
-							    </div>
-							 <!-- Fin : Modal Add New Etudiants -->
-							 <!-- Début : Modal Update Etudiants -->
-								
-							 <!-- Fin : Modal Update Etudiants -->
-							 <!-- Début : Modal Details Etudiants -->
-								<div id="etudiant_Details_Modal" class="modal" tabindex="-1" role="dialog" >
-									<div class="modal-dialog">
-								      	<div class="modal-content shadow-lg p-3 mb-5 bg-white rounded">
-								          	<div class="modal-header bg-info">
-								        		<h4 class="modal-title text-white">
-								        			Détails de l'etudiant
-								        		</h4>
-								        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							    					<span aria-hidden="true">&times;</span>
-							  					</button>
-								        	</div>
-								          	<div class="modal-body">
-								          		<ul class="list-group">
-													<!-- Affichage dynamique des détails du etudiants-->
-												</ul>
-											</div>
-											<div class="modal-footer ">
-												<button type="button" class="btn btn-secondary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Fermer</button>
-											</div>
-								        </div>
-									</div>
-							    </div>
-							 <!-- Fin : Modal Details Etudiants -->
 							 
 						</div>
 						<!-- /Content tab 1	: Programme-->
@@ -351,219 +285,31 @@
 						<div id="content-tab-EmploieDuTemps" class="tab-pane"  role="tabpanel" aria-labelledby="content-tab-EmploieDuTemps">
 						   <div class="alert bg-light text-secondary" role="alert">
 					   			<i class="fa fa-calendar-alt mr-2"></i>
-					   			Emploie du temps
+					   			something1
 						        <a href="#" data-toggle="modal" data-target="#EmploieDuTemps_Add_Modal" class="btn btn-outline-info float-right" title="Ajouter une séance"><i class="fa fa-plus"></i></a>
 						   </div>
 						   
-						   A faire : Charger ici l'emploie du temps  de la classe
+						   something1
 						</div>
 						<!-- /Content tab 2	: EmploieDuTemps-->
 						<!-- Content tab 3 	: Absences-->
 						<div id="content-tab-Absencess" class="tab-pane"  role="tabpanel" aria-labelledby="content-tab-Absencess">
 						   <div class="alert bg-light text-secondary" role="alert">
 					   			<i class="fa fa-user-check mr-2"></i>
-					   			Absences
+					   			something2
 						        <a href="#" data-toggle="modal" data-target="#Absences_Add_Modal" class="btn btn-outline-info float-right" title="Ajouter une absence"><i class="fa fa-plus"></i></a>
 						   </div>
-						   A faire : Charger ici les absences de la classe
+						   something2
 						</div>
 						<!-- /Content tab 3	: Absences-->
 						<!-- Content tab 4 	: Evaluations-->
 						<div id="content-tab-Evaluations" class="tab-pane"  role="tabpanel" aria-labelledby="content-tab-Evaluations">
 						   <div class="alert bg-light text-secondary" role="alert">
 					   			<i class="fa fa-file-signature mr-2"></i>
-					   			Evaluations
+					   			something3
 						        <a href="#" data-toggle="modal" data-target="#controle_Add_Modal" class="btn btn-outline-info float-right" title="Ajouter une évaluation"><i class="fa fa-plus"></i></a>
 						   </div>
-						   A faire : Charger ici les évaluations de la classe
-						   <table id="data_table_controle" class="table table-striped table-bordered" cellspacing="0" width="100%">
-								<thead>
-									<tr>
-										<th>N°</th>
-										<th>Matiere</th>
-							            <th>Module</th>
-							            <th>Salle</th>
-							            <th>Form d'evaluation</th>
-							            <th>Action</th>
-									</tr>
-								</thead>
-								<tbody>
-								</tbody>
-							</table>
-										<!-- Début : Modal Add New Controle -->
-				<div id="controle_Add_Modal" class="modal" tabindex="-1" role="dialog">
-					<div class="modal-dialog">
-					<form id="controle_Add_Form" method="POST" action="../Controle/Add" >
-				      	<div class="modal-content shadow-lg p-3 mb-5 bg-white rounded">
-				          	<div class="modal-header bg-info">
-				        		<h4 class="modal-title text-white">
-				        			Ajouter un controle
-				        		</h4>
-				        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			    					<span aria-hidden="true">&times;</span>
-			  					</button>
-				        	</div>
-				          	<div class="modal-body">
-				          		<!--
-								<div class="form-group row">
-								  <label for="classe_Filiere" class="col-sm-3 control-label">Filière</label>
-								  <div class="col-sm-9">
-								    <select id="classe_Filiere" class="form-control" name="filiere" required>
-								    </select>
-								  </div>
-								</div> -->
-						  		<div class="form-group row">
-								  <label for="unite" class="col-sm-3 control-label">Unite</label>
-								  <div class="col-sm-9">
-								    <select id="unite" class="form-control" name="unite" required>
-								    </select>
-								  </div>
-								</div>
-								<div class="form-group row">
-								  <label for="matiere" class="col-sm-3 control-label">Matiere</label>
-								  <div class="col-sm-9">
-								    <select id="matiere" class="form-control" name="matiere" required>
-								    </select>
-								  </div>
-								</div>
-								<div class="form-group row">
-								  <label for="module" class="col-sm-3 control-label">Module</label>
-								  <div class="col-sm-9">
-								    <select id="module" class="form-control" name="module">
-								    </select>
-								  </div>
-								</div>
-								<div class="form-group row">
-								  <div class="col-sm-9">
-								    <input id="classe"  type="hidden" class="form-control" name="classe" placeholder="Exemple: 1 , 2, ..." value = "<%= request.getParameter("id")%>"/>
-								  </div>
-								</div>
-								<div class="form-group row">
-								  <label for="salle" class="col-sm-3 control-label">Salle</label>
-								  <div class="col-sm-9">
-								    <input id="salle"  type="text" class="form-control" name="salle" placeholder="Exemple: 1 , 2, ..." />
-								  </div>
-								</div>
-								<!-- <div class="form-group row">
-								  <label for="prof" class="col-sm-3 control-label">Professeur</label>
-								  <div class="col-sm-9">
-								    <select id="prof" class="form-control" name="prof" required>
-								    </select>
-								  </div>
-								</div> -->
-								<div class="form-group row">
-								  <label for="formev" class="col-sm-3 control-label">Form d'evaluation</label>
-								  <div class="col-sm-9">
-								    <select id="formev" class="form-control" name="formev" required>
-								    </select>
-								  </div>
-								</div>
-				      	</div>
-				        <div class="modal-footer ">
-			        		<input type="submit" class="btn btn-primary" value="Enregistrer" />
-					        <button type="button" class="btn btn-secondary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Annuler</button>
-			      		</div>
-				        </div>
-				   	</form>
-					</div>
-			    </div>
-			 <!-- Fin : Modal Add New Classe -->
-			 <!-- Début : Modal Update Controle -->
-				<div id="controle_Update_Modal" class="modal" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true" data-backdrop="false">
-					<div class="modal-dialog">
-					<form id="controle_Update_Form" method="POST" action="../Controle/Update" >
-				      	<div class="modal-content shadow-lg p-3 mb-5 bg-white rounded">
-				          	<div class="modal-header bg-info">
-				        		<h4 class="modal-title text-white">
-				        			Modifier un Controle 
-				        		</h4>
-				        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			    					<span aria-hidden="true">&times;</span>
-			  					</button>
-				        	</div>
-				          	<div class="modal-body">
-				          		<div class="form-group row">
-								  <label for="unite" class="col-sm-3 control-label">Unite</label>
-								  <div class="col-sm-9">
-								    <select id="unite" class="form-control" name="unite" required>
-								    </select>
-								  </div>
-								</div>
-								<div class="form-group row">
-								  <label for="matiere" class="col-sm-3 control-label">Matiere</label>
-								  <div class="col-sm-9">
-								    <select id="matiere" class="form-control" name="matiere" required>
-								    </select>
-								  </div>
-								</div>
-								<div class="form-group row">
-								  <label for="module" class="col-sm-3 control-label">Module</label>
-								  <div class="col-sm-9">
-								    <select id="module" class="form-control" name="module" required>
-								    </select>
-								  </div>
-								</div>
-								<div class="form-group row">
-								  <label for="classe" class="col-sm-3 control-label">Classe</label>
-								  <div class="col-sm-9">
-								    <input id="classe"  type="text" class="form-control" name="classe" placeholder="Exemple: 1 , 2, ..." />
-								  </div>
-								</div>
-								<div class="form-group row">
-								  <label for="salle" class="col-sm-3 control-label">Salle</label>
-								  <div class="col-sm-9">
-								    <input id="salle"  type="text" class="form-control" name="salle" placeholder="Exemple: 1 , 2, ..." />
-								  </div>
-								</div>
-								<div class="form-group row">
-								  <label for="prof" class="col-sm-3 control-label">Professeur</label>
-								  <div class="col-sm-9">
-								    <select id="prof" class="form-control" name="prof" required>
-								    </select>
-								  </div>
-								</div>
-								<div class="form-group row">
-								  <label for="formev" class="col-sm-3 control-label">Form d'evaluation</label>
-								  <div class="col-sm-9">
-								    <select id="formev" class="form-control" name="formev" required>
-								    </select>
-								  </div>
-								</div>
-				      		</div>
-				        <div class="modal-footer ">
-			        		<input type="submit" class="btn btn-primary" value="Enregistrer" />
-					        <button type="button" class="btn btn-secondary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Annuler</button>
-			      		</div>
-				        </div>
-				   	</form>
-					</div>
-			    </div>
-			 <!-- Fin : Modal Update Classe -->
-			 
-			 <!-- Début : Modal Details Controle -->
-				<div id="controle_Details_Modal" class="modal" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true" data-backdrop="false">
-					<div class="modal-dialog">
-				      	<div class="modal-content shadow-lg p-3 mb-5 bg-white rounded">
-				          	<div class="modal-header bg-info">
-				        		<h4 class="modal-title text-white">
-				        			Détails du controle
-				        		</h4>
-				        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			    					<span aria-hidden="true">&times;</span>
-			  					</button>
-				        	</div>
-				          	<div class="modal-body">
-				          		<ul class="list-group">
-									<!-- ici on Affiche dynamiquement  les détails de controle-->
-								</ul>
-							</div>
-							<div class="modal-footer ">
-								<button type="button" class="btn btn-secondary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Fermer</button>
-							</div>
-				        </div>
-					</div>
-			    </div>
-			 <!-- Fin : Modal Details Classe -->
+						   something3
 						</div>
 						<!-- /Content tab 4	: Evaluations-->
 				</div>
@@ -684,29 +430,7 @@
   	</div>
 </div>
 <!-- Fin : Moad Confirmation-->
-<!-- Début : Moad Confirmation Retirer étudiant de la classe-->
-<div id="modalConfirmRemove" class="modal" tabindex="-1" role="dialog">
-	<div class="modal-dialog modal-dialog-centered modal-confirm " role="document">
-		<div class="modal-content">
-		  <div class="modal-header">
-				<div class="icon-box bg-warning">
-					<i class="material-icons fa fa-exclamation-triangle"></i>
-				</div>				
-				<h4 class="modal-title text-center">Confirmation ?</h4>	
-		  </div>
-		  <div class="modal-body">
-				<p class="text-center">
-					Etes vous sûre de vouloir retirer l'étudiant sélectionné de la classe ?
-				</p>
-		  </div>
-		  <div class="modal-footer">
-		    <button type="button" data-dismiss="modal" class="btn btn-warning  mr-auto" id="remove">Confirmer</button>
-		    <button type="button" data-dismiss="modal" class="btn btn-secondary  ">Annuler</button>
-		  </div>
-		 </div>
-  	</div>
-</div>
-<!-- Fin : Moad Confirmation Retirer étudiant de la classe-->
+
 <!-- Début : Moad Loading Ajax -->
 <div id="loading-image" class="modal" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-dialog-centered modal-sm" >
@@ -736,6 +460,8 @@
 	<script src="${pageContext.request.contextPath}/js/vfs_fonts.js" type="text/javascript"></script>
 	<script src="${pageContext.request.contextPath}/js/buttons.html5.min.js" type="text/javascript"></script>
 	<script src="${pageContext.request.contextPath}/js/buttons.print.min.js" type="text/javascript"></script>
+    <script src="${pageContext.request.contextPath}/js/jquery.editable.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jeditable/1.7.3/jquery.jeditable.min.js"></script>
     
     
   	<script type="text/javascript">
@@ -750,7 +476,7 @@
 		 });
 		/*******************Fin : Ajax Load Animation *************************/
 		/*********** Charger les infos de la classe générique courante ********/
-			$.ajax({
+		<%-- 	$.ajax({
 					url : '../Classe/Details?id='+<%= request.getParameter("id")%>,
 					type: "GET",
 					dataType: 'json',
@@ -764,38 +490,57 @@
 						$("#modalError .modal-body p").html(jqXHR.responseText);
 				   		$('#modalError .modal-body p').modal('show'); 
 				        }
-				});
+				}); --%>
 		
   		/**********************************************************************/
   		
 			/************** DataTable du Tab : Etudiants **************/
 	  		// Initialisation du DataTable Etudiants
-	  		$('#data_table_etudiants').DataTable(
-	  			{	
-	  				"paging": true,
-	  				"autoWidth": true,
-	  				"columnDefs": [
-	  					{ "orderable": false, "targets": 3 }
-	  				],
-	  				dom: 'Bfrtip',
-	  		        buttons: [
-	  		            'copy', 
-	  		            'csv', 
-	  		            'excel', 
-	  		            'pdf', 
-	  		            'print'
-	  		        ]
-	  			}
-	  		);
+	  		var table = $('#data_table_notes').DataTable(
+		    {
+		        "paging": true,
+		        "autoWidth": true,
+		        "columnDefs": [
+		            { "orderable": false, "targets": 3 },
+		            {
+		                "targets": 2,
+		                "render": function (data, type, row, meta) {
+		                    return '<span class="note-span">' + data + '</span>' +
+		                        '<input type="text" class="note-input form-control" value="' + data + '" style="display: none;">';
+		                },
+		                "editable": true // enable the "editable" feature for the "Note" column
+		            }
+		        ],
+		        dom: 'Bfrtip',
+		        buttons: [
+		            'copy',
+		            'csv',
+		            'excel',
+		            'pdf',
+		            'print'
+		        ]
+		    	}
+			);
+		
+		// Add event listener for editing notes
+			$('#data_table_notes tbody').on('dblclick', 'td', function() {
+			    var cell = table.cell(this);
+			    if (cell.index().column == 2) { // check if the clicked cell is in the "Note" column
+			        cell.edit(); // activate the editable feature for this cell
+			    }
+			});
+
+	  		
 	  		/******* fonction pour charger la liste des Etudiants de la classe dans la TableData Etudiants ******/
 			function populateEtudiantDataTable(){
-				var tableData = $('#data_table_etudiants').DataTable();
+				var tableData = $('#data_table_notes').DataTable();
 				//tableData.DataTable().rows().remove().draw();		// Vider la TableData 
 				$.ajax({
-					url : '../Scolarite/List?classeId='+<%= request.getParameter("id")%>,
+					url : '../ControleNote/List?controleId='+<%= request.getParameter("id")%>,
 					type: "GET",
 					dataType: 'json',
 					success: function(response,textStatus ,jqXHR){
+						console.log(response);
 						for(i=0;i<response.length;i++){
 							var rang =i+1;
 							var btns='<div class="btn-group dropleft"> \
@@ -810,18 +555,17 @@
 										  	<a class="dropdown-item etudiant-delete text-primary" href="#" scolariteId="'+response[i].id+'"><span class="fa fa-trash mr-4"></span>Retirer de la classe</a> \
 										  </div> \
 										</div> ';
-							var photo='<img src="../Document/Download?file='+response[i].etudiant.photo+'" style="width:30px;height:30px;">';
 							
-							var nomEtPhoto =photo+" "+ response[i].etudiant.nom_Fr+" "+response[i].etudiant.prenom_Fr;
 							tableData.row.add( [
 							             rang,
-							             nomEtPhoto,
-							             response[i].etudiant.cne,
+							             response[i].etudiant.nom_Fr +" " + response[i].etudiant.prenom_Fr,
+							             response[i].note,
 							             btns
 							         ] ).draw( false );
 						}
 				    },
 				    error: function(response,textStatus ,jqXHR){
+				    	console.log(jqXHR.responseText);
 				    	$("#modalError .modal-body p").html("");
 						$("#modalError .modal-body p").html(jqXHR.responseText);
 				   		$('#modalError .modal-body p').modal('show'); 

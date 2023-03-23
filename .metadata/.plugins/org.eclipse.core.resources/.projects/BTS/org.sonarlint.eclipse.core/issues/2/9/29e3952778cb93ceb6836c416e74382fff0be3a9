@@ -1,470 +1,568 @@
 
-Œ
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(îÁ×êûÿÿÿÿHøÅRMINORZ
+k
+java:S2479€":Remove the non-escaped \u0009 character from this literal.(–â¡ğH€â RCRITICALZ
+CODE_SMELL
+ 	java:S138>"hThis method has 164 lines, which is greater than the 75 lines authorized. Split it into smaller methods.(Ê—šôşÿÿÿÿ8ÂºÜí0Hâ RMAJORZ
+CODE_SMELL
+j
+java:S2479C":Remove the non-escaped \u0009 character from this literal.(ï½ñ±H‚â RCRITICALZ
+CODE_SMELL
+†	java:S1097"SAssign this magic number 10 to a well-named constant, and use the constant instead.(Ñ»Õ¹8ÂºÜí0Hƒâ RMAJORZ
 CODE_SMELL
 |
 java:S1192ƒ"KDefine a constant instead of duplicating this literal "	WHERE \r
-" 3 times.(ÙÆªHúÅRCRITICALZ
+" 3 times.(ÙÆªH„â RCRITICALZ
+CODE_SMELL
+k
+java:S2479¬":Remove the non-escaped \u0009 character from this literal.(Ì©ïÁHˆâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479–":Remove the non-escaped \u0009 character from this literal.(–¥ÄŞøÿÿÿÿH‰â RCRITICALZ
+CODE_SMELL
+o
+java:S2479v":Remove the non-escaped \u0009 character from this literal.(î®¹¬ûÿÿÿÿHŠâ RCRITICALZ
+CODE_SMELL
+k
+java:S2479ü":Remove the non-escaped \u0009 character from this literal.(ÿ²ØİH‹â RCRITICALZ
+CODE_SMELL
+…	java:S1095"RAssign this magic number 8 to a well-named constant, and use the constant instead.(ğµ›Ö8ÂºÜí0HŒâ RMAJORZ
+CODE_SMELL
+p
+java:S2479ğ":Remove the non-escaped \u0009 character from this literal.(Ğú€”ûÿÿÿÿHâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479‡":Remove the non-escaped \u0009 character from this literal.(ê±İ¥ùÿÿÿÿHâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479¦":Remove the non-escaped \u0009 character from this literal.(Â„¸÷ÿÿÿÿÿHâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479ø":Remove the non-escaped \u0009 character from this literal.(Àı®“şÿÿÿÿHâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479A":Remove the non-escaped \u0009 character from this literal.(Ñ»”ˆıÿÿÿÿH‘â RCRITICALZ
+CODE_SMELL
+	java:S103¬"KSplit this 136 characters long line (which is greater than 120 authorized).(Ì©ïÁ8ÂºÜí0H’â RMAJORZ
+CODE_SMELL
+‹	java:S109§"RAssign this magic number 5 to a well-named constant, and use the constant instead.(İë†˜ÿÿÿÿÿ8ÂºÜí0H“â RMAJORZ
+CODE_SMELL
+p
+java:S2479•":Remove the non-escaped \u0009 character from this literal.(ã‡Ş÷üÿÿÿÿH”â RCRITICALZ
+CODE_SMELL
+Š	java:S1092"RAssign this magic number 5 to a well-named constant, and use the constant instead.(İë†˜ÿÿÿÿÿ8ÂºÜí0H•â RMAJORZ
+CODE_SMELL
+T
+java:S1451"&Add or update the header of this file.8ÂºÜí0H–â RBLOCKERZ
+CODE_SMELL
+p
+java:S2479š":Remove the non-escaped \u0009 character from this literal.(º¡úÛşÿÿÿÿH—â RCRITICALZ
+CODE_SMELL
+j
+java:S2479²":Remove the non-escaped \u0009 character from this literal.(ÚÖ÷?H˜â RCRITICALZ
+CODE_SMELL
+Œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(îÁ×êûÿÿÿÿH™â RMINORZ
+CODE_SMELL
+k
+java:S2479‘":Remove the non-escaped \u0009 character from this literal.(œ·õøH›â RCRITICALZ
+CODE_SMELL
+p
+java:S2479¯":Remove the non-escaped \u0009 character from this literal.(–ŠÃ×ıÿÿÿÿHœâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479]":Remove the non-escaped \u0009 character from this literal.(ÁşˆıÿÿÿÿHâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479o":Remove the non-escaped \u0009 character from this literal.(üÏÚ†üÿÿÿÿHâ RCRITICALZ
+CODE_SMELL
+†	java:S109ª"RAssign this magic number 8 to a well-named constant, and use the constant instead.(ğµ›Ö8ÂºÜí0HŸâ RMAJORZ
+CODE_SMELL
+k
+java:S2479ƒ":Remove the non-escaped \u0009 character from this literal.(ÙÆªH â RCRITICALZ
+CODE_SMELL
+o
+java:S2479m":Remove the non-escaped \u0009 character from this literal.(ÖÒÜúùÿÿÿÿH¡â RCRITICALZ
+CODE_SMELL
+o
+java:S2479q":Remove the non-escaped \u0009 character from this literal.(ÅÓ›ÿÿÿÿÿH¢â RCRITICALZ
+CODE_SMELL
+j
+java:S2479\":Remove the non-escaped \u0009 character from this literal.(‚ì©ÀH£â RCRITICALZ
+CODE_SMELL
+‹	java:S109«"RAssign this magic number 9 to a well-named constant, and use the constant instead.(±¢©‘ıÿÿÿÿ8ÂºÜí0H¤â RMAJORZ
+CODE_SMELL
+j
+java:S2479{":Remove the non-escaped \u0009 character from this literal.(ÕÉ¿¦H¥â RCRITICALZ
+CODE_SMELL
+j
+java:S2479U":Remove the non-escaped \u0009 character from this literal.(Ûğ—H¦â RCRITICALZ
+CODE_SMELL
+p
+java:S2479ˆ":Remove the non-escaped \u0009 character from this literal.(íÆğÓøÿÿÿÿH§â RCRITICALZ
+CODE_SMELL
+‡	java:S109¬"SAssign this magic number 10 to a well-named constant, and use the constant instead.(Ñ»Õ¹8ÂºÜí0H¨â RMAJORZ
+CODE_SMELL
+k
+java:S2479Ÿ":Remove the non-escaped \u0009 character from this literal.(‰·¾ĞH©â RCRITICALZ
+CODE_SMELL
+o
+java:S2479I":Remove the non-escaped \u0009 character from this literal.(”¾¥ˆúÿÿÿÿHªâ RCRITICALZ
+CODE_SMELL
+k
+java:S2479í":Remove the non-escaped \u0009 character from this literal.(ï½ñ±H«â RCRITICALZ
+CODE_SMELL
+‡	java:S109­"SAssign this magic number 11 to a well-named constant, and use the constant instead.(ú‰ñÁ8ÂºÜí0H¬â RMAJORZ
+CODE_SMELL
+o
+java:S2479@":Remove the non-escaped \u0009 character from this literal.(Ò·Ï®úÿÿÿÿH­â RCRITICALZ
+CODE_SMELL
+j
+java:S2479B":Remove the non-escaped \u0009 character from this literal.(§Õ˜H®â RCRITICALZ
+CODE_SMELL
+o
+java:S2479s":Remove the non-escaped \u0009 character from this literal.(„¢ÍûüÿÿÿÿH¯â RCRITICALZ
+CODE_SMELL
+p
+java:S2479ù":Remove the non-escaped \u0009 character from this literal.(”ÎüÿÿÿÿH°â RCRITICALZ
+CODE_SMELL
+p
+java:S2479‹":Remove the non-escaped \u0009 character from this literal.(‚Âç€øÿÿÿÿH±â RCRITICALZ
+CODE_SMELL
+j
+java:S2479n":Remove the non-escaped \u0009 character from this literal.(“¼‚€H²â RCRITICALZ
+CODE_SMELL
+o
+java:S2479d":Remove the non-escaped \u0009 character from this literal.(¯–’ùÿÿÿÿÿH³â RCRITICALZ
+CODE_SMELL
+k
+java:S2479Š":Remove the non-escaped \u0009 character from this literal.(ı·ÃH´â RCRITICALZ
+CODE_SMELL
+p
+java:S2479‡":Remove the non-escaped \u0009 character from this literal.(ÁşˆıÿÿÿÿHµâ RCRITICALZ
+CODE_SMELL
+Š	java:S1096"RAssign this magic number 9 to a well-named constant, and use the constant instead.(±¢©‘ıÿÿÿÿ8ÂºÜí0H¶â RMAJORZ
+CODE_SMELL
+k
+java:S2479¥":Remove the non-escaped \u0009 character from this literal.(ÕÉ¿¦H·â RCRITICALZ
+CODE_SMELL
+o
+java:S2479":Remove the non-escaped \u0009 character from this literal.(äŞìÅÿÿÿÿÿH¸â RCRITICALZ
+CODE_SMELL
+k
+java:S2479ì":Remove the non-escaped \u0009 character from this literal.(§Õ˜H¹â RCRITICALZ
+CODE_SMELL
+k
+java:S2479‚":Remove the non-escaped \u0009 character from this literal.(ÓÚ…•Hºâ RCRITICALZ
+CODE_SMELL
+‹	java:S1099"SAssign this magic number 12 to a well-named constant, and use the constant instead.(û’šøÿÿÿÿ8ÂºÜí0H»â RMAJORZ
+CODE_SMELL
+Š	java:S1091"RAssign this magic number 4 to a well-named constant, and use the constant instead.(˜®ùûÿÿÿÿ8ÂºÜí0H¼â RMAJORZ
+CODE_SMELL
+v
+java:S1106‘"AMove this left curly brace to the beginning of next line of code.(ÛíãŸ8ÂºÜí0H½â RMINORZ
+CODE_SMELL
+Š	java:S1093"RAssign this magic number 6 to a well-named constant, and use the constant instead.(Ò‡Â¿ùÿÿÿÿ8ÂºÜí0H¾â RMAJORZ
+CODE_SMELL
+k
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ßÕ‘H¿â RCRITICALZ
+CODE_SMELL
+‡	java:S109¯"SAssign this magic number 13 to a well-named constant, and use the constant instead.(Ë¢¾§8ÂºÜí0HÀâ RMAJORZ
+CODE_SMELL
+p
+java:S2479ê":Remove the non-escaped \u0009 character from this literal.(Ò·Ï®úÿÿÿÿHÁâ RCRITICALZ
+CODE_SMELL
+k
+java:S2479ÿ":Remove the non-escaped \u0009 character from this literal.(Ûğ—HÂâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479E":Remove the non-escaped \u0009 character from this literal.(„÷Ó¡ıÿÿÿÿHÃâ RCRITICALZ
+CODE_SMELL
+k
+java:S2479§":Remove the non-escaped \u0009 character from this literal.(‹û‚¡HÄâ RCRITICALZ
+CODE_SMELL
+„	java:S109/"RAssign this magic number 2 to a well-named constant, and use the constant instead.(«®Ô8ÂºÜí0HÅâ RMAJORZ
+CODE_SMELL
+k
+java:S2479†":Remove the non-escaped \u0009 character from this literal.(‚ì©ÀHÆâ RCRITICALZ
+CODE_SMELL
+‹	java:S109¦"RAssign this magic number 4 to a well-named constant, and use the constant instead.(˜®ùûÿÿÿÿ8ÂºÜí0HÇâ RMAJORZ
+CODE_SMELL
+j
+java:S2479i":Remove the non-escaped \u0009 character from this literal.(ù€–öHÈâ RCRITICALZ
+CODE_SMELL
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(˜“¥úÿÿÿÿ8ÂºÜí0HÉâ RMINORZ
+CODE_SMELL
+k
+java:S2479¶":Remove the non-escaped \u0009 character from this literal.(ÙÆªHÊâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ïÜâüÿÿÿÿHËâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479õ":Remove the non-escaped \u0009 character from this literal.(ªÿÍğùÿÿÿÿHÌâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479":Remove the non-escaped \u0009 character from this literal.(¯–’ùÿÿÿÿÿHÍâ RCRITICALZ
+CODE_SMELL
+k
+java:S2479¡":Remove the non-escaped \u0009 character from this literal.(ğ²ğøHÎâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479ñ":Remove the non-escaped \u0009 character from this literal.(¨ßª£ıÿÿÿÿHÏâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479":Remove the non-escaped \u0009 character from this literal.(„¢ÍûüÿÿÿÿHĞâ RCRITICALZ
+CODE_SMELL
+j
+java:S2479z":Remove the non-escaped \u0009 character from this literal.(ÊÙå™HÑâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479‰":Remove the non-escaped \u0009 character from this literal.(„˜ıÿÿÿÿHÒâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479j":Remove the non-escaped \u0009 character from this literal.(‘ŒÅÃüÿÿÿÿHÓâ RCRITICALZ
+CODE_SMELL
+p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8ÂºÜí0HÔâ RMINORZ
+CODE_SMELL
+j
+java:S2479W":Remove the non-escaped \u0009 character from this literal.(ßÕ‘HÕâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479ô":Remove the non-escaped \u0009 character from this literal.(³ÛŒıÿÿÿÿHÖâ RCRITICALZ
+CODE_SMELL
+j
+java:S2479Š":Remove the non-escaped \u0009 character from this literal.(ª•Õ	H×â RCRITICALZ
+CODE_SMELL
+j
+java:S2479x":Remove the non-escaped \u0009 character from this literal.(°ÊÜİHØâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479N":Remove the non-escaped \u0009 character from this literal.(Àı®“şÿÿÿÿHÙâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479ş":Remove the non-escaped \u0009 character from this literal.(À˜ùêúÿÿÿÿHÚâ RCRITICALZ
+CODE_SMELL
+{
+java:S1106´"AMove this left curly brace to the beginning of next line of code.(ÌáÈÃùÿÿÿÿ8ÂºÜí0HÛâ RMINORZ
+CODE_SMELL
+…	java:S109¤"RAssign this magic number 2 to a well-named constant, and use the constant instead.(«®Ô8ÂºÜí0HÜâ RMAJORZ
+CODE_SMELL
+p
+java:S2479œ":Remove the non-escaped \u0009 character from this literal.(„ò–®úÿÿÿÿHİâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479a":Remove the non-escaped \u0009 character from this literal.(‚Âç€øÿÿÿÿHŞâ RCRITICALZ
+CODE_SMELL
+k
+java:S2479“":Remove the non-escaped \u0009 character from this literal.(ù€–öHßâ RCRITICALZ
+CODE_SMELL
+Š	java:S1090"RAssign this magic number 3 to a well-named constant, and use the constant instead.(œˆ“öúÿÿÿÿ8ÂºÜí0Hàâ RMAJORZ
+CODE_SMELL
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(îÅÖëıÿÿÿÿ8ÂºÜí0Háâ RMINORZ
+CODE_SMELL
+k
+java:S2479†":Remove the non-escaped \u0009 character from this literal.(Ëáê£Hââ RCRITICALZ
+CODE_SMELL
+p
+java:S2479ó":Remove the non-escaped \u0009 character from this literal.(”¾¥ˆúÿÿÿÿHãâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479r":Remove the non-escaped \u0009 character from this literal.(„ò–®úÿÿÿÿHäâ RCRITICALZ
+CODE_SMELL
+j
+java:S2479Z":Remove the non-escaped \u0009 character from this literal.(‰»ï£Håâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479®":Remove the non-escaped \u0009 character from this literal.(Ì€ƒûÿÿÿÿHæâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479O":Remove the non-escaped \u0009 character from this literal.(”ÎüÿÿÿÿHçâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479|":Remove the non-escaped \u0009 character from this literal.(Â„¸÷ÿÿÿÿÿHèâ RCRITICALZ
+CODE_SMELL
+k
+java:S2479…":Remove the non-escaped \u0009 character from this literal.(¸˜íşHéâ RCRITICALZ
+CODE_SMELL
+i
+java:S2479M":Remove the non-escaped \u0009 character from this literal.(‹íšeHêâ RCRITICALZ
+CODE_SMELL
+{
+java:S1106º"AMove this left curly brace to the beginning of next line of code.(íôÚÇşÿÿÿÿ8ÂºÜí0Hëâ RMINORZ
+CODE_SMELL
+k
+java:S2479ƒ":Remove the non-escaped \u0009 character from this literal.(ÛÃÄHìâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479y":Remove the non-escaped \u0009 character from this literal.(ô²¶­ıÿÿÿÿHíâ RCRITICALZ
+CODE_SMELL
+k
+java:S2479°":Remove the non-escaped \u0009 character from this literal.(Ëáê£Hîâ RCRITICALZ
+CODE_SMELL
+k
+java:S2479·":Remove the non-escaped \u0009 character from this literal.(™üö™Hïâ RCRITICALZ
+CODE_SMELL
+‹	java:S109¥"RAssign this magic number 3 to a well-named constant, and use the constant instead.(œˆ“öúÿÿÿÿ8ÂºÜí0Hğâ RMAJORZ
+CODE_SMELL
+j
+java:S2479L":Remove the non-escaped \u0009 character from this literal.(‹à™Hñâ RCRITICALZ
+CODE_SMELL
+j
+java:S2479÷":Remove the non-escaped \u0009 character from this literal.(‹íšeHòâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479":Remove the non-escaped \u0009 character from this literal.(®ÌïéøÿÿÿÿHóâ RCRITICALZ
+CODE_SMELL
+k
+java:S2479ª":Remove the non-escaped \u0009 character from this literal.(–â¡ğHôâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479©":Remove the non-escaped \u0009 character from this literal.(äŞìÅÿÿÿÿÿHõâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479^":Remove the non-escaped \u0009 character from this literal.(íÆğÓøÿÿÿÿHöâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479J":Remove the non-escaped \u0009 character from this literal.(³ÛŒıÿÿÿÿH÷â RCRITICALZ
+CODE_SMELL
+j
+java:S2479[":Remove the non-escaped \u0009 character from this literal.(¸˜íşHøâ RCRITICALZ
+CODE_SMELL
+j
+java:S2479c":Remove the non-escaped \u0009 character from this literal.(ëÿ­Hùâ RCRITICALZ
+CODE_SMELL
+o
+java:S2479K":Remove the non-escaped \u0009 character from this literal.(ªÿÍğùÿÿÿÿHúâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479„":Remove the non-escaped \u0009 character from this literal.(Ì€ƒûÿÿÿÿHûâ RCRITICALZ
+CODE_SMELL
+Œ	java:S109®"SAssign this magic number 12 to a well-named constant, and use the constant instead.(û’šøÿÿÿÿ8ÂºÜí0Hüâ RMAJORZ
+CODE_SMELL
+k
+java:S2479˜":Remove the non-escaped \u0009 character from this literal.(“¼‚€Hıâ RCRITICALZ
+CODE_SMELL
+p
+java:S2479”":Remove the non-escaped \u0009 character from this literal.(‘ŒÅÃüÿÿÿÿHşâ RCRITICALZ
+CODE_SMELL
+{
+java:S1106è"AMove this left curly brace to the beginning of next line of code.(ª¦×°øÿÿÿÿ8ÂºÜí0Hÿâ RMINORZ
+CODE_SMELL
+j
+java:S2479V":Remove the non-escaped \u0009 character from this literal.(öØƒ·H€ã RCRITICALZ
+CODE_SMELL
+j
+java:S2479g":Remove the non-escaped \u0009 character from this literal.(œ·õøHã RCRITICALZ
+CODE_SMELL
+	java:S103‚"KSplit this 136 characters long line (which is greater than 120 authorized).(Ì©ïÁ8ÂºÜí0H‚ã RMAJORZ
+CODE_SMELL
+j
+java:S2479w":Remove the non-escaped \u0009 character from this literal.(ğ²ğøHƒã RCRITICALZ
+CODE_SMELL
+k
+java:S2479¢":Remove the non-escaped \u0009 character from this literal.(°ÊÜİH„ã RCRITICALZ
+CODE_SMELL
+p
+java:S2479ı":Remove the non-escaped \u0009 character from this literal.(ü„»åùÿÿÿÿH…ã RCRITICALZ
+CODE_SMELL
+y
+java:S1120µ"DMake this line start after 4 spaces to indent the code consistently.(™åâÉ8ÂºÜí0H†ã RMINORZ
+CODE_SMELL
+o
+java:S2479t":Remove the non-escaped \u0009 character from this literal.(ïÜâüÿÿÿÿH‡ã RCRITICALZ
+CODE_SMELL
+k
+java:S2479Œ":Remove the non-escaped \u0009 character from this literal.(ÿ¤´áHˆã RCRITICALZ
+CODE_SMELL
+j
+java:S2479R":Remove the non-escaped \u0009 character from this literal.(ÿ²ØİH‰ã RCRITICALZ
+CODE_SMELL
+o
+java:S2479F":Remove the non-escaped \u0009 character from this literal.(Ğú€”ûÿÿÿÿHŠã RCRITICALZ
+CODE_SMELL
+k
+java:S2479‚":Remove the non-escaped \u0009 character from this literal.(Ì©ïÁH‹ã RCRITICALZ
+CODE_SMELL
+o
+java:S2479h":Remove the non-escaped \u0009 character from this literal.(ºüîÈüÿÿÿÿHŒã RCRITICALZ
+CODE_SMELL
+o
+java:S2479H":Remove the non-escaped \u0009 character from this literal.(ÈòúÿÿÿÿHã RCRITICALZ
+CODE_SMELL
+p
+java:S2479ë":Remove the non-escaped \u0009 character from this literal.(Ñ»”ˆıÿÿÿÿHã RCRITICALZ
+CODE_SMELL
+j
+java:S2479b":Remove the non-escaped \u0009 character from this literal.(ÿ¤´áHã RCRITICALZ
 CODE_SMELL
 ¢
-java:S1319>"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ê—šôşÿÿÿÿHşÅRMINORZ
+java:S1319>"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ê—šôşÿÿÿÿHã RMINORZ
+CODE_SMELL
+p
+java:S2479’":Remove the non-escaped \u0009 character from this literal.(ºüîÈüÿÿÿÿH“ã RCRITICALZ
+CODE_SMELL
+k
+java:S2479­":Remove the non-escaped \u0009 character from this literal.(ÙÆªH”ã RCRITICALZ
+CODE_SMELL
+p
+java:S2479ï":Remove the non-escaped \u0009 character from this literal.(„÷Ó¡ıÿÿÿÿH•ã RCRITICALZ
 CODE_SMELL
 o
-java:S2479@":Remove the non-escaped \u0009 character from this literal.(Ò·Ï®úÿÿÿÿHÆRCRITICALZ
+java:S2479G":Remove the non-escaped \u0009 character from this literal.(¨ßª£ıÿÿÿÿH–ã RCRITICALZ
 CODE_SMELL
-o
-java:S2479A":Remove the non-escaped \u0009 character from this literal.(Ñ»”ˆıÿÿÿÿH‚ÆRCRITICALZ
+k
+java:S2479ú":Remove the non-escaped \u0009 character from this literal.(Ó´ÄH—ã RCRITICALZ
 CODE_SMELL
 j
-java:S2479B":Remove the non-escaped \u0009 character from this literal.(§Õ˜HƒÆRCRITICALZ
+java:S2479Q":Remove the non-escaped \u0009 character from this literal.(ÀØŸ†H˜ã RCRITICALZ
 CODE_SMELL
 j
-java:S2479C":Remove the non-escaped \u0009 character from this literal.(ï½ñ±H„ÆRCRITICALZ
+java:S2479_":Remove the non-escaped \u0009 character from this literal.(¼—ïH™ã RCRITICALZ
 CODE_SMELL
-j
-java:S2479D":Remove the non-escaped \u0009 character from this literal.(ÿá°˜H…ÆRCRITICALZ
+k
+java:S2479„":Remove the non-escaped \u0009 character from this literal.(‰»ï£Hšã RCRITICALZ
 CODE_SMELL
-o
-java:S2479E":Remove the non-escaped \u0009 character from this literal.(„÷Ó¡ıÿÿÿÿH†ÆRCRITICALZ
+
+java:S3242´"VUse 'Domaine.utilisateur.Utilisateur' here; it is a more general type than 'Etudiant'.(ÌáÈÃùÿÿÿÿ8ÂºÜí0H›ã RMINORZ
 CODE_SMELL
-o
-java:S2479F":Remove the non-escaped \u0009 character from this literal.(Ğú€”ûÿÿÿÿH‡ÆRCRITICALZ
+p
+java:S2479ò":Remove the non-escaped \u0009 character from this literal.(ÈòúÿÿÿÿHœã RCRITICALZ
 CODE_SMELL
-o
-java:S2479G":Remove the non-escaped \u0009 character from this literal.(¨ßª£ıÿÿÿÿHˆÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479H":Remove the non-escaped \u0009 character from this literal.(ÈòúÿÿÿÿH‰ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479I":Remove the non-escaped \u0009 character from this literal.(”¾¥ˆúÿÿÿÿHŠÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479J":Remove the non-escaped \u0009 character from this literal.(³ÛŒıÿÿÿÿH‹ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479K":Remove the non-escaped \u0009 character from this literal.(ªÿÍğùÿÿÿÿHŒÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479L":Remove the non-escaped \u0009 character from this literal.(‹à™HÆRCRITICALZ
+p
+java:S2479 ":Remove the non-escaped \u0009 character from this literal.(î®¹¬ûÿÿÿÿHã RCRITICALZ
 CODE_SMELL
 i
-java:S2479M":Remove the non-escaped \u0009 character from this literal.(‹íšeHÆRCRITICALZ
+java:S2479~":Remove the non-escaped \u0009 character from this literal.(‹ÆHã RCRITICALZ
+CODE_SMELL
+p
+java:S2479£":Remove the non-escaped \u0009 character from this literal.(ô²¶­ıÿÿÿÿHŸã RCRITICALZ
 CODE_SMELL
 o
-java:S2479N":Remove the non-escaped \u0009 character from this literal.(Àı®“şÿÿÿÿHÆRCRITICALZ
+java:S2479f":Remove the non-escaped \u0009 character from this literal.(®ÌïéøÿÿÿÿH ã RCRITICALZ
 CODE_SMELL
 o
-java:S2479O":Remove the non-escaped \u0009 character from this literal.(”ÎüÿÿÿÿHÆRCRITICALZ
+java:S2479T":Remove the non-escaped \u0009 character from this literal.(À˜ùêúÿÿÿÿH¡ã RCRITICALZ
 CODE_SMELL
-j
-java:S2479P":Remove the non-escaped \u0009 character from this literal.(Ó´ÄH‘ÆRCRITICALZ
+x
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(äïÑƒ8ÂºÜí0H¢ã RMINORZ
 CODE_SMELL
-j
-java:S2479Q":Remove the non-escaped \u0009 character from this literal.(ÀØŸ†H’ÆRCRITICALZ
+{
+java:S1106"AMove this left curly brace to the beginning of next line of code.(íôÚÇşÿÿÿÿ8ÂºÜí0H£ã RMINORZ
 CODE_SMELL
-j
-java:S2479R":Remove the non-escaped \u0009 character from this literal.(ÿ²ØİH“ÆRCRITICALZ
+p
+java:S2479…":Remove the non-escaped \u0009 character from this literal.(–ŠÃ×ıÿÿÿÿH¤ã RCRITICALZ
+CODE_SMELL
+k
+java:S2479¤":Remove the non-escaped \u0009 character from this literal.(ÊÙå™H¥ã RCRITICALZ
+CODE_SMELL
+‹	java:S109¨"RAssign this magic number 6 to a well-named constant, and use the constant instead.(Ò‡Â¿ùÿÿÿÿ8ÂºÜí0H¦ã RMAJORZ
+CODE_SMELL
+†	java:S1098"SAssign this magic number 11 to a well-named constant, and use the constant instead.(ú‰ñÁ8ÂºÜí0H§ã RMAJORZ
+CODE_SMELL
+k
+java:S2479":Remove the non-escaped \u0009 character from this literal.(«ÚÃÓH¨ã RCRITICALZ
 CODE_SMELL
 o
-java:S2479S":Remove the non-escaped \u0009 character from this literal.(ü„»åùÿÿÿÿH”ÆRCRITICALZ
+java:S2479S":Remove the non-escaped \u0009 character from this literal.(ü„»åùÿÿÿÿH©ã RCRITICALZ
+CODE_SMELL
+k
+java:S2479î":Remove the non-escaped \u0009 character from this literal.(ÿá°˜Hªã RCRITICALZ
 CODE_SMELL
 o
-java:S2479T":Remove the non-escaped \u0009 character from this literal.(À˜ùêúÿÿÿÿH•ÆRCRITICALZ
+java:S2479l":Remove the non-escaped \u0009 character from this literal.(–¥ÄŞøÿÿÿÿH«ã RCRITICALZ
 CODE_SMELL
 j
-java:S2479U":Remove the non-escaped \u0009 character from this literal.(Ûğ—H–ÆRCRITICALZ
+java:S2479ˆ":Remove the non-escaped \u0009 character from this literal.(ÚÖ÷?H¬ã RCRITICALZ
+CODE_SMELL
+¡	java:S138è"hThis method has 163 lines, which is greater than the 75 lines authorized. Split it into smaller methods.(ª¦×°øÿÿÿÿ8ÂºÜí0H­ã RMAJORZ
 CODE_SMELL
 j
-java:S2479V":Remove the non-escaped \u0009 character from this literal.(öØƒ·H—ÆRCRITICALZ
+java:S2479e":Remove the non-escaped \u0009 character from this literal.(Íñ·H®ã RCRITICALZ
+CODE_SMELL
+p
+java:S2479³":Remove the non-escaped \u0009 character from this literal.(„˜ıÿÿÿÿH¯ã RCRITICALZ
 CODE_SMELL
 j
-java:S2479W":Remove the non-escaped \u0009 character from this literal.(ßÕ‘H˜ÆRCRITICALZ
+java:S2479`":Remove the non-escaped \u0009 character from this literal.(ı·ÃH°ã RCRITICALZ
+CODE_SMELL
+p
+java:S2479›":Remove the non-escaped \u0009 character from this literal.(ÅÓ›ÿÿÿÿÿH±ã RCRITICALZ
 CODE_SMELL
 j
-java:S2479X":Remove the non-escaped \u0009 character from this literal.(ÓÚ…•H™ÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479Y":Remove the non-escaped \u0009 character from this literal.(ÛÃÄHšÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479Z":Remove the non-escaped \u0009 character from this literal.(‰»ï£H›ÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479[":Remove the non-escaped \u0009 character from this literal.(¸˜íşHœÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479\":Remove the non-escaped \u0009 character from this literal.(‚ì©ÀHÆRCRITICALZ
+java:S2479X":Remove the non-escaped \u0009 character from this literal.(ÓÚ…•H²ã RCRITICALZ
 CODE_SMELL
 o
-java:S2479]":Remove the non-escaped \u0009 character from this literal.(ÁşˆıÿÿÿÿHÆRCRITICALZ
+java:S2479p":Remove the non-escaped \u0009 character from this literal.(º¡úÛşÿÿÿÿH³ã RCRITICALZ
 CODE_SMELL
-o
-java:S2479^":Remove the non-escaped \u0009 character from this literal.(íÆğÓøÿÿÿÿHŸÆRCRITICALZ
+k
+java:S2479«":Remove the non-escaped \u0009 character from this literal.(«ÚÃÓH´ã RCRITICALZ
+CODE_SMELL
+k
+java:S2479€":Remove the non-escaped \u0009 character from this literal.(öØƒ·Hµã RCRITICALZ
+CODE_SMELL
+k
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ëÿ­H¶ã RCRITICALZ
 CODE_SMELL
 j
-java:S2479_":Remove the non-escaped \u0009 character from this literal.(¼—ïH ÆRCRITICALZ
+java:S2479¨":Remove the non-escaped \u0009 character from this literal.(‹ÆH·ã RCRITICALZ
+CODE_SMELL
+p
+java:S2479™":Remove the non-escaped \u0009 character from this literal.(üÏÚ†üÿÿÿÿH¸ã RCRITICALZ
+CODE_SMELL
+k
+java:S2479ö":Remove the non-escaped \u0009 character from this literal.(‹à™H¹ã RCRITICALZ
 CODE_SMELL
 j
-java:S2479`":Remove the non-escaped \u0009 character from this literal.(ı·ÃH¡ÆRCRITICALZ
+java:S2479D":Remove the non-escaped \u0009 character from this literal.(ÿá°˜Hºã RCRITICALZ
 CODE_SMELL
-o
-java:S2479a":Remove the non-escaped \u0009 character from this literal.(‚Âç€øÿÿÿÿH¢ÆRCRITICALZ
+p
+java:S2479´":Remove the non-escaped \u0009 character from this literal.(¿•²èıÿÿÿÿH»ã RCRITICALZ
+CODE_SMELL
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¯×òáûÿÿÿÿ8ÂºÜí0H¼ã RMINORZ
 CODE_SMELL
 j
-java:S2479b":Remove the non-escaped \u0009 character from this literal.(ÿ¤´áH£ÆRCRITICALZ
+java:S2479Y":Remove the non-escaped \u0009 character from this literal.(ÛÃÄH½ã RCRITICALZ
+CODE_SMELL
+k
+java:S2479µ":Remove the non-escaped \u0009 character from this literal.(™üö™H¾ã RCRITICALZ
+CODE_SMELL
+‹	java:S109©"RAssign this magic number 7 to a well-named constant, and use the constant instead.(Æİ›çúÿÿÿÿ8ÂºÜí0H¿ã RMAJORZ
+CODE_SMELL
+Š	java:S1094"RAssign this magic number 7 to a well-named constant, and use the constant instead.(Æİ›çúÿÿÿÿ8ÂºÜí0HÀã RMAJORZ
+CODE_SMELL
+z
+java:S1106>"AMove this left curly brace to the beginning of next line of code.(Ê—šôşÿÿÿÿ8ÂºÜí0HÁã RMINORZ
+CODE_SMELL
+p
+java:S2479±":Remove the non-escaped \u0009 character from this literal.(ê±İ¥ùÿÿÿÿHÂã RCRITICALZ
 CODE_SMELL
 j
-java:S2479c":Remove the non-escaped \u0009 character from this literal.(ëÿ­H¤ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479d":Remove the non-escaped \u0009 character from this literal.(¯–’ùÿÿÿÿÿH¥ÆRCRITICALZ
+java:S2479P":Remove the non-escaped \u0009 character from this literal.(Ó´ÄHÃã RCRITICALZ
 CODE_SMELL
 j
-java:S2479e":Remove the non-escaped \u0009 character from this literal.(Íñ·H¦ÆRCRITICALZ
+java:S2479u":Remove the non-escaped \u0009 character from this literal.(‰·¾ĞHÄã RCRITICALZ
 CODE_SMELL
-o
-java:S2479f":Remove the non-escaped \u0009 character from this literal.(®ÌïéøÿÿÿÿH§ÆRCRITICALZ
+p
+java:S2479—":Remove the non-escaped \u0009 character from this literal.(ÖÒÜúùÿÿÿÿHÅã RCRITICALZ
 CODE_SMELL
 j
-java:S2479g":Remove the non-escaped \u0009 character from this literal.(œ·õøH¨ÆRCRITICALZ
+java:S2479}":Remove the non-escaped \u0009 character from this literal.(‹û‚¡HÆã RCRITICALZ
 CODE_SMELL
 o
-java:S2479h":Remove the non-escaped \u0009 character from this literal.(ºüîÈüÿÿÿÿH©ÆRCRITICALZ
+java:S2479k":Remove the non-escaped \u0009 character from this literal.(ã‡Ş÷üÿÿÿÿHÇã RCRITICALZ
 CODE_SMELL
-j
-java:S2479i":Remove the non-escaped \u0009 character from this literal.(ù€–öHªÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479j":Remove the non-escaped \u0009 character from this literal.(‘ŒÅÃüÿÿÿÿH«ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479k":Remove the non-escaped \u0009 character from this literal.(ã‡Ş÷üÿÿÿÿH¬ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479l":Remove the non-escaped \u0009 character from this literal.(–¥ÄŞøÿÿÿÿH­ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479m":Remove the non-escaped \u0009 character from this literal.(ÖÒÜúùÿÿÿÿH®ÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479n":Remove the non-escaped \u0009 character from this literal.(“¼‚€H¯ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479o":Remove the non-escaped \u0009 character from this literal.(üÏÚ†üÿÿÿÿH°ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479p":Remove the non-escaped \u0009 character from this literal.(º¡úÛşÿÿÿÿH±ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479q":Remove the non-escaped \u0009 character from this literal.(ÅÓ›ÿÿÿÿÿH²ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479r":Remove the non-escaped \u0009 character from this literal.(„ò–®úÿÿÿÿH³ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479s":Remove the non-escaped \u0009 character from this literal.(„¢ÍûüÿÿÿÿH´ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479t":Remove the non-escaped \u0009 character from this literal.(ïÜâüÿÿÿÿHµÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479u":Remove the non-escaped \u0009 character from this literal.(‰·¾ĞH¶ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479v":Remove the non-escaped \u0009 character from this literal.(î®¹¬ûÿÿÿÿH·ÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479w":Remove the non-escaped \u0009 character from this literal.(ğ²ğøH¸ÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479x":Remove the non-escaped \u0009 character from this literal.(°ÊÜİH¹ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479y":Remove the non-escaped \u0009 character from this literal.(ô²¶­ıÿÿÿÿHºÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479z":Remove the non-escaped \u0009 character from this literal.(ÊÙå™H»ÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479{":Remove the non-escaped \u0009 character from this literal.(ÕÉ¿¦H¼ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479|":Remove the non-escaped \u0009 character from this literal.(Â„¸÷ÿÿÿÿÿH½ÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479}":Remove the non-escaped \u0009 character from this literal.(‹û‚¡H¾ÆRCRITICALZ
-CODE_SMELL
-i
-java:S2479~":Remove the non-escaped \u0009 character from this literal.(‹ÆH¿ÆRCRITICALZ
-CODE_SMELL
-o
-java:S2479":Remove the non-escaped \u0009 character from this literal.(äŞìÅÿÿÿÿÿHÀÆRCRITICALZ
+y
+java:S1120’"DMake this line start after 4 spaces to indent the code consistently.(éÖÔí8ÂºÜí0HÈã RMINORZ
 CODE_SMELL
 k
-java:S2479€":Remove the non-escaped \u0009 character from this literal.(–â¡ğHÁÆRCRITICALZ
+java:S2479û":Remove the non-escaped \u0009 character from this literal.(ÀØŸ†HÉã RCRITICALZ
 CODE_SMELL
 k
-java:S2479":Remove the non-escaped \u0009 character from this literal.(«ÚÃÓHÂÆRCRITICALZ
+java:S2479":Remove the non-escaped \u0009 character from this literal.(Íñ·HÊã RCRITICALZ
 CODE_SMELL
 k
-java:S2479‚":Remove the non-escaped \u0009 character from this literal.(Ì©ïÁHÃÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479ƒ":Remove the non-escaped \u0009 character from this literal.(ÙÆªHÄÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479„":Remove the non-escaped \u0009 character from this literal.(Ì€ƒûÿÿÿÿHÅÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479…":Remove the non-escaped \u0009 character from this literal.(–ŠÃ×ıÿÿÿÿHÆÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479†":Remove the non-escaped \u0009 character from this literal.(Ëáê£HÇÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479‡":Remove the non-escaped \u0009 character from this literal.(ê±İ¥ùÿÿÿÿHÈÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479ˆ":Remove the non-escaped \u0009 character from this literal.(ÚÖ÷?HÉÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479‰":Remove the non-escaped \u0009 character from this literal.(„˜ıÿÿÿÿHÊÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479Š":Remove the non-escaped \u0009 character from this literal.(ª•Õ	HËÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479ê":Remove the non-escaped \u0009 character from this literal.(Ò·Ï®úÿÿÿÿHÌÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479ë":Remove the non-escaped \u0009 character from this literal.(Ñ»”ˆıÿÿÿÿHÍÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479ì":Remove the non-escaped \u0009 character from this literal.(§Õ˜HÎÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479í":Remove the non-escaped \u0009 character from this literal.(ï½ñ±HÏÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479î":Remove the non-escaped \u0009 character from this literal.(ÿá°˜HĞÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479ï":Remove the non-escaped \u0009 character from this literal.(„÷Ó¡ıÿÿÿÿHÑÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479ğ":Remove the non-escaped \u0009 character from this literal.(Ğú€”ûÿÿÿÿHÒÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479ñ":Remove the non-escaped \u0009 character from this literal.(¨ßª£ıÿÿÿÿHÓÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479ò":Remove the non-escaped \u0009 character from this literal.(ÈòúÿÿÿÿHÔÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479ó":Remove the non-escaped \u0009 character from this literal.(”¾¥ˆúÿÿÿÿHÕÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479ô":Remove the non-escaped \u0009 character from this literal.(³ÛŒıÿÿÿÿHÖÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479õ":Remove the non-escaped \u0009 character from this literal.(ªÿÍğùÿÿÿÿH×ÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479ö":Remove the non-escaped \u0009 character from this literal.(‹à™HØÆRCRITICALZ
-CODE_SMELL
-j
-java:S2479÷":Remove the non-escaped \u0009 character from this literal.(‹íšeHÙÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479ø":Remove the non-escaped \u0009 character from this literal.(Àı®“şÿÿÿÿHÚÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479ù":Remove the non-escaped \u0009 character from this literal.(”ÎüÿÿÿÿHÛÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479ú":Remove the non-escaped \u0009 character from this literal.(Ó´ÄHÜÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479û":Remove the non-escaped \u0009 character from this literal.(ÀØŸ†HİÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479ü":Remove the non-escaped \u0009 character from this literal.(ÿ²ØİHŞÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479ı":Remove the non-escaped \u0009 character from this literal.(ü„»åùÿÿÿÿHßÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479ş":Remove the non-escaped \u0009 character from this literal.(À˜ùêúÿÿÿÿHàÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479ÿ":Remove the non-escaped \u0009 character from this literal.(Ûğ—HáÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479€":Remove the non-escaped \u0009 character from this literal.(öØƒ·HâÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479":Remove the non-escaped \u0009 character from this literal.(ßÕ‘HãÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479‚":Remove the non-escaped \u0009 character from this literal.(ÓÚ…•HäÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479ƒ":Remove the non-escaped \u0009 character from this literal.(ÛÃÄHåÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479„":Remove the non-escaped \u0009 character from this literal.(‰»ï£HæÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479…":Remove the non-escaped \u0009 character from this literal.(¸˜íşHçÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479†":Remove the non-escaped \u0009 character from this literal.(‚ì©ÀHèÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479‡":Remove the non-escaped \u0009 character from this literal.(ÁşˆıÿÿÿÿHéÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479ˆ":Remove the non-escaped \u0009 character from this literal.(íÆğÓøÿÿÿÿHêÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479‰":Remove the non-escaped \u0009 character from this literal.(¼—ïHëÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479Š":Remove the non-escaped \u0009 character from this literal.(ı·ÃHìÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479‹":Remove the non-escaped \u0009 character from this literal.(‚Âç€øÿÿÿÿHíÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479Œ":Remove the non-escaped \u0009 character from this literal.(ÿ¤´áHîÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479":Remove the non-escaped \u0009 character from this literal.(ëÿ­HïÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479":Remove the non-escaped \u0009 character from this literal.(¯–’ùÿÿÿÿÿHğÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479":Remove the non-escaped \u0009 character from this literal.(Íñ·HñÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479":Remove the non-escaped \u0009 character from this literal.(®ÌïéøÿÿÿÿHòÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479‘":Remove the non-escaped \u0009 character from this literal.(œ·õøHóÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479’":Remove the non-escaped \u0009 character from this literal.(ºüîÈüÿÿÿÿHôÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479“":Remove the non-escaped \u0009 character from this literal.(ù€–öHõÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479”":Remove the non-escaped \u0009 character from this literal.(‘ŒÅÃüÿÿÿÿHöÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479•":Remove the non-escaped \u0009 character from this literal.(ã‡Ş÷üÿÿÿÿH÷ÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479–":Remove the non-escaped \u0009 character from this literal.(–¥ÄŞøÿÿÿÿHøÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479—":Remove the non-escaped \u0009 character from this literal.(ÖÒÜúùÿÿÿÿHùÆRCRITICALZ
-CODE_SMELL
-k
-java:S2479˜":Remove the non-escaped \u0009 character from this literal.(“¼‚€HúÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479™":Remove the non-escaped \u0009 character from this literal.(üÏÚ†üÿÿÿÿHûÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479š":Remove the non-escaped \u0009 character from this literal.(º¡úÛşÿÿÿÿHüÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479›":Remove the non-escaped \u0009 character from this literal.(ÅÓ›ÿÿÿÿÿHıÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479œ":Remove the non-escaped \u0009 character from this literal.(„ò–®úÿÿÿÿHşÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479":Remove the non-escaped \u0009 character from this literal.(„¢ÍûüÿÿÿÿHÿÆRCRITICALZ
-CODE_SMELL
-p
-java:S2479":Remove the non-escaped \u0009 character from this literal.(ïÜâüÿÿÿÿH€ÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479Ÿ":Remove the non-escaped \u0009 character from this literal.(‰·¾ĞHÇRCRITICALZ
-CODE_SMELL
-p
-java:S2479 ":Remove the non-escaped \u0009 character from this literal.(î®¹¬ûÿÿÿÿH‚ÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479¡":Remove the non-escaped \u0009 character from this literal.(ğ²ğøHƒÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479¢":Remove the non-escaped \u0009 character from this literal.(°ÊÜİH„ÇRCRITICALZ
-CODE_SMELL
-p
-java:S2479£":Remove the non-escaped \u0009 character from this literal.(ô²¶­ıÿÿÿÿH…ÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479¤":Remove the non-escaped \u0009 character from this literal.(ÊÙå™H†ÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479¥":Remove the non-escaped \u0009 character from this literal.(ÕÉ¿¦H‡ÇRCRITICALZ
-CODE_SMELL
-p
-java:S2479¦":Remove the non-escaped \u0009 character from this literal.(Â„¸÷ÿÿÿÿÿHˆÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479§":Remove the non-escaped \u0009 character from this literal.(‹û‚¡H‰ÇRCRITICALZ
-CODE_SMELL
-j
-java:S2479¨":Remove the non-escaped \u0009 character from this literal.(‹ÆHŠÇRCRITICALZ
-CODE_SMELL
-p
-java:S2479©":Remove the non-escaped \u0009 character from this literal.(äŞìÅÿÿÿÿÿH‹ÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479ª":Remove the non-escaped \u0009 character from this literal.(–â¡ğHŒÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479«":Remove the non-escaped \u0009 character from this literal.(«ÚÃÓHÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479¬":Remove the non-escaped \u0009 character from this literal.(Ì©ïÁHÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479­":Remove the non-escaped \u0009 character from this literal.(ÙÆªHÇRCRITICALZ
-CODE_SMELL
-p
-java:S2479®":Remove the non-escaped \u0009 character from this literal.(Ì€ƒûÿÿÿÿHÇRCRITICALZ
-CODE_SMELL
-p
-java:S2479¯":Remove the non-escaped \u0009 character from this literal.(–ŠÃ×ıÿÿÿÿH‘ÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479°":Remove the non-escaped \u0009 character from this literal.(Ëáê£H’ÇRCRITICALZ
-CODE_SMELL
-p
-java:S2479±":Remove the non-escaped \u0009 character from this literal.(ê±İ¥ùÿÿÿÿH“ÇRCRITICALZ
-CODE_SMELL
-j
-java:S2479²":Remove the non-escaped \u0009 character from this literal.(ÚÖ÷?H”ÇRCRITICALZ
-CODE_SMELL
-p
-java:S2479³":Remove the non-escaped \u0009 character from this literal.(„˜ıÿÿÿÿH•ÇRCRITICALZ
-CODE_SMELL
-p
-java:S2479´":Remove the non-escaped \u0009 character from this literal.(¿•²èıÿÿÿÿH–ÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479µ":Remove the non-escaped \u0009 character from this literal.(™üö™H—ÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479¶":Remove the non-escaped \u0009 character from this literal.(ÙÆªH˜ÇRCRITICALZ
-CODE_SMELL
-k
-java:S2479·":Remove the non-escaped \u0009 character from this literal.(™üö™H™ÇRCRITICALZ
+java:S2479‰":Remove the non-escaped \u0009 character from this literal.(¼—ïHËã RCRITICALZ
 CODE_SMELL

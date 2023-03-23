@@ -1,0 +1,53 @@
+
+q
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(¤—†ñH¬‹ RMINORZ
+CODE_SMELL
+v
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ŸäåÖıÿÿÿÿH­‹ RMINORZ
+CODE_SMELL
+‹
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦œ³şûÿÿÿÿH®‹ RMINORZ
+CODE_SMELL
+R
+java:S11661"%Either log or rethrow this exception.(É®£H°‹ RMAJORZ
+CODE_SMELL
+s
+java:S1106"AMove this left curly brace to the beginning of next line of code.(‚ÎûÚûÿÿÿÿH±‹ RMINORZ
+CODE_SMELL
+n
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¤—†ñH²‹ RMINORZ
+CODE_SMELL
+s
+java:S1106 "AMove this left curly brace to the beginning of next line of code.(Ïû©ÖûÿÿÿÿH³‹ RMINORZ
+CODE_SMELL
+s
+java:S1106&"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿH´‹ RMINORZ
+CODE_SMELL
+n
+java:S11061"AMove this left curly brace to the beginning of next line of code.(É®£Hµ‹ RMINORZ
+CODE_SMELL
+M
+java:S1451"&Add or update the header of this file.H¶‹ RBLOCKERZ
+CODE_SMELL
+i	java:S105"EReplace all tab characters in this file by sequences of white-spaces.H·‹ RMINORZ
+CODE_SMELL
+L
+java:S4926"Remove this "serialVersionUID".(‘ÎêH¸‹ RMINORZ
+CODE_SMELL
+l
+java:S1161 ":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿH¹‹ RMAJORZ
+CODE_SMELL
+
+java:S1989""YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(¿úÖÇıÿÿÿÿH»‹ RMINORZVULNERABILITY
+_
+java:S11081"2Move this "catch" keyword to a new dedicated line.(É®£H¼‹ RMINORZ
+CODE_SMELL
+º
+java:S1989*"‰Handle the following exceptions that could be thrown by "writeValueAsString": IOException, JsonGenerationException, JsonMappingException.(“©½ÉH½‹ RMINORZVULNERABILITY
+…
+java:S1989-"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿH¾‹ RMINORZVULNERABILITY
+c
+java:S11352"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH¿‹ RINFOZ
+CODE_SMELL
+~
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(µçèéHÀ‹ RMAJORZBUG

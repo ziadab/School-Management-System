@@ -1,0 +1,71 @@
+
+x
+java:S1120("DMake this line start after 6 spaces to indent the code consistently.(‚ô†®8şíõüï0H£æ RMINORZ
+CODE_SMELL
+n
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ÀHŸæ RMINORZ
+CODE_SMELL
+n
+java:S1106'"AMove this left curly brace to the beginning of next line of code.(É®£Hªæ RMINORZ
+CODE_SMELL
+f
+java:S1108'"2Move this "catch" keyword to a new dedicated line.(É®£8şíõüï0H¨æ RMINORZ
+CODE_SMELL
+n
+java:S1106"AMove this left curly brace to the beginning of next line of code.(½œÎÁHœæ RMINORZ
+CODE_SMELL
+M
+java:S1451"&Add or update the header of this file.Hâå RBLOCKERZ
+CODE_SMELL
+s
+java:S1258":Add a constructor to the class, or provide default values.(ï¥Ú‚ûÿÿÿÿ8şíõüï0H¥æ RMAJORZ
+CODE_SMELL
+x
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(³Õ¿8şíõüï0H¡æ RMINORZ
+CODE_SMELL
+t
+java:S3414";Move this test class to the test folder in current project.(ï¥Ú‚ûÿÿÿÿ8º²÷üï0H¬æ RMAJORZ
+CODE_SMELL
+†	java:S109"SAssign this magic number 25 to a well-named constant, and use the constant instead.(³Õ¿8şíõüï0H æ RMAJORZ
+CODE_SMELL
+x
+java:S1120!"DMake this line start after 8 spaces to indent the code consistently.(‡ªÄÿ8şíõüï0H§æ RMINORZ
+CODE_SMELL
+}
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(¡»¢üùÿÿÿÿ8şíõüï0Hæ RMINORZ
+CODE_SMELL
+s
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ï¥Ú‚ûÿÿÿÿH›æ RMINORZ
+CODE_SMELL
+s
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿH¢æ RMINORZ
+CODE_SMELL
+s
+java:S1106 "AMove this left curly brace to the beginning of next line of code.(º”¨ÊúÿÿÿÿH¤æ RMINORZ
+CODE_SMELL
+Y
+java:S1166'"%Either log or rethrow this exception.(É®£8º²÷üï0H«æ RMAJORZ
+CODE_SMELL
+}
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(òñ§Àıÿÿÿÿ8Òõûüï0H±æ RMINORZ
+CODE_SMELL
+}
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(Õøş‡ûÿÿÿÿ8Òõûüï0H²æ RMINORZ
+CODE_SMELL
+y	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(À8Òõûüï0H³æ RMAJORZ
+CODE_SMELL
+ 
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(À8Òõûüï0H´æ RMINORZ
+CODE_SMELL
+w
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(ôó†çıÿÿÿÿ8Òõûüï0H¶æ RMINORZ
+CODE_SMELL
+`
+java:S1128",Remove this unused import 'org.junit.After'.(«ñÖ«8Òõûüï0H¹æ RMINORZ
+CODE_SMELL
+e
+java:S1128	"1Remove this unused import 'org.junit.AfterClass'.(®ŒôÌ8Òõûüï0H»æ RMINORZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'org.junit.BeforeClass'.(´ª«ê8Òõûüï0H½æ RMINORZ
+CODE_SMELL

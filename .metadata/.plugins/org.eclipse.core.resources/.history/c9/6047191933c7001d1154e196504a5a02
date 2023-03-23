@@ -1,0 +1,35 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class NoteControleDaoTest {
+
+    private NoteControleDao dao;
+    
+    @BeforeEach
+    void setUp() throws Exception {
+        dao = new NoteControleDao();
+    }
+
+    @Test
+    void testGetByControle() {
+        try {
+            ArrayList<NoteControle> result = dao.getByControle(25);
+            assertNotNull(result);
+            assertTrue(result.size() > 0);
+            for(NoteControle noteControle: result) {
+                assertNotNull(noteControle.getId());
+                assertNotNull(noteControle.getEtudiant());
+                assertNotNull(noteControle.getNote());
+                assertNotNull(noteControle.getValide());
+                assertNotNull(noteControle.getObservation());
+            }
+        } catch (SQLException e) {
+            fail("Exception thrown: " + e.getMessage());
+        }
+    }
+}
