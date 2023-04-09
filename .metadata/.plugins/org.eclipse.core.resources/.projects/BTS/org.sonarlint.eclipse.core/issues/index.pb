@@ -135,3 +135,7 @@ V
 &WebContent/js/jquery.dataTables.min.js,8\0\8086e7ba43f57256a7f51e158b4349702af4f5f1
 T
 $WebContent/js/jquery.editable.min.js,3\3\33eeeef47ca2b0f3729f7bff11d4518230a33281
+_
+/src/controllers/evaluation/ControleNoteAdd.java,4\5\450cceb62ab97b5603c8734ef7b751d85de634f1
+E
+src/config.properties,2\9\29886c5d5439009c9b5707381692a3ec0d7810c9

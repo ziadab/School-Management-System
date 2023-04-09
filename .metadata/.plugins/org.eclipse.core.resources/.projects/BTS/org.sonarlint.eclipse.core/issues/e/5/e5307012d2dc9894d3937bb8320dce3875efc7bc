@@ -1,17 +1,17 @@
 
-_Web:ImgWithoutAltCheck־"%Add an "alt" attribute to this image.(¦±סׂ8כאר»כ0HֳÝ RMINORZBUG
-b	Web:S1827")Remove this deprecated "width" attribute.(Úü‏ÿÿÿÿ8כאר»כ0HְÝ RMAJORZ
+x	Web:S5255ף"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(¡˜ֱ8כאר»כ0H†ת RMAJORZ
 CODE_SMELL
-}	Web:S5255ֳ"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(„חÚטשÿÿÿÿ8כאר»כ0HָÝ RMAJORZ
+b	Web:S1827")Remove this deprecated "width" attribute.(Úü‏ÿÿÿÿ8כאר»כ0H€ת RMAJORZ
 CODE_SMELL
-dWeb:ImgWithoutAltCheckֹ"%Add an "alt" attribute to this image.(ײ”ֱ¸תÿÿÿÿ8כאר»כ0H¿Ý RMINORZBUG
-w	Web:S5255±"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(₪“ל08כאר»כ0HֲÝ RMAJORZ
+w	Web:S5255±"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(₪“ל08כאר»כ0Hˆת RMAJORZ
 CODE_SMELL
-eWeb:TableWithoutCaptionCheck" Add a description to this table.(Úü‏ÿÿÿÿ8כאר»כ0HֶÝ RMINORZBUG
-h	Web:S1827"/Remove this deprecated "cellspacing" attribute.(Úü‏ÿÿÿÿ8כאר»כ0HֱÝ RMAJORZ
+q	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(קֳûÿÿÿÿ8כאר»כ0H‰ת RMAJORZBUG
+h	Web:S1827"/Remove this deprecated "cellspacing" attribute.(Úü‏ÿÿÿÿ8כאר»כ0H„ת RMAJORZ
 CODE_SMELL
-x	Web:S5255«"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(₪¢²ט8כאר»כ0HִÝ RMAJORZ
+}	Web:S5255ֶ"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(„חÚטשÿÿÿÿ8כאר»כ0H‚ת RMAJORZ
 CODE_SMELL
-q	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(קֳûÿÿÿÿ8כאר»כ0HַÝ RMAJORZBUG
-x	Web:S5255ף"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(¡˜ֱ8כאר»כ0HֵÝ RMAJORZ
+x	Web:S5255«"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(₪¢²ט8כאר»כ0H…ת RMAJORZ
 CODE_SMELL
+eWeb:TableWithoutCaptionCheck" Add a description to this table.(Úü‏ÿÿÿÿ8כאר»כ0Hƒת RMINORZBUG
+dWeb:ImgWithoutAltCheckֹ"%Add an "alt" attribute to this image.(ײ”ֱ¸תÿÿÿÿ8כאר»כ0Hת RMINORZBUG
+_Web:ImgWithoutAltCheck־"%Add an "alt" attribute to this image.(¦±סׂ8כאר»כ0H‡ת RMINORZBUG

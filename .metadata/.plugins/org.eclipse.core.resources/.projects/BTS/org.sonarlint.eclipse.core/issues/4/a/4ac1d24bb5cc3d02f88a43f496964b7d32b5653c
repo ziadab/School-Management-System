@@ -1,68 +1,68 @@
 
-z
-java:S1106"AMove this left curly brace to the beginning of next line of code.(â˜™—øÿÿÿÿ8‰àûºë0Häİ RMINORZ
-CODE_SMELL
-S
-java:S4926"Remove this "serialVersionUID".(‘Îê8‰àûºë0Håİ RMINORZ
-CODE_SMELL
-Y
-java:S1166C"%Either log or rethrow this exception.(É®£8‰àûºë0Hæİ RMAJORZ
-CODE_SMELL
-Š
-java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(íØòáøÿÿÿÿ8»Ø¢•Ø0Hçİ RMAJORZBUG
-z
-java:S1106"AMove this left curly brace to the beginning of next line of code.(İœÿ–ÿÿÿÿÿ8‰àûºë0Hèİ RMINORZ
-CODE_SMELL
-}
-java:S1120"DMake this line start after 2 spaces to indent the code consistently.(İœÿ–ÿÿÿÿÿ8‰àûºë0Héİ RMINORZ
-CODE_SMELL
-l	java:S1069"9Replace this use of System.out or System.err by a logger.(øŒ¼Æ8ãÂ²•Ø0Hêİ RMAJORZ
-CODE_SMELL
-}
-java:S1120 "DMake this line start after 4 spaces to indent the code consistently.(ŸäåÖıÿÿÿÿ8‰àûºë0Hëİ RMINORZ
-CODE_SMELL
-”
-java:S1989N"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(®Ó‘ûÿÿÿÿÿHìİ RMINORZVULNERABILITY
-f
-java:S1108C"2Move this "catch" keyword to a new dedicated line.(É®£8‰àûºë0Híİ RMINORZ
-CODE_SMELL
-…
-java:S1989?"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿHîİ RMINORZVULNERABILITY
-u
-java:S1106C"AMove this left curly brace to the beginning of next line of code.(É®£8‰àûºë0Hïİ RMINORZ
-CODE_SMELL
 Á
-java:S19898"‰Handle the following exceptions that could be thrown by "writeValueAsString": IOException, JsonGenerationException, JsonMappingException.(áä8»Ø¢•Ø0Hğİ RMINORZVULNERABILITY
+java:S19898"‰Handle the following exceptions that could be thrown by "writeValueAsString": IOException, JsonGenerationException, JsonMappingException.(áä8»Ø¢•Ø0H‚ò RMINORZVULNERABILITY
 u
-java:S1106L"AMove this left curly brace to the beginning of next line of code.(‹¨¯¿8‰àûºë0Hñİ RMINORZ
+java:S1106L"AMove this left curly brace to the beginning of next line of code.(‹¨¯¿8‰àûºë0Hƒò RMINORZ
 CODE_SMELL
 g
-java:S1161L":Add the "@Override" annotation above this method signature(‹¨¯¿Hòİ RMAJORZ
-CODE_SMELL
-c
-java:S1135M"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHôİ RINFOZ
-CODE_SMELL
-p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8‰àûºë0Hõİ RMINORZ
-CODE_SMELL
-
-java:S19891"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(Œ¬Ø¦8‰àûºë0Höİ RMINORZVULNERABILITY
-l
-java:S1161(":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿH÷İ RMAJORZ
-CODE_SMELL
-z
-java:S1106("AMove this left curly brace to the beginning of next line of code.(Ïû©Öûÿÿÿÿ8‰àûºë0Hùİ RMINORZ
+java:S1161L":Add the "@Override" annotation above this method signature(‹¨¯¿H„ò RMAJORZ
 CODE_SMELL
 T
-java:S1451"&Add or update the header of this file.8‰àûºë0Húİ RBLOCKERZ
-CODE_SMELL
-c
-java:S1135""2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHûİ RINFOZ
+java:S1451"&Add or update the header of this file.8‰àûºë0H†ò RBLOCKERZ
 CODE_SMELL
 ¨
-java:S1989)"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ8»Ø¢•Ø0Hüİ RMINORZVULNERABILITY
-h
-java:S1128"4Remove this unused import 'javax.websocket.Session'.(şÀÁ‡8‰àûºë0Hıİ RMINORZ
+java:S1989)"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿ8»Ø¢•Ø0H‡ò RMINORZVULNERABILITY
+}
+java:S1120 "DMake this line start after 4 spaces to indent the code consistently.(ŸäåÖıÿÿÿÿ8‰àûºë0Hˆò RMINORZ
+CODE_SMELL
+Y
+java:S1166C"%Either log or rethrow this exception.(É®£8‰àûºë0H‰ò RMAJORZ
+CODE_SMELL
+}
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(İœÿ–ÿÿÿÿÿ8‰àûºë0HŠò RMINORZ
+CODE_SMELL
+
+java:S19891"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(Œ¬Ø¦8‰àûºë0H‹ò RMINORZVULNERABILITY
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(İœÿ–ÿÿÿÿÿ8‰àûºë0HŒò RMINORZ
+CODE_SMELL
+l	java:S1069"9Replace this use of System.out or System.err by a logger.(øŒ¼Æ8ãÂ²•Ø0Hò RMAJORZ
+CODE_SMELL
+…
+java:S1989?"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿHò RMINORZVULNERABILITY
+c
+java:S1135M"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHò RINFOZ
 CODE_SMELL
 z
-java:S1106/"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8‰àûºë0Hÿİ RMINORZ
+java:S1106"AMove this left curly brace to the beginning of next line of code.(â˜™—øÿÿÿÿ8‰àûºë0Hò RMINORZ
+CODE_SMELL
+h
+java:S1128"4Remove this unused import 'javax.websocket.Session'.(şÀÁ‡8‰àûºë0H‘ò RMINORZ
+CODE_SMELL
+c
+java:S1135""2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH“ò RINFOZ
+CODE_SMELL
+S
+java:S4926"Remove this "serialVersionUID".(‘Îê8‰àûºë0H”ò RMINORZ
+CODE_SMELL
+”
+java:S1989N"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(®Ó‘ûÿÿÿÿÿH•ò RMINORZVULNERABILITY
+Š
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(íØòáøÿÿÿÿ8»Ø¢•Ø0H–ò RMAJORZBUG
+z
+java:S1106("AMove this left curly brace to the beginning of next line of code.(Ïû©Öûÿÿÿÿ8‰àûºë0H—ò RMINORZ
+CODE_SMELL
+p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8‰àûºë0H˜ò RMINORZ
+CODE_SMELL
+z
+java:S1106/"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8‰àûºë0H™ò RMINORZ
+CODE_SMELL
+f
+java:S1108C"2Move this "catch" keyword to a new dedicated line.(É®£8‰àûºë0Hšò RMINORZ
+CODE_SMELL
+l
+java:S1161(":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿH›ò RMAJORZ
+CODE_SMELL
+u
+java:S1106C"AMove this left curly brace to the beginning of next line of code.(É®£8‰àûºë0Hò RMINORZ
 CODE_SMELL

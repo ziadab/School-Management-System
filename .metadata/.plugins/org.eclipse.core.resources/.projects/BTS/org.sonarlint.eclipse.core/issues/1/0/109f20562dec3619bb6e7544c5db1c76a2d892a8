@@ -1,77 +1,77 @@
 
+•
+java:S1989&"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ĞÔ¡­üÿÿÿÿ8¼£˜üï0H²ù RMINORZVULNERABILITY
 c
-java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHªİ RINFOZ
-CODE_SMELL
-n
-java:S1106"AMove this left curly brace to the beginning of next line of code.(¤ŒæH®İ RMINORZ
-CODE_SMELL
-›
-java:S1989B"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(®Ó‘ûÿÿÿÿÿ8³¾°üï0HÚá RMINORZVULNERABILITY
-j
-java:S11359"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8éÛşûï0HŞ RINFOZ
-CODE_SMELL
-i	java:S105"EReplace all tab characters in this file by sequences of white-spaces.H§İ RMINORZ
-CODE_SMELL
-n
-java:S1161@":Add the "@Override" annotation above this method signature(‹¨¯¿8³¾°üï0HØá RMAJORZ
-CODE_SMELL
-u
-java:S11068"AMove this left curly brace to the beginning of next line of code.(”ı¾8³¾°üï0H×á RMINORZ
-CODE_SMELL
-q	java:S106*"9Replace this use of System.out or System.err by a logger.(…ï¼“ÿÿÿÿÿ8¨ü±üï0Häá RMAJORZ
-CODE_SMELL
-…
-java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÔÃËé8Ò‘ïûï0H¼İ RMAJORZBUG
-n
-java:S1106@"AMove this left curly brace to the beginning of next line of code.(‹¨¯¿H„Ş RMINORZ
-CODE_SMELL
-h
-java:S22218"4Catch a list of specific exception subtypes instead.(”ı¾8…•ƒüï0H˜Ş RMINORZ
-CODE_SMELL
-q	java:S106,"9Replace this use of System.out or System.err by a logger.(Á…‡ùÿÿÿÿ8Ëş³üï0Höá RMAJORZ
-CODE_SMELL
-c
-java:S1135%"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH«İ RINFOZ
+java:S1135%"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH³ù RINFOZ
 CODE_SMELL
 M
-java:S1451"&Add or update the header of this file.H³İ RBLOCKERZ
-CODE_SMELL
-j
-java:S1135A"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8³¾°üï0HÛá RINFOZ
-CODE_SMELL
-Y
-java:S11668"%Either log or rethrow this exception.(”ı¾8éÛşûï0H†Ş RMAJORZ
-CODE_SMELL
-s
-java:S1106$"AMove this left curly brace to the beginning of next line of code.(Ïû©ÖûÿÿÿÿH¬İ RMINORZ
-CODE_SMELL
-s
-java:S1106"AMove this left curly brace to the beginning of next line of code.(õÈà¨ùÿÿÿÿH¦İ RMINORZ
-CODE_SMELL
-l
-java:S1161$":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿH´İ RMAJORZ
-CODE_SMELL
-q	java:S106+"9Replace this use of System.out or System.err by a logger.(±ÀÔ€ùÿÿÿÿ8¾À³üï0Híá RMAJORZ
-CODE_SMELL
-f
-java:S11088"2Move this "catch" keyword to a new dedicated line.(”ı¾8éÛşûï0H‹Ş RMINORZ
-CODE_SMELL
-v
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ŸäåÖıÿÿÿÿH©İ RMINORZ
+java:S1451"&Add or update the header of this file.H´ù RBLOCKERZ
 CODE_SMELL
 L
-java:S4926"Remove this "serialVersionUID".(‘ÎêH¨İ RMINORZ
+java:S4926"Remove this "serialVersionUID".(‘ÎêHµù RMINORZ
 CODE_SMELL
-•
-java:S1989&"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ĞÔ¡­üÿÿÿÿ8¼£˜üï0H¿Ş RMINORZVULNERABILITY
-q
-java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ÔÃËéH¯İ RMINORZ
+j
+java:S11359"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8éÛşûï0H¶ù RINFOZ
 CODE_SMELL
 f
-java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8…•ƒüï0H™Ş RMINORZ
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8…•ƒüï0H·ù RMINORZ
+CODE_SMELL
+›
+java:S1989B"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(®Ó‘ûÿÿÿÿÿ8³¾°üï0H¹ù RMINORZVULNERABILITY
+n
+java:S1106@"AMove this left curly brace to the beginning of next line of code.(‹¨¯¿Hºù RMINORZ
+CODE_SMELL
+n
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¤ŒæH»ù RMINORZ
+CODE_SMELL
+q	java:S106,"9Replace this use of System.out or System.err by a logger.(Á…‡ùÿÿÿÿ8Ëş³üï0H¼ù RMAJORZ
+CODE_SMELL
+n
+java:S1161@":Add the "@Override" annotation above this method signature(‹¨¯¿8³¾°üï0H½ù RMAJORZ
+CODE_SMELL
+q
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ÔÃËéH¿ù RMINORZ
+CODE_SMELL
+j
+java:S1135A"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8³¾°üï0HÀù RINFOZ
+CODE_SMELL
+v
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ŸäåÖıÿÿÿÿHÁù RMINORZ
 CODE_SMELL
 z
-java:S1106("AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8éÛşûï0H‡Ş RMINORZ
+java:S1106("AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8éÛşûï0HÂù RMINORZ
 CODE_SMELL
-l	java:S1065"9Replace this use of System.out or System.err by a logger.(øŒ¼Æ8û™µüï0Hÿá RMAJORZ
+l
+java:S1161$":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHÃù RMAJORZ
+CODE_SMELL
+i	java:S105"EReplace all tab characters in this file by sequences of white-spaces.HÅù RMINORZ
+CODE_SMELL
+Y
+java:S11668"%Either log or rethrow this exception.(”ı¾8éÛşûï0HÆù RMAJORZ
+CODE_SMELL
+f
+java:S11088"2Move this "catch" keyword to a new dedicated line.(”ı¾8éÛşûï0HÇù RMINORZ
+CODE_SMELL
+h
+java:S22218"4Catch a list of specific exception subtypes instead.(”ı¾8…•ƒüï0HÈù RMINORZ
+CODE_SMELL
+l	java:S1065"9Replace this use of System.out or System.err by a logger.(øŒ¼Æ8û™µüï0HÉù RMAJORZ
+CODE_SMELL
+c
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHÊù RINFOZ
+CODE_SMELL
+u
+java:S11068"AMove this left curly brace to the beginning of next line of code.(”ı¾8³¾°üï0HËù RMINORZ
+CODE_SMELL
+…
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÔÃËé8Ò‘ïûï0HÌù RMAJORZBUG
+s
+java:S1106"AMove this left curly brace to the beginning of next line of code.(õÈà¨ùÿÿÿÿHÍù RMINORZ
+CODE_SMELL
+q	java:S106*"9Replace this use of System.out or System.err by a logger.(…ï¼“ÿÿÿÿÿ8¨ü±üï0HÎù RMAJORZ
+CODE_SMELL
+q	java:S106+"9Replace this use of System.out or System.err by a logger.(±ÀÔ€ùÿÿÿÿ8¾À³üï0HÏù RMAJORZ
+CODE_SMELL
+s
+java:S1106$"AMove this left curly brace to the beginning of next line of code.(Ïû©ÖûÿÿÿÿHĞù RMINORZ
 CODE_SMELL

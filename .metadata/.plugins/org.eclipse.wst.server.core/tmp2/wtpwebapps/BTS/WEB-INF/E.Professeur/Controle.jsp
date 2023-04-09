@@ -279,6 +279,9 @@
 							</table>
 							<!-- Fin : Table Etudiants  -->
 							 
+							   <!-- Début : Submit button -->
+							   <button id="submit_notes_btn" class="btn btn-primary">Enregistrer</button>
+							   <!-- Fin : Submit button -->
 						</div>
 						<!-- /Content tab 1	: Programme-->
 						<!-- Content tab 2 	: EmploieDuTemps-->
@@ -460,8 +463,7 @@
 	<script src="${pageContext.request.contextPath}/js/vfs_fonts.js" type="text/javascript"></script>
 	<script src="${pageContext.request.contextPath}/js/buttons.html5.min.js" type="text/javascript"></script>
 	<script src="${pageContext.request.contextPath}/js/buttons.print.min.js" type="text/javascript"></script>
-    <script src="${pageContext.request.contextPath}/js/jquery.editable.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jeditable/1.7.3/jquery.jeditable.min.js"></script>
+   
     
     
   	<script type="text/javascript">
@@ -496,87 +498,144 @@
   		
 			/************** DataTable du Tab : Etudiants **************/
 	  		// Initialisation du DataTable Etudiants
-	  		var table = $('#data_table_notes').DataTable(
-		    {
-		        "paging": true,
-		        "autoWidth": true,
-		        "columnDefs": [
-		            { "orderable": false, "targets": 3 },
-		            {
-		                "targets": 2,
-		                "render": function (data, type, row, meta) {
-		                    return '<span class="note-span">' + data + '</span>' +
-		                        '<input type="text" class="note-input form-control" value="' + data + '" style="display: none;">';
-		                },
-		                "editable": true // enable the "editable" feature for the "Note" column
-		            }
-		        ],
-		        dom: 'Bfrtip',
-		        buttons: [
-		            'copy',
-		            'csv',
-		            'excel',
-		            'pdf',
-		            'print'
-		        ]
-		    	}
-			);
-		
-		// Add event listener for editing notes
-			$('#data_table_notes tbody').on('dblclick', 'td', function() {
-			    var cell = table.cell(this);
-			    if (cell.index().column == 2) { // check if the clicked cell is in the "Note" column
-			        cell.edit(); // activate the editable feature for this cell
-			    }
-			});
-
-	  		
-	  		/******* fonction pour charger la liste des Etudiants de la classe dans la TableData Etudiants ******/
-			function populateEtudiantDataTable(){
-				var tableData = $('#data_table_notes').DataTable();
-				//tableData.DataTable().rows().remove().draw();		// Vider la TableData 
-				$.ajax({
-					url : '../ControleNote/List?controleId='+<%= request.getParameter("id")%>,
-					type: "GET",
-					dataType: 'json',
-					success: function(response,textStatus ,jqXHR){
-						console.log(response);
-						for(i=0;i<response.length;i++){
-							var rang =i+1;
-							var btns='<div class="btn-group dropleft"> \
-										  <button type="button" class="btn btn-outline-info btn-sm" title="Actions"><span class="fa fa-ellipsis-h"></span></button> \
-										  <button type="button" class="btn btn-outline-info btn-sm dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> \
-										    <span class="sr-only">Toggle Dropdown</span> \
-										  </button> \
-										  <div class="dropdown-menu shadow p-3 mb-5 bg-white rounded" id="dropdownEtudiant"> \
-										    <div class="bg-info text-white px-3 py-1"><span class="fa fa-ellipsis-h mr-4"></span> Actions</div> \
-									        <div class="dropdown-divider"></div> \
-										  	<a class="dropdown-item etudiant-details text-primary" href="#" etudiantId="'+response[i].etudiant.id+'"><span class="fa fa-info-circle mr-4"></span>Détails</a> \
-										  	<a class="dropdown-item etudiant-delete text-primary" href="#" scolariteId="'+response[i].id+'"><span class="fa fa-trash mr-4"></span>Retirer de la classe</a> \
-										  </div> \
-										</div> ';
-							
-							tableData.row.add( [
-							             rang,
-							             response[i].etudiant.nom_Fr +" " + response[i].etudiant.prenom_Fr,
-							             response[i].note,
-							             btns
-							         ] ).draw( false );
-						}
-				    },
-				    error: function(response,textStatus ,jqXHR){
-				    	console.log(jqXHR.responseText);
-				    	$("#modalError .modal-body p").html("");
-						$("#modalError .modal-body p").html(jqXHR.responseText);
-				   		$('#modalError .modal-body p').modal('show'); 
-				        }
+				var table = $('#data_table_notes').DataTable({
+				    "paging": true,
+				    "autoWidth": true,
+				    "columnDefs": [
+				        { "orderable": false, "targets": 3 },
+				    ],
+				    dom: 'Bfrtip',
+				    buttons: [
+				        'copy',
+				        'csv',
+				        'excel',
+				        'pdf',
+				        'print'
+				    ],
+				    "createdRow": function (row, data, dataIndex) {
+				        // set contenteditable to true for note column cells
+				        $(row).find('td:eq(2)').attr('contenteditable', true);
+				    }
 				});
-			};
+
+				// Add event listener for editing notes
+				// Listen to key presses on note column cells
+				$(document).on('keypress', '#data_table_notes td:nth-child(3)', function(event) {
+				    // Get the character code of the pressed key
+				    var charCode = (event.which) ? event.which : event.keyCode;
+				
+				    // Allow only digits and a single decimal point
+				    if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57)) {
+				        event.preventDefault();
+				    }
+				
+				    // Allow only one decimal point
+				    if (charCode == 46 && $(this).text().indexOf('.') !== -1) {
+				        event.preventDefault();
+				    }
+				
+				    // Limit the note to between 0 and 20
+				    var newNote = parseFloat($(this).text() + String.fromCharCode(charCode));
+				    if (newNote < 0 || newNote > 20) {
+				        event.preventDefault();
+				    }
+				    
+				    // If Enter key is pressed, prevent default behavior and trigger submit button click event
+				    if (charCode == 13) {
+				        event.preventDefault();
+				        $('#submit_notes_btn').click();
+				    }
+				});
+
+
+
+				/******* fonction pour charger la liste des Etudiants de la classe dans la TableData Etudiants ******/
+				function populateEtudiantDataTable(){
+				    var tableData = $('#data_table_notes').DataTable();
+				    //tableData.DataTable().rows().remove().draw();     // Vider la TableData 
+				    $.ajax({
+				        url : '../ControleNote/List?controleId='+<%= request.getParameter("id")%>,
+				        type: "GET",
+				        dataType: 'json',
+				        success: function(response,textStatus ,jqXHR){
+				            console.log(response);
+				            for(i=0;i<response.length;i++){
+				                var rang =i+1;
+				                var btns='<div class="btn-group dropleft"> \
+				                              <button type="button" class="btn btn-outline-info btn-sm" title="Actions"><span class="fa fa-ellipsis-h"></span></button> \
+				                              <button type="button" class="btn btn-outline-info btn-sm dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> \
+				                                <span class="sr-only">Toggle Dropdown</span> \
+				                              </button> \
+				                              <div class="dropdown-menu shadow p-3 mb-5 bg-white rounded" id="dropdownEtudiant"> \
+				                                <div class="bg-info text-white px-3 py-1"><span class="fa fa-ellipsis-h mr-4"></span> Actions</div> \
+				                                <div class="dropdown-divider"></div> \
+				                                <a class="dropdown-item etudiant-details text-primary" href="#" etudiantId="'+response[i].etudiant.id+'"><span class="fa fa-info-circle mr-4"></span>Détails</a> \
+				                                <a class="dropdown-item etudiant-delete text-primary" href="#" scolariteId="'+response[i].id+'"><span class="fa fa-trash mr-4"></span>Retirer de la classe</a> \
+				                              </div> \
+				                            </div> ';
+
+				                tableData.row.add( [
+				                             rang,
+				                             response[i].etudiant.nom_Fr +" " + response[i].etudiant.prenom_Fr,
+				                             response[i].note,
+				                             btns
+				                         ] ).draw( false );
+				            }
+				        },
+				        error: function(response,textStatus ,jqXHR){
+				            console.log(jqXHR.responseText);
+				            $("#modalError .modal-body p").html("");
+				            $("#modalError .modal-body p").html(jqXHR.responseText);
+				            $('#modalError .modal-body p').modal('show'); 
+				        }
+				    });
+				};
+
 			/*  
 			/* On charger la liste des Etudiants dans la TableData Etudiants
 			*/
 			
 			populateEtudiantDataTable();
+			
+			
+			$("#submit_notes_btn").click(function() {
+			    var updatedData = [];
+			    $("#data_table_notes tbody tr").each(function(index) {
+			        var etudiantId = $(this).find("td:eq(3) a.etudiant-details").attr("etudiantId");
+			        var note = $(this).find("td:eq(2)").text();
+			        updatedData.push({
+			            etudiantId: etudiantId,
+			            note: note
+			        });
+			    });
+					console.log(updatedData);
+			    // Send the updatedData array to the server using AJAX
+					$.ajax({
+			            url: '../ControleNote/Add',
+			            type: 'POST',
+			            headers: {
+			                'X-ControleId': '<%= request.getParameter("id")%>'
+			            },
+			            contentType: 'application/json',
+			            data: JSON.stringify(updatedData),
+			            success: function(response,textStatus ,jqXHR) {
+			                console.log(response);
+			                $('#data_table_notes').DataTable().rows().remove().draw();
+			                populateEtudiantDataTable();
+			                // add your success message handling here
+			            },
+			            error: function(response,textStatus ,jqXHR) {
+			            	 console.log(jqXHR.responseText);
+					            $("#modalError .modal-body p").html("");
+					            $("#modalError .modal-body p").html(jqXHR.responseText);
+					            /* $('#modalError .modal-body p').modal('show'); */
+			            }
+			        });
+			});
+
+
+
+
 			
 			/*********************************************************************************/
   			/**** Affichage des détails d'un Etudiant du dataTable : data_table_etudiants ****/

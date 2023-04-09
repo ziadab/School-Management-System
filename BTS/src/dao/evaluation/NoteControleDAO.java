@@ -24,16 +24,26 @@ public class NoteControleDAO {
 
     // insert a new record into notecontrole table
     public void addNoteControle(NoteControle noteControle) throws SQLException {
-        String query = "INSERT INTO notecontrole (EtudiantUtilisateurID, ControleID) VALUES (?, ?) ON DUPLICATE KEY UPDATE Note=?, Valide=?, Observation=?";
+        String query = "INSERT IGNORE INTO notecontrole (EtudiantUtilisateurID, ControleID) VALUES (?, ?)";
         PreparedStatement statement = (PreparedStatement) con.prepareStatement(query);
         statement.setInt(1, noteControle.getEtudiant().getId());
         statement.setInt(2, noteControle.getControle().getId());
-        statement.setFloat(3, noteControle.getNote());
-        statement.setBoolean(4, noteControle.isValide());
-        statement.setString(5, noteControle.getObservation());
         statement.executeUpdate();
     }
 
+    
+    public void add(NoteControle noteControle) throws SQLException {
+        String query = "UPDATE notecontrole SET Note = ?, Valide = ? WHERE EtudiantUtilisateurID = ? AND ControleID = ?";
+        PreparedStatement statement = (PreparedStatement) con.prepareStatement(query);
+        statement.setFloat(1, noteControle.getNote());
+        statement.setBoolean(2, noteControle.getNote() >= 10);
+        statement.setInt(3, noteControle.getEtudiant().getId());
+        statement.setInt(4, noteControle.getControle().getId());
+        statement.executeUpdate();
+    }
+
+
+    
     //get all
     public ArrayList<NoteControle> getAll() throws SQLException {
         String query = "SELECT * FROM notecontrole";

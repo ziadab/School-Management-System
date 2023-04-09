@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="data_table_note"/>
+		<item key="selection" value="/*"/>
 		<item key="casesensitive" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="wrap" value="true"/>
 		<item key="wholeword" value="false"/>
 		<list key="findhistory">
+			<item value="/*"/>
+			<item value="data_table_notes"/>
 			<item value="min.js"/>
 			<item value="data_table_note"/>
 			<item value="println"/>
 			<item value="classeId"/>
 			<item value="&lt;a class=&quot;dropdown-item classe-full-details "/>
 			<item value="cne"/>
-			<item value="etudiant"/>
-			<item value="class=&quot;dropdown-item classe-full-details text-primary&quot;"/>
 		</list>
 		<list key="replacehistory">
 			<item value="absences"/>
