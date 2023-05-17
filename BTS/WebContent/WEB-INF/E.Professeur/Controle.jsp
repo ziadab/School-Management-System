@@ -543,7 +543,22 @@
 				    // If Enter key is pressed, prevent default behavior and trigger submit button click event
 				    if (charCode == 13) {
 				        event.preventDefault();
-				        $('#submit_notes_btn').click();
+				        var $thisCell = $(this);
+				        var $nextRow = $thisCell.closest('tr').next();
+				        if ($nextRow.length) {
+				            var $nextCell = $nextRow.find('td:nth-child(3)');
+				            $nextCell.focus();
+				            var td = $nextRow.find('td:eq(2)');
+				            var contenteditableElement = td[0];
+				            var range = document.createRange();
+				            var selection = window.getSelection();
+				            range.selectNodeContents(contenteditableElement);
+				            range.collapse(false);
+				            selection.removeAllRanges();
+				            selection.addRange(range);
+				        } else {
+				            $('#submit_notes_btn').click();
+				        }
 				    }
 				});
 
