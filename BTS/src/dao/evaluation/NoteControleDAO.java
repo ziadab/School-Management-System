@@ -107,6 +107,30 @@ public class NoteControleDAO {
         statement.setInt(1, controleId);
         statement.executeUpdate();
     }
+    public ArrayList<NoteControle> getByEtudiantForEtudiant(int IdEtudiant) throws SQLException{
+    	String query = "SELECT DISTINCT m.Nom_Fr AS controle, \r\n"
+    			+ "(SELECT n1.Note FROM notecontrole n1 WHERE n1.ControleID = c.ID AND n1.EtudiantUtilisateurID = e.UtilisateurID AND n1.Valide = 1 LIMIT 1) AS note\r\n"
+    			+ "FROM controle c\r\n"
+    			+ "JOIN module m ON c.ModuleID = m.ID\r\n"
+    			+ "JOIN notecontrole n ON c.ID = n.ControleID\r\n"
+    			+ "JOIN etudiant e ON n.EtudiantUtilisateurID = e.UtilisateurID\r\n"
+    			+ "WHERE e.UtilisateurID = ?";
+    	PreparedStatement statement = (PreparedStatement) con.prepareStatement(query);
+    	statement.setInt(1, IdEtudiant);
+    	ResultSet rSet = statement.executeQuery();
+    	ArrayList<NoteControle> notesArrayLi= new ArrayList<>();
+    	while(rSet.next()) {
+    		NoteControle noteControle = new NoteControle();
+    		Controle controle = new Controle();
+    		Domaine.matiere.Module module =  new Domaine.matiere.Module();
+    		module.setNom_Ar(rSet.getString("controle"));
+    		controle.setModule(module);
+    		noteControle.setControle(controle);
+    		noteControle.setNote(rSet.getFloat("note"));
+    		notesArrayLi.add(noteControle);
+    	}
+    	return notesArrayLi;
+    }
     public static void main(String[] args) {
 		NoteControle noteControle = new NoteControle();
 		Controle controle = new Controle();
@@ -118,6 +142,8 @@ public class NoteControleDAO {
 		NoteControleDAO noteControleDAO = new NoteControleDAO();
 		try {
 			noteControleDAO.addNoteControle(noteControle);
+			System.out.println("help");
+			System.out.println(noteControleDAO.getByEtudiantForEtudiant(1));
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

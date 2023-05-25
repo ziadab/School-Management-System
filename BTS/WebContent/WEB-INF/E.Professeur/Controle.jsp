@@ -989,7 +989,7 @@
 					type: "GET",
 					dataType: 'json',
 					contentType: "application/json; charset=UTF-8",
-					success: function(response,textStatus ,jqXHR){
+					/* success: function(response,textStatus ,jqXHR){
 						$("#controle_Add_Form select[name=unite]").html("");
 						for(i=0;i<response.length;i++){
 							var item  ='<option value="'+response[i].id+'">'+response[i].nom_Fr+'</option>';
@@ -999,8 +999,28 @@
 				    error: function(response,textStatus ,jqXHR){
 				    	$("#modalError .modal-body p").html("");
 						$("#modalError .modal-body p").html(jqXHR.responseText);
-				   		$('#modalError .modal-body p').modal('show'); 
-				        }
+				   		$('#modalError .modal-body p').modal('show');  */
+				   		//console.log(response);
+					success: function(response,textStatus ,jqXHR){
+						
+						$("#modalSuccess .modal-body p").html("");
+						$("#modalSuccess .modal-body p").html(response);
+				   		$('#modalSuccess').modal('show');
+				    	//setTimeout(function() { $('#modalSuccess').modal('hide'); }, 5000);
+				    },
+				    error: function(response,textStatus ,jqXHR){
+				    
+				    	$("#modalError .modal-body p").html("");
+						$("#modalError .modal-body p").html(jqXHR.responseText);
+				   		$('#modalError').modal('show'); 
+				    },
+				    complete: function (response,textStatus ,jqXHR) {
+				    	//Effacer le DataTable Classes
+						$('#data_table_controle').DataTable().rows().remove().draw();
+			  			//Raffrichir le DataTable Classes
+						populateControleDataTable();
+			  			    
+				    }
 				});
   				//Chargement des matiere dans Select matiere
   				$.ajax({

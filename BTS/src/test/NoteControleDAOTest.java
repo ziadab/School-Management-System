@@ -24,17 +24,13 @@ class NoteControleDaoTest {
     }
 
     @Test
-    void testGetByControle() {
+    void testGetByEtudiantForEtudiant() {
         try {
-            ArrayList<NoteControle> result = dao.getByControle(25);
+            ArrayList<NoteControle> result = dao.getByEtudiantForEtudiant(1);
             assertNotNull(result);
             assertTrue(result.size() > 0);
             for(NoteControle noteControle: result) {
-                assertNotNull(noteControle.getId());
-                assertNotNull(noteControle.getEtudiant());
-                assertNotNull(noteControle.getNote());
-                assertNotNull(noteControle.isValide());
-                assertNotNull(noteControle.getObservation());
+                assertEquals(noteControle.getControle().getModule(), "Développement WEB");
             }
         } catch (SQLException e) {
             fail("Exception thrown: " + e.getMessage());
