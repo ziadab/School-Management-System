@@ -1,0 +1,14 @@
+
+‹
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(ϊΆπ€όÿÿÿÿHγRMINORZ
+CODE_SMELL
+l
+java:S1161":Add the "@Override" annotation above this method signature(Οϋ©ΦϋÿÿÿÿH΅γRMAJORZ
+CODE_SMELL
+r
+java:S1858'"@"toJson" returns a string, there's no need to call "toString()".(πμ†ψÿÿÿÿH£γRMINORZ
+CODE_SMELL
+…
+java:S1989,"PHandle the following exception that could be thrown by "getWriter": IOException.(οτ†ϊÿÿÿÿH¥γRMINORZVULNERABILITY
+ƒ
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(–ζ™ψϋÿÿÿÿH¦γRMAJORZBUG

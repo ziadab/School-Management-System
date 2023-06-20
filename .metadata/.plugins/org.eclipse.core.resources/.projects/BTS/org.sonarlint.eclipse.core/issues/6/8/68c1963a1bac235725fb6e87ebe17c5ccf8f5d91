@@ -1,0 +1,46 @@
+
+
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ËŞÕ¬HÑøRMINORZ
+CODE_SMELL
+c
+java:S1135""2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHÓøRINFOZ
+CODE_SMELL
+}	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÂóHÔøRMINORZ
+CODE_SMELL
+‹	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğ¦‡œıÿÿÿÿHÕøRMINORZ
+CODE_SMELL
+e
+java:S2387
+"1"absences" is the name of a field in "Personnel".(Å¨‡´ûÿÿÿÿHÖøRBLOCKERZ
+CODE_SMELL
+†
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘ıùH×øRMINORZ
+CODE_SMELL
+†
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘ıùHÙøRMINORZ
+CODE_SMELL
+¢
+java:S1319'"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(€“Æ‘øÿÿÿÿHÛøRMINORZ
+CODE_SMELL
+‚	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ù‰øÿÿÿÿHŞøRMINORZ
+CODE_SMELL
+†
+java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘ıùHßøRMINORZ
+CODE_SMELL
+‚	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÍáÚúÿÿÿÿHáøRMINORZ
+CODE_SMELL
+c
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHâøRINFOZ
+CODE_SMELL
+‚	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ù‰øÿÿÿÿHãøRMINORZ
+CODE_SMELL
+|	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸öö HäøRMINORZ
+CODE_SMELL
+‚	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ù‰øÿÿÿÿHåøRMINORZ
+CODE_SMELL
+|	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸öö HæøRMINORZ
+CODE_SMELL
+‚	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÍáÚúÿÿÿÿHçøRMINORZ
+CODE_SMELL
+s	java:S107"BConstructor has 21 parameters, which is greater than 7 authorized.(²Ù‰øÿÿÿÿHèøRMAJORZ
+CODE_SMELL

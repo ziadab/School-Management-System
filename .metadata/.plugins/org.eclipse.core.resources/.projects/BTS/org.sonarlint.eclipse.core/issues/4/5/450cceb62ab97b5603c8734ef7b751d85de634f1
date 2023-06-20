@@ -1,0 +1,89 @@
+
+x
+java:S11207"DMake this line start after 4 spaces to indent the code consistently.(Âá‚ 8¾øì³ö0H ÿ RMINORZ
+CODE_SMELL
+u
+java:S1106"AMove this left curly brace to the beginning of next line of code.(×¹Û×8¾øì³ö0H£ÿ RMINORZ
+CODE_SMELL
+l
+java:S1161,":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHóù RMAJORZ
+CODE_SMELL
+f
+java:S1108S"2Move this "catch" keyword to a new dedicated line.(É®£8˜¾ˆ´ö0Háÿ RMINORZ
+CODE_SMELL
+c
+java:S1135&"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHúù RINFOZ
+CODE_SMELL
+u
+java:S1106S"AMove this left curly brace to the beginning of next line of code.(É®£8˜¾ˆ´ö0Hàÿ RMINORZ
+CODE_SMELL
+€
+java:S1989."PHandle the following exception that could be thrown by "getWriter": IOException.(ÏÚ‚´Hıù RMINORZVULNERABILITY
+†
+java:S1989:"OHandle the following exception that could be thrown by "readLine": IOException.(ŞÙ»8¾øì³ö0H¨ÿ RMINORZVULNERABILITY
+l	java:S106B"9Replace this use of System.out or System.err by a logger.(‘±…8Ö¤ñ³ö0H¾ÿ RMAJORZ
+CODE_SMELL
+…
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÔÃËé8¬Ö³ö0Hÿ RMAJORZBUG
+g
+java:S11614":Add the "@Override" annotation above this method signature(‹¨¯¿Hğù RMAJORZ
+CODE_SMELL
+i	java:S105"EReplace all tab characters in this file by sequences of white-spaces.Hîù RMINORZ
+CODE_SMELL
+c
+java:S11355"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÿù RINFOZ
+CODE_SMELL
+j
+java:S1135T"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8˜¾ˆ´ö0Hâÿ RINFOZ
+CODE_SMELL
+v
+java:S1120$"DMake this line start after 4 spaces to indent the code consistently.(ŸäåÖıÿÿÿÿHşù RMINORZ
+CODE_SMELL
+z
+java:S1106D"AMove this left curly brace to the beginning of next line of code.(µˆÙĞşÿÿÿÿ8˜¾ˆ´ö0HŞÿ RMINORZ
+CODE_SMELL
+z
+java:S1106Q"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8˜¾ˆ´ö0Hßÿ RMINORZ
+CODE_SMELL
+}
+java:S1120;"DMake this line start after 6 spaces to indent the code consistently.(Ã³¶–úÿÿÿÿ8¾øì³ö0H¡ÿ RMINORZ
+CODE_SMELL
+s
+java:S1106#"AMove this left curly brace to the beginning of next line of code.(ÂËÀÃúÿÿÿÿHüù RMINORZ
+CODE_SMELL
+v
+java:S1120#"DMake this line start after 2 spaces to indent the code consistently.(ÂËÀÃúÿÿÿÿHùù RMINORZ
+CODE_SMELL
+Y
+java:S1166S"%Either log or rethrow this exception.(É®£8˜¾ˆ´ö0Hİÿ RMAJORZ
+CODE_SMELL
+n
+java:S11064"AMove this left curly brace to the beginning of next line of code.(‹¨¯¿Hïù RMINORZ
+CODE_SMELL
+c
+java:S1135-"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHöù RINFOZ
+CODE_SMELL
+
+java:S19896"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(Á¨ÈÒ8“Ò³ö0HÌş RMINORZVULNERABILITY
+‡
+java:S19897"PHandle the following exception that could be thrown by "getReader": IOException.(Âá‚ 8¾øì³ö0H§ÿ RMINORZVULNERABILITY
+n
+java:S1106:"AMove this left curly brace to the beginning of next line of code.(ŞÙ»Høù RMINORZ
+CODE_SMELL
+s
+java:S1106,"AMove this left curly brace to the beginning of next line of code.(Ïû©ÖûÿÿÿÿHõù RMINORZ
+CODE_SMELL
+“
+java:S1989@"WHandle the following exception that could be thrown by "fromJson": JsonSyntaxException.(‚Œİûÿÿÿÿ8Ö¤ñ³ö0H½ÿ RMINORZVULNERABILITY
+L
+java:S4926"Remove this "serialVersionUID".(‘ÎêHûù RMINORZ
+CODE_SMELL
+d
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8˜¾ˆ´ö0Hãÿ RMINORZ
+CODE_SMELL
+}
+java:S1120E"DMake this line start after 6 spaces to indent the code consistently.(˜ˆŠëøÿÿÿÿ8˜¾ˆ´ö0HÜÿ RMINORZ
+CODE_SMELL
+M
+java:S1451"&Add or update the header of this file.Hòù RBLOCKERZ
+CODE_SMELL

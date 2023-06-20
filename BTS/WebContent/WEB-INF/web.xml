@@ -99,4 +99,45 @@
     <servlet-name>E_DirecteurEtudes_Profile</servlet-name>
     <url-pattern>/E.DirecteurEtudes/Profile</url-pattern>
   </servlet-mapping>
+   <servlet>
+    <servlet-name>E_Professeur_Evaluation</servlet-name>
+    <jsp-file>/WEB-INF/E.Professeur/Evaluation.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>E_Professeur_Evaluation</servlet-name>
+    <url-pattern>/E.Professeur/Evaluation</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>E_Professeur_Classes</servlet-name>
+    <jsp-file>/WEB-INF/E.Professeur/Classes.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>E_Professeur_Classes</servlet-name>
+    <url-pattern>/E.Professeur/Classes</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>E_Professeur_ClasseDetails</servlet-name>
+    <jsp-file>/WEB-INF/E.Professeur/ClasseDetails.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>E_Professeur_ClasseDetails</servlet-name>
+    <url-pattern>/E.Professeur/ClasseDetails</url-pattern>
+  </servlet-mapping>
+      <servlet>
+    <servlet-name>E_Professeur_Controle</servlet-name>
+    <jsp-file>/WEB-INF/E.Professeur/Controle.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>E_Professeur_Controle</servlet-name>
+    <url-pattern>/E.Professeur/Controle</url-pattern>
+  </servlet-mapping>
+       <servlet>
+    <servlet-name>E_Etudiant_Evaluation</servlet-name>
+    <jsp-file>/WEB-INF/E.Etudiant/Evaluation.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>E_Etudiant_Evaluation</servlet-name>
+    <url-pattern>/E.Etudiant/Evaluation</url-pattern>
+  </servlet-mapping>
+
 </web-app>

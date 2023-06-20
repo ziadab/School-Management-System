@@ -1,0 +1,15 @@
+
+j	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHêâRMAJORZBUG
+]Web:ImgWithoutAltCheckÈ"%Add an "alt" attribute to this image.(Ö”Á¸úÿÿÿÿHëâRMINORZBUG
+XWeb:ImgWithoutAltCheckÍ"%Add an "alt" attribute to this image.(¦±ñÒHìâRMINORZBUG
+XWeb:TableWithoutCaptionCheckï" Add a description to this table.(÷ªtHíâRMINORZBUG
+[	Web:S1827ï"/Remove this deprecated "cellspacing" attribute.(÷ªtHîâRMAJORZ
+CODE_SMELL
+U	Web:S1827ï")Remove this deprecated "width" attribute.(÷ªtHïâRMAJORZ
+CODE_SMELL
+q	Web:S5255ª"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(¤¢²èHğâRMAJORZ
+CODE_SMELL
+p	Web:S5255°"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(¤“ì0HñâRMAJORZ
+CODE_SMELL
+v	Web:S5255Œ"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(„çÚèùÿÿÿÿHòâRMAJORZ
+CODE_SMELL

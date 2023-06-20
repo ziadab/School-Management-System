@@ -1,0 +1,19 @@
+
+‹
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨¯é”þÿÿÿÿHîåRMINORZ
+CODE_SMELL
+l
+java:S1161 ":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHðåRMAJORZ
+CODE_SMELL
+m
+java:S1858%"@"toJson" returns a string, there's no need to call "toString()".(Œàª·HòåRMINORZ
+CODE_SMELL
+h	java:S125'"<This block of commented-out lines of code should be removed.(×©ùÙHôåRMAJORZ
+CODE_SMELL
+…
+java:S1989*"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿHõåRMINORZVULNERABILITY
+c
+java:S1135/"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿHöåRINFOZ
+CODE_SMELL
+ƒ
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(×œ¾âüÿÿÿÿH÷åRMAJORZBUG

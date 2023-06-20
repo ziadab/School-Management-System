@@ -1,0 +1,49 @@
+package controllers.evaluation;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.codehaus.jackson.map.ObjectMapper;
+
+import Domaine.evaluation.NoteControle;
+import dao.evaluation.NoteControleDAO;
+
+/**
+ * Servlet implementation class ControleNoteList
+ */
+@WebServlet("/ControleNote/List")
+public class ControleNoteList extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    private NoteControleDAO noteControleDAO; 
+    
+    public ControleNoteList() {
+        super();
+        noteControleDAO = new NoteControleDAO();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		int controleId=Integer.parseInt(request.getParameter("controleId"));
+		String json = null;
+		try {
+			ArrayList<NoteControle> noteControles = noteControleDAO.getByControle(controleId);
+			ObjectMapper mapper = new ObjectMapper();
+			json = mapper.writeValueAsString(noteControles);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

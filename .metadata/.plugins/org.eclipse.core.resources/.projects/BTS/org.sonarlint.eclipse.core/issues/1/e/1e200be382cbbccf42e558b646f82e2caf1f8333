@@ -1,0 +1,51 @@
+
+ƒ
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(–ζ™ψϋÿÿÿÿHλ† RMAJORZBUG
+‰
+java:S1989 "YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ΫƒHμ† RMINORZVULNERABILITY
+l
+java:S1161":Add the "@Override" annotation above this method signature(Οϋ©ΦϋÿÿÿÿHν† RMAJORZ
+CODE_SMELL
+…
+java:S1989("PHandle the following exception that could be thrown by "getWriter": IOException.(οτ†ϊÿÿÿÿHο† RMINORZVULNERABILITY
+c
+java:S1135-"2Complete the task associated to this TODO comment.(ΥΜ®ώÿÿÿÿHπ† RINFOZ
+CODE_SMELL
+}
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ƒΆµ“ÿÿÿÿÿ8•Υάν0Hρ† RMINORZ
+CODE_SMELL
+}
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(δεΦύÿÿÿÿ8•Υάν0Hς† RMINORZ
+CODE_SMELL
+}
+java:S1120&"DMake this line start after 6 spaces to indent the code consistently.(”²ΈΘύÿÿÿÿ8•Υάν0Hσ† RMINORZ
+CODE_SMELL
+Y
+java:S1166,"%Either log or rethrow this exception.(Ι®£8•Υάν0Hτ† RMAJORZ
+CODE_SMELL
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(υ°εψÿÿÿÿ8•Υάν0Hυ† RMINORZ
+CODE_SMELL
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ƒΆµ“ÿÿÿÿÿ8•Υάν0Hφ† RMINORZ
+CODE_SMELL
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Οϋ©Φϋÿÿÿÿ8•Υάν0Hχ† RMINORZ
+CODE_SMELL
+z
+java:S1106""AMove this left curly brace to the beginning of next line of code.(΅»Άόωÿÿÿÿ8•Υάν0Hψ† RMINORZ
+CODE_SMELL
+u
+java:S1106,"AMove this left curly brace to the beginning of next line of code.(Ι®£8•Υάν0Hω† RMINORZ
+CODE_SMELL
+T
+java:S1451"&Add or update the header of this file.8•Υάν0Hϊ† RBLOCKERZ
+CODE_SMELL
+p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8•Υάν0Hϋ† RMINORZ
+CODE_SMELL
+S
+java:S4926"Remove this "serialVersionUID".(‘Ξκ8•Υάν0Hό† RMINORZ
+CODE_SMELL
+f
+java:S1108,"2Move this "catch" keyword to a new dedicated line.(Ι®£8•Υάν0Hύ† RMINORZ
+CODE_SMELL

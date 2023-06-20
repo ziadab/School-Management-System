@@ -1,0 +1,8 @@
+
+c
+java:S1135'"2Complete the task associated to this TODO comment.(ÍğÕşÿÿÿÿH¶ÎRINFOZ
+CODE_SMELL
+†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªÒ’ÒH·ÎRMINORZ
+CODE_SMELL
+n	java:S107 "BConstructor has 16 parameters, which is greater than 7 authorized.(™Â¬H¸ÎRMAJORZ
+CODE_SMELL

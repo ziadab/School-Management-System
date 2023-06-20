@@ -1,0 +1,13 @@
+
+l
+java:S1161":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHóùRMAJORZ
+CODE_SMELL
+‰
+java:S1989 "YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ˆÛƒHõùRMINORZVULNERABILITY
+r
+java:S1858*"@"toJson" returns a string, there's no need to call "toString()".(ÁÃöÄıÿÿÿÿHöùRMINORZ
+CODE_SMELL
+…
+java:S1989-"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿHøùRMINORZVULNERABILITY
+}
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(çïœeHùùRMAJORZBUG

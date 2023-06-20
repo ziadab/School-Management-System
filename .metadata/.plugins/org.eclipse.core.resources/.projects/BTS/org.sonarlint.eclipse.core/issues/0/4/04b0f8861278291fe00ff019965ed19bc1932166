@@ -1,0 +1,72 @@
+
+
+java:S1989%"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ˆÛƒ8­ˆ¬ä0HÄº RMINORZVULNERABILITY
+s
+java:S1161$":Add the "@Override" annotation above this method signature(Ïû©Öûÿÿÿÿ8­ˆ¬ä0HÅº RMAJORZ
+CODE_SMELL
+l	java:S106&"9Replace this use of System.out or System.err by a logger.(äœ‚ş8·ñœ«ä0HÇº RMAJORZ
+CODE_SMELL
+…
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(§³‚Š8×Ù™«ä0HÈº RMAJORZBUG
+e
+java:S1128"1Remove this unused import 'com.google.gson.Gson'.(–§8ƒå°¬ä0HÉº RMINORZ
+CODE_SMELL
+Æ
+java:S1989+"‰Handle the following exceptions that could be thrown by "writeValueAsString": IOException, JsonGenerationException, JsonMappingException.(ğ¸ôõøÿÿÿÿ8ƒå°¬ä0HËº RMINORZVULNERABILITY
+s
+java:S1128":Remove this unused import 'Domaine.evaluation.Soutenance'.(ËàŸùÿÿÿÿ8ĞŞ–¬ä0HÌº RMINORZ
+CODE_SMELL
+Œ
+java:S1989."PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿ8­ˆ¬ä0HÎº RMINORZVULNERABILITY
+l	java:S1061"9Replace this use of System.out or System.err by a logger.(øŒ¼Æ8­ˆ¬ä0HÏº RMAJORZ
+CODE_SMELL
+j
+java:S11353"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8­ˆ¬ä0HĞº RINFOZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'Domaine.classe.Classe'.(‚‰¼õ8×Ù™«ä0HÑº RMINORZ
+CODE_SMELL
+x
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(§³‚Š8Ü„æŞí0HÓº RMINORZ
+CODE_SMELL
+}
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ŸäåÖıÿÿÿÿ8Ü„æŞí0HÔº RMINORZ
+CODE_SMELL
+x
+java:S1120&"DMake this line start after 4 spaces to indent the code consistently.(äœ‚ş8Ü„æŞí0HÕº RMINORZ
+CODE_SMELL
+}
+java:S1120-"DMake this line start after 6 spaces to indent the code consistently.(”²¸Èıÿÿÿÿ8Ü„æŞí0HÖº RMINORZ
+CODE_SMELL
+Y
+java:S11662"%Either log or rethrow this exception.(É®£8Ü„æŞí0H×º RMAJORZ
+CODE_SMELL
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(üœ®±ıÿÿÿÿ8Ü„æŞí0HØº RMINORZ
+CODE_SMELL
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ñÍ¥Şûÿÿÿÿ8Ü„æŞí0HÙº RMINORZ
+CODE_SMELL
+z
+java:S1106$"AMove this left curly brace to the beginning of next line of code.(Ïû©Öûÿÿÿÿ8Ü„æŞí0HÚº RMINORZ
+CODE_SMELL
+z
+java:S1106("AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8Ü„æŞí0HÛº RMINORZ
+CODE_SMELL
+u
+java:S11062"AMove this left curly brace to the beginning of next line of code.(É®£8Ü„æŞí0HÜº RMINORZ
+CODE_SMELL
+T
+java:S1451"&Add or update the header of this file.8Ü„æŞí0Hİº RBLOCKERZ
+CODE_SMELL
+p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8Ü„æŞí0HŞº RMINORZ
+CODE_SMELL
+S
+java:S4926"Remove this "serialVersionUID".(‘Îê8Ü„æŞí0Hßº RMINORZ
+CODE_SMELL
+h
+java:S2039"4Explicitly declare the visibility for "controleDAO".(§³‚Š8Ü„æŞí0Hàº RMINORZ
+CODE_SMELL
+f
+java:S11082"2Move this "catch" keyword to a new dedicated line.(É®£8Ü„æŞí0Háº RMINORZ
+CODE_SMELL

@@ -1,0 +1,307 @@
+
+‹
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(™à¤ïøÿÿÿÿH©ËRMINORZ
+CODE_SMELL
+
+java:S1192D"JDefine a constant instead of duplicating this literal "filiereID" 3 times.(‡¼ÿ…ıÿÿÿÿH«ËRCRITICALZ
+CODE_SMELL
+
+java:S1192/"hDefine a constant instead of duplicating this literal "	`niveau`.`Nom_Ar` AS `niveauNom_Ar`\r
+" 3 times.(ëïüÿÿÿÿH¯ËRCRITICALZ
+CODE_SMELL
+
+java:S1192T"LDefine a constant instead of duplicating this literal "Description" 3 times.(İä©ıÿÿÿÿH³ËRCRITICALZ
+CODE_SMELL
+­
+java:S11923"xDefine a constant instead of duplicating this literal "	(`classegenerique`.`FiliereID`= `filiere`.`ID`) AND\r
+" 3 times.(á¯™…şÿÿÿÿH·ËRCRITICALZ
+CODE_SMELL
+~
+java:S1192F"NDefine a constant instead of duplicating this literal "filiereNom_Fr" 3 times.(‡àĞğH»ËRCRITICALZ
+CODE_SMELL
+•
+java:S1192-"eDefine a constant instead of duplicating this literal "	`niveau`.`Code` AS `niveauCode`,\r
+" 3 times.(ÅáÉH¿ËRCRITICALZ
+CODE_SMELL
+‚
+java:S1192S"RDefine a constant instead of duplicating this literal "classegeneriqueID" 3 times.(å·Œ­HÃËRCRITICALZ
+CODE_SMELL
+}
+java:S1192L"MDefine a constant instead of duplicating this literal "niveauNom_Fr" 3 times.(ƒ¥”ŞHÇËRCRITICALZ
+CODE_SMELL
+œ
+java:S1192)"gDefine a constant instead of duplicating this literal "	`filiere`.`Code` AS `filiereCode`,\r
+" 3 times.(èï×›ıÿÿÿÿHËËRCRITICALZ
+CODE_SMELL
+¤
+java:S11922"tDefine a constant instead of duplicating this literal "	(`classegenerique`.`CycleID`= `cycle`.`ID`) AND\r
+" 3 times.(¾íÔHÏËRCRITICALZ
+CODE_SMELL
+‚
+java:S1192M"MDefine a constant instead of duplicating this literal "niveauNom_Ar" 3 times.(É›ÿûÿÿÿÿHÓËRCRITICALZ
+CODE_SMELL
+¨
+java:S1192""sDefine a constant instead of duplicating this literal "	`classegenerique`.`ID` AS `classegeneriqueID`,\r
+" 3 times.(„ªÍÇùÿÿÿÿH×ËRCRITICALZ
+CODE_SMELL
+˜
+java:S1192%"cDefine a constant instead of duplicating this literal "	`cycle`.`Code` AS `cycleCode`,\r
+" 3 times.(­àÓÛùÿÿÿÿHÛËRCRITICALZ
+CODE_SMELL
+
+java:S1192?"JDefine a constant instead of duplicating this literal "cycleCode" 3 times.(‚€ŒæûÿÿÿÿHßËRCRITICALZ
+CODE_SMELL
+›
+java:S1192*"kDefine a constant instead of duplicating this literal "	`filiere`.`Nom_Fr` AS `filiereNom_Fr`,\r
+" 3 times.(ŠŞÖ¢HãËRCRITICALZ
+CODE_SMELL
+
+java:S1192@"LDefine a constant instead of duplicating this literal "cycleNom_Fr" 3 times.(Óê€æşÿÿÿÿHçËRCRITICALZ
+CODE_SMELL
+™
+java:S1192."iDefine a constant instead of duplicating this literal "	`niveau`.`Nom_Fr` AS `niveauNom_Fr`,\r
+" 3 times.(şó¬ÁHëËRCRITICALZ
+CODE_SMELL
+š
+java:S1192+"kDefine a constant instead of duplicating this literal "	`filiere`.`Nom_Ar` AS `filiereNom_Ar`,\r
+" 3 times.(¬Í³SHïËRCRITICALZ
+CODE_SMELL
+
+java:S1192E"LDefine a constant instead of duplicating this literal "filiereCode" 3 times.(Í´éÙÿÿÿÿÿHóËRCRITICALZ
+CODE_SMELL
+®
+java:S11920"yDefine a constant instead of duplicating this literal "	FROM `classegenerique`, `cycle`, `filiere`, `niveau`\r
+" 3 times.(èÜÎ¿ùÿÿÿÿH÷ËRCRITICALZ
+CODE_SMELL
+˜
+java:S1192("cDefine a constant instead of duplicating this literal "	`filiere`.`ID` AS `filiereID`,\r
+" 3 times.(¯¶áúÿÿÿÿÿHûËRCRITICALZ
+CODE_SMELL
+x
+java:S1192>"HDefine a constant instead of duplicating this literal "cycleID" 3 times.(Ôı§HÿËRCRITICALZ
+CODE_SMELL
+œ
+java:S1192'"gDefine a constant instead of duplicating this literal "	`cycle`.`Nom_Ar` AS `cycleNom_Ar`,\r
+" 3 times.(Œö¡ÇüÿÿÿÿHƒÌRCRITICALZ
+CODE_SMELL
+–
+java:S1192,"aDefine a constant instead of duplicating this literal "	`niveau`.`ID` AS `niveauID`,\r
+" 3 times.(ó’¡ùüÿÿÿÿH‡ÌRCRITICALZ
+CODE_SMELL
+ƒ
+java:S1192G"NDefine a constant instead of duplicating this literal "filiereNom_Ar" 3 times.(˜ó”ĞùÿÿÿÿH‹ÌRCRITICALZ
+CODE_SMELL
+{
+java:S11921"KDefine a constant instead of duplicating this literal "	WHERE \r
+" 3 times.(ÙÆªHÌRCRITICALZ
+CODE_SMELL
+y
+java:S1192J"IDefine a constant instead of duplicating this literal "niveauID" 3 times.(êÊµ´H“ÌRCRITICALZ
+CODE_SMELL
+|
+java:S1192A"LDefine a constant instead of duplicating this literal "cycleNom_Ar" 3 times.(ôÎ±ëH—ÌRCRITICALZ
+CODE_SMELL
+—
+java:S1192&"gDefine a constant instead of duplicating this literal "	`cycle`.`Nom_Fr` AS `cycleNom_Fr`,\r
+" 3 times.(¹Ñ±íH›ÌRCRITICALZ
+CODE_SMELL
+{
+java:S1192K"KDefine a constant instead of duplicating this literal "niveauCode" 3 times.(´ªâÜHŸÌRCRITICALZ
+CODE_SMELL
+
+java:S1192$"_Define a constant instead of duplicating this literal "	`cycle`.`ID` AS `cycleID`,\r
+" 3 times.(”ë“ŞH£ÌRCRITICALZ
+CODE_SMELL
+š
+java:S1192#"eDefine a constant instead of duplicating this literal "	`classegenerique`.`Description`,\r
+" 3 times.(¥ÀãíûÿÿÿÿH§ÌRCRITICALZ
+CODE_SMELL
+¢
+java:S1319 "pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(²éÉ•şÿÿÿÿH«ÌRMINORZ
+CODE_SMELL
+o
+java:S2479"":Remove the non-escaped \u0009 character from this literal.(„ªÍÇùÿÿÿÿH®ÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479#":Remove the non-escaped \u0009 character from this literal.(¥ÀãíûÿÿÿÿH¯ÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479$":Remove the non-escaped \u0009 character from this literal.(”ë“ŞH°ÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479%":Remove the non-escaped \u0009 character from this literal.(­àÓÛùÿÿÿÿH±ÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479&":Remove the non-escaped \u0009 character from this literal.(¹Ñ±íH²ÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479'":Remove the non-escaped \u0009 character from this literal.(Œö¡ÇüÿÿÿÿH³ÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479(":Remove the non-escaped \u0009 character from this literal.(¯¶áúÿÿÿÿÿH´ÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479)":Remove the non-escaped \u0009 character from this literal.(èï×›ıÿÿÿÿHµÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479*":Remove the non-escaped \u0009 character from this literal.(ŠŞÖ¢H¶ÌRCRITICALZ
+CODE_SMELL
+i
+java:S2479+":Remove the non-escaped \u0009 character from this literal.(¬Í³SH·ÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479,":Remove the non-escaped \u0009 character from this literal.(ó’¡ùüÿÿÿÿH¸ÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479-":Remove the non-escaped \u0009 character from this literal.(ÅáÉH¹ÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479.":Remove the non-escaped \u0009 character from this literal.(şó¬ÁHºÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479/":Remove the non-escaped \u0009 character from this literal.(ëïüÿÿÿÿH»ÌRCRITICALZ
+CODE_SMELL
+o
+java:S24790":Remove the non-escaped \u0009 character from this literal.(èÜÎ¿ùÿÿÿÿH¼ÌRCRITICALZ
+CODE_SMELL
+j
+java:S24791":Remove the non-escaped \u0009 character from this literal.(ÙÆªH½ÌRCRITICALZ
+CODE_SMELL
+j
+java:S24792":Remove the non-escaped \u0009 character from this literal.(¾íÔH¾ÌRCRITICALZ
+CODE_SMELL
+o
+java:S24793":Remove the non-escaped \u0009 character from this literal.(á¯™…şÿÿÿÿH¿ÌRCRITICALZ
+CODE_SMELL
+o
+java:S24794":Remove the non-escaped \u0009 character from this literal.(Òùß™şÿÿÿÿHÀÌRCRITICALZ
+CODE_SMELL
+i
+java:S24795":Remove the non-escaped \u0009 character from this literal.(ö½·.HÁÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479_":Remove the non-escaped \u0009 character from this literal.(„ªÍÇùÿÿÿÿHÂÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479`":Remove the non-escaped \u0009 character from this literal.(¥ÀãíûÿÿÿÿHÃÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479a":Remove the non-escaped \u0009 character from this literal.(”ë“ŞHÄÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479b":Remove the non-escaped \u0009 character from this literal.(­àÓÛùÿÿÿÿHÅÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479c":Remove the non-escaped \u0009 character from this literal.(¹Ñ±íHÆÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479d":Remove the non-escaped \u0009 character from this literal.(Œö¡ÇüÿÿÿÿHÇÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479e":Remove the non-escaped \u0009 character from this literal.(¯¶áúÿÿÿÿÿHÈÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479f":Remove the non-escaped \u0009 character from this literal.(èï×›ıÿÿÿÿHÉÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479g":Remove the non-escaped \u0009 character from this literal.(ŠŞÖ¢HÊÌRCRITICALZ
+CODE_SMELL
+i
+java:S2479h":Remove the non-escaped \u0009 character from this literal.(¬Í³SHËÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479i":Remove the non-escaped \u0009 character from this literal.(ó’¡ùüÿÿÿÿHÌÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479j":Remove the non-escaped \u0009 character from this literal.(ÅáÉHÍÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479k":Remove the non-escaped \u0009 character from this literal.(şó¬ÁHÎÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479l":Remove the non-escaped \u0009 character from this literal.(ëïüÿÿÿÿHÏÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479m":Remove the non-escaped \u0009 character from this literal.(èÜÎ¿ùÿÿÿÿHĞÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479n":Remove the non-escaped \u0009 character from this literal.(ÙÆªHÑÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479o":Remove the non-escaped \u0009 character from this literal.(¾íÔHÒÌRCRITICALZ
+CODE_SMELL
+o
+java:S2479p":Remove the non-escaped \u0009 character from this literal.(á¯™…şÿÿÿÿHÓÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479q":Remove the non-escaped \u0009 character from this literal.(çØ¡·HÔÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479r":Remove the non-escaped \u0009 character from this literal.(ØÈÚƒHÕÌRCRITICALZ
+CODE_SMELL
+p
+java:S2479±":Remove the non-escaped \u0009 character from this literal.(„ªÍÇùÿÿÿÿHÖÌRCRITICALZ
+CODE_SMELL
+p
+java:S2479²":Remove the non-escaped \u0009 character from this literal.(¥ÀãíûÿÿÿÿH×ÌRCRITICALZ
+CODE_SMELL
+k
+java:S2479³":Remove the non-escaped \u0009 character from this literal.(”ë“ŞHØÌRCRITICALZ
+CODE_SMELL
+p
+java:S2479´":Remove the non-escaped \u0009 character from this literal.(­àÓÛùÿÿÿÿHÙÌRCRITICALZ
+CODE_SMELL
+k
+java:S2479µ":Remove the non-escaped \u0009 character from this literal.(¹Ñ±íHÚÌRCRITICALZ
+CODE_SMELL
+p
+java:S2479¶":Remove the non-escaped \u0009 character from this literal.(Œö¡ÇüÿÿÿÿHÛÌRCRITICALZ
+CODE_SMELL
+p
+java:S2479·":Remove the non-escaped \u0009 character from this literal.(¯¶áúÿÿÿÿÿHÜÌRCRITICALZ
+CODE_SMELL
+p
+java:S2479¸":Remove the non-escaped \u0009 character from this literal.(èï×›ıÿÿÿÿHİÌRCRITICALZ
+CODE_SMELL
+k
+java:S2479¹":Remove the non-escaped \u0009 character from this literal.(ŠŞÖ¢HŞÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479º":Remove the non-escaped \u0009 character from this literal.(¬Í³SHßÌRCRITICALZ
+CODE_SMELL
+p
+java:S2479»":Remove the non-escaped \u0009 character from this literal.(ó’¡ùüÿÿÿÿHàÌRCRITICALZ
+CODE_SMELL
+k
+java:S2479¼":Remove the non-escaped \u0009 character from this literal.(ÅáÉHáÌRCRITICALZ
+CODE_SMELL
+k
+java:S2479½":Remove the non-escaped \u0009 character from this literal.(şó¬ÁHâÌRCRITICALZ
+CODE_SMELL
+p
+java:S2479¾":Remove the non-escaped \u0009 character from this literal.(ëïüÿÿÿÿHãÌRCRITICALZ
+CODE_SMELL
+p
+java:S2479¿":Remove the non-escaped \u0009 character from this literal.(èÜÎ¿ùÿÿÿÿHäÌRCRITICALZ
+CODE_SMELL
+k
+java:S2479À":Remove the non-escaped \u0009 character from this literal.(ÙÆªHåÌRCRITICALZ
+CODE_SMELL
+k
+java:S2479Á":Remove the non-escaped \u0009 character from this literal.(¾íÔHæÌRCRITICALZ
+CODE_SMELL
+p
+java:S2479Â":Remove the non-escaped \u0009 character from this literal.(á¯™…şÿÿÿÿHçÌRCRITICALZ
+CODE_SMELL
+k
+java:S2479Ã":Remove the non-escaped \u0009 character from this literal.(çØ¡·HèÌRCRITICALZ
+CODE_SMELL
+p
+java:S2479Ä":Remove the non-escaped \u0009 character from this literal.(¾ÎËÄûÿÿÿÿHéÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479Å":Remove the non-escaped \u0009 character from this literal.(Ö©ç:HêÌRCRITICALZ
+CODE_SMELL
+j
+java:S2479Æ":Remove the non-escaped \u0009 character from this literal.(ÃüƒjHëÌRCRITICALZ
+CODE_SMELL

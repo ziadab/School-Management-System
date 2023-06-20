@@ -1,0 +1,30 @@
+
+g
+java:S1161G":Add the "@Override" annotation above this method signature(‹¨¯¿HˆãRMAJORZ
+CODE_SMELL
+…
+java:S1989="PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿH†ãRMINORZVULNERABILITY
+~
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(À’½ÚHŠãRMAJORZBUG
+l
+java:S1161*":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿH‚ãRMAJORZ
+CODE_SMELL
+±
+java:S1186G"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹¨¯¿HıâRCRITICALZ
+CODE_SMELL
+º
+java:S19898"‰Handle the following exceptions that could be thrown by "writeValueAsString": IOException, JsonGenerationException, JsonMappingException.(íì¨úH…ãRMINORZVULNERABILITY
+c
+java:S1135&"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHãRINFOZ
+CODE_SMELL
+g
+java:S1161%":Add the "@Override" annotation above this method signature(®´š¥HÿâRMAJORZ
+CODE_SMELL
+c
+java:S1135B"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH‡ãRINFOZ
+CODE_SMELL
+¡
+java:S1989+"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿH„ãRMINORZVULNERABILITY
+†
+java:S2293,"YReplace the type specification in this constructor call with the diamond operator ("<>").(Š¯…¼HûâRMINORZ
+CODE_SMELL

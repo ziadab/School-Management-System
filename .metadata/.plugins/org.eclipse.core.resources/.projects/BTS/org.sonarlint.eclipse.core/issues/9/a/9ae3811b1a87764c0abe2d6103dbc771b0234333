@@ -1,0 +1,72 @@
+
+h
+java:S4973Ä"<Strings and Boxed types should be compared using "equals()".(îƒâàüÿÿÿÿH­ëRMAJORZBUG
+c
+java:S4973Ù"<Strings and Boxed types should be compared using "equals()".(¡¶¹ñH°ëRMAJORZBUG
+¶
+java:S1186A"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ïû©ÖûÿÿÿÿH³ëRCRITICALZ
+CODE_SMELL
+g
+java:S1161;":Add the "@Override" annotation above this method signature(®´š¥HµëRMAJORZ
+CODE_SMELL
+c
+java:S1135<"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH·ëRINFOZ
+CODE_SMELL
+l
+java:S1161A":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿH¸ëRMAJORZ
+CODE_SMELL
+s
+java:S1854ü"@Remove this useless assignment to local variable "roleEtudiant".(‡õ¯ÚúÿÿÿÿHºëRMAJORZ
+CODE_SMELL
+g
+java:S1161E":Add the "@Override" annotation above this method signature(‹¨¯¿H»ëRMAJORZ
+CODE_SMELL
+¡
+java:S1989G"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(áò‰øÿÿÿÿH½ëRMINORZVULNERABILITY
+‰
+java:S1989W"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ıÊ¹„H¾ëRMINORZVULNERABILITY
+
+java:S1989["YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(©½ÿùÿÿÿÿH¿ëRMINORZVULNERABILITY
+
+java:S1989\"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(Ü¶˜åùÿÿÿÿHÀëRMINORZVULNERABILITY
+
+java:S1989]"[Handle the following exception that could be thrown by "parseFloat": NumberFormatException.(¶Æ—”şÿÿÿÿHÁëRMINORZVULNERABILITY
+‰
+java:S1989`"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(¨ˆÊãHÂëRMINORZVULNERABILITY
+
+java:S1989¼"KHandle the following exception that could be thrown by "load": IOException.(œÔåùÿÿÿÿHÃëRMINORZVULNERABILITY
+
+java:S1989Ì"KHandle the following exception that could be thrown by "copy": IOException.(äÿŞŠüÿÿÿÿHÄëRMINORZVULNERABILITY
+n	java:S125Í"<This block of commented-out lines of code should be removed.(Ğ¶­‚üÿÿÿÿHÅëRMAJORZ
+CODE_SMELL
+
+java:S1989á"KHandle the following exception that could be thrown by "copy": IOException.(à²ŸøÿÿÿÿHÈëRMINORZVULNERABILITY
+d
+java:S1135‡"2Complete the task associated to this TODO comment.(áú€íûÿÿÿÿHÉëRINFOZ
+CODE_SMELL
+d
+java:S1135•"2Complete the task associated to this TODO comment.(Œ­›ÈùÿÿÿÿHÊëRINFOZ
+CODE_SMELL
+s
+java:S1858£"@"toJson" returns a string, there's no need to call "toString()".(ÁÃöÄıÿÿÿÿHËëRMINORZ
+CODE_SMELL
+†
+java:S1989¦"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿHÍëRMINORZVULNERABILITY
+_
+java:S1135«"2Complete the task associated to this TODO comment.(æŞ°ûHÎëRINFOZ
+CODE_SMELL
+d
+java:S1135¯"2Complete the task associated to this TODO comment.(Åá–êüÿÿÿÿHÏëRINFOZ
+CODE_SMELL
+~
+java:S22260"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(À’½ÚHĞëRMAJORZBUG
+ƒ
+java:S22261"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ŞÌ„ƒûÿÿÿÿHÑëRMAJORZBUG
+~
+java:S22262"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(üİÂ¾HÒëRMAJORZBUG
+c
+java:S1144ª"5Remove this unused private "generatePassWord" method.(›´¡»HÓëRMAJORZ
+CODE_SMELL
+f
+java:S1144®"8Remove this unused private "generateSecreteCode" method.(ó“÷ßHÕëRMAJORZ
+CODE_SMELL

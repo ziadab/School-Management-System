@@ -1,0 +1,57 @@
+
+u
+java:S1106."AMove this left curly brace to the beginning of next line of code.(ò•¹8üµòŞí0HÉİ RMINORZ
+CODE_SMELL
+T
+java:S1451"&Add or update the header of this file.8üµòŞí0HÊİ RBLOCKERZ
+CODE_SMELL
+c
+java:S1135"2Complete the task associated to this TODO comment.(â†ÆÅøÿÿÿÿHËİ RINFOZ
+CODE_SMELL
+u
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ÏÆÿ¬8üµòŞí0HÌİ RMINORZ
+CODE_SMELL
+u
+java:S1106""AMove this left curly brace to the beginning of next line of code.(ÿÀ´ô8üµòŞí0HÍİ RMINORZ
+CODE_SMELL
+†
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(í‹ªóHÎİ RMINORZ
+CODE_SMELL
+z
+java:S1106+"AMove this left curly brace to the beginning of next line of code.(¼À´İùÿÿÿÿ8üµòŞí0HĞİ RMINORZ
+CODE_SMELL
+¢
+java:S1319("pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ª×ÆêıÿÿÿÿHÑİ RMINORZ
+CODE_SMELL
+†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªÒ’ÒHÔİ RMINORZ
+CODE_SMELL
+u
+java:S1106"AMove this left curly brace to the beginning of next line of code.(‹ŞÄ¹8üµòŞí0HÕİ RMINORZ
+CODE_SMELL
+u
+java:S11061"AMove this left curly brace to the beginning of next line of code.(–œ£š8üµòŞí0HÖİ RMINORZ
+CODE_SMELL
+u
+java:S11065"AMove this left curly brace to the beginning of next line of code.(Á»›ê8üµòŞí0H×İ RMINORZ
+CODE_SMELL
+M
+java:S2384)"Return a copy of "notes".(Û¿ä‰8üµòŞí0HØİ RMINORZ
+CODE_SMELL
+R	java:S113"'Add a new line at the end of this file.8üµòŞí0HÙİ RMINORZ
+CODE_SMELL
+z
+java:S1106("AMove this left curly brace to the beginning of next line of code.(ª×Æêıÿÿÿÿ8üµòŞí0HÚİ RMINORZ
+CODE_SMELL
+n	java:S107"BConstructor has 17 parameters, which is greater than 7 authorized.(€Ì£×HÛİ RMAJORZ
+CODE_SMELL
+
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(™å©¸HÜİ RMINORZ
+CODE_SMELL
+p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8üµòŞí0HŞİ RMINORZ
+CODE_SMELL
+z
+java:S1106%"AMove this left curly brace to the beginning of next line of code.(’²ì‹ıÿÿÿÿ8üµòŞí0Hßİ RMINORZ
+CODE_SMELL
+u
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¡Ìó«8üµòŞí0Hàİ RMINORZ
+CODE_SMELL

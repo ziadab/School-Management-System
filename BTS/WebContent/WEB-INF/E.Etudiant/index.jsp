@@ -4,7 +4,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
-  	<title>Espace Directeur des études</title>
+  	<title>Espace Etudiant</title>
   	
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -168,47 +168,7 @@
 	<div class="wrapper d-flex align-items-stretch">
 		<nav id="sidebar" class="active">
 			<h1><a href="index.html" class="logo"><span class="fa fa-cubes"></span></a></h1>
-	      	<ul class="list-unstyled components mb-5">
-	          <li class="active">
-	            <a href="#"><span class="fa fa-home"></span>Accueil</a>
-	          </li>
-	          <li> 
-	              <a href="#"><span class="far fa-calendar-alt"></span>Messages</a>
-	          </li>
-	          <li> 
-	              <a href="#"><span class="fa fa-chalkboard-teacher"></span>Ma classes</a>
-	          </li>
-			  <li> 
-	              <a href="#"><span class="far fa-calendar-alt"></span>Emplois</a>
-	          </li>
-	          <li>
-	            <a href="#"><span class="fa fa-file-signature"></span>Evaluations</a>
-	          </li>
-			  <li>
-	            <a href="#"><span class="fa fa-user-check"></span>Absences</a>
-	          </li>
-			  <li>
-	            <a href="#"><span class="fa fa-book"></span>Bibliothèque</a>
-	          </li>
-			  <li>
-	            <a href="#"><span class="fa fa-desktop"></span>Materiel</a>
-	          </li>
-			  <li>
-	            <a href="#"><span class="fa fa-bullhorn"></span>Annonces</a>
-	          </li>
-			  <li>
-	            <a href="#"><span class="fa fa-newspaper"></span>Actualités</a>
-	          </li>
-			  <li>
-	            <a href="#"><span class="fa fa-project-diagram"></span>Projets</a>
-	          </li>
-			  <li>
-	            <a href="#"><span class="fa fa-tools"></span>Stages</a>
-	          </li>
-			  <li>
-	            <a href="#"><span class="fa fa-file-upload"></span>Documents</a>
-	          </li>
-	 </ul>
+			<%@include file="MenuEtudiant.jsp" %>
 		</nav>
 	<!-- Page Content  -->
       <div id="content" class="container">

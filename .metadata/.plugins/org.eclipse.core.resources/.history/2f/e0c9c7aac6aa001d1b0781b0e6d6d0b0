@@ -1,0 +1,35 @@
+package controllers.evaluation;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import Domaine.evaluation.Controle;
+import dao.evaluation.ControleDAO;
+
+@WebServlet("/Controle/Delete")
+public class ControleDelete extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    ControleDAO controleDAO;
+    public ControleDelete() {
+        super();
+        controleDAO = new ControleDAO();
+        // TODO Auto-generated constructor stub
+    }
+
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		int id=Integer.parseInt(request.getParameter("id"));
+		Controle controle = new Controle();
+		controle.setId(id);
+		try {
+			controleDAO.delete(controle);
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+}

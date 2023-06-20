@@ -5,10 +5,13 @@
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1582146048126_3" label="pfe2020" name="pfe2020">
 <item elementID="=BTS" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.pde.ui.pluginWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1582146256036_5" label="pfe" name="pfe">
 <item factoryID="org.eclipse.pde.ui.elementFactory" org.eclipse.pde.workingSetKey="VPUMLEclipseIntegrationPlugIn"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1672766567607_4" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1672766567625_5" label="Java Test Sources" name="Java Test Sources"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1576361879508_0" label="Window Working Set" name="Aggregate for window 1576361879493"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1672766575330_6" label="Window Working Set" name="Aggregate for window 1672766575330"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1684402690832_7" label="Window Working Set" name="Aggregate for window 1684402690832"/>
 </workingSetManager>

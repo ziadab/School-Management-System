@@ -1,0 +1,26 @@
+
+c
+java:S1135'"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHİùRINFOZ
+CODE_SMELL
+\
+java:S5411g"*Use the primitive boolean expression here.(£ÊÃ£ûÿÿÿÿHŞùRMINORZ
+CODE_SMELL
+g
+java:S1161-":Add the "@Override" annotation above this method signature(‹¨¯¿HáùRMAJORZ
+CODE_SMELL
+v
+java:S1858d"D"getMessage" returns a string, there's no need to call "toString()".(Ë¨‰İøÿÿÿÿHãùRMINORZ
+CODE_SMELL
+^
+java:S1135E"2Complete the task associated to this TODO comment.(ÓñàÍHåùRINFOZ
+CODE_SMELL
+l
+java:S1858m"@"toJson" returns a string, there's no need to call "toString()".(Ëî­jHæùRMINORZ
+CODE_SMELL
+…
+java:S1989p"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿHèùRMINORZVULNERABILITY
+–
+java:S1989k"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Àá‘“ıÿÿÿÿHéùRMINORZVULNERABILITY
+l
+java:S1161&":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHêùRMAJORZ
+CODE_SMELL

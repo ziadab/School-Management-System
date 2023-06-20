@@ -1,23 +1,26 @@
-#Sun Mar 29 21:26:20 WEST 2020
-content_assist_proposals_foreground=0,0,0
-escapeStrings=true
-spelling_locale_initialized=true
-content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000
-org.eclipse.jdt.ui.text.templates_migrated=true
-useAnnotationsPrefPage=true
-eclipse.preferences.version=1
-org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
-tabWidthPropagated=true
-org.eclipse.jdt.ui.editor.tab.width=
-fontPropagated=true
-org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
-org.eclipse.jdt.ui.javadoclocations.migrated=true
-proposalOrderMigrated=true
+content_assist_autoactivation_triggers_java=.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+content_assist_disabled_computers=org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Domaine.utilisateur.Utilisateur"><rhs name\="Domaine.utilisateur.Utilisateur"/><rhs name\="Domaine.etudiant.Etudiant"/><rhs name\="Domaine.personnel.Professeur"/></lhs><lhs name\="Domaine.personnel.Personnel"><rhs name\="Domaine.personnel.Professeur"/></lhs><lhs name\="Domaine.personnel.Professeur"><rhs name\="Domaine.personnel.Professeur"/></lhs><lhs name\="Domaine.classe.Cycle"><rhs name\="Domaine.classe.Cycle"/></lhs><lhs name\="Domaine.personnel.Specialite"><rhs name\="Domaine.personnel.Specialite"/></lhs><lhs name\="Domaine.evaluation.FormeEvaluation"><rhs name\="Domaine.evaluation.FormeEvaluation"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.sql.SQLException"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="dao.evaluation.ControleDAO"><rhs name\="dao.evaluation.ControleDAO"/></lhs><lhs name\="org.codehaus.jackson.Versioned"><rhs name\="org.codehaus.jackson.map.ObjectMapper"/></lhs><lhs name\="org.codehaus.jackson.ObjectCodec"><rhs name\="org.codehaus.jackson.map.ObjectMapper"/></lhs><lhs name\="org.codehaus.jackson.map.ObjectMapper"><rhs name\="org.codehaus.jackson.map.ObjectMapper"/></lhs><lhs name\="java.sql.PreparedStatement"><rhs name\="com.mysql.jdbc.PreparedStatement"/></lhs><lhs name\="java.sql.Statement"><rhs name\="com.mysql.jdbc.PreparedStatement"/></lhs><lhs name\="java.sql.Wrapper"><rhs name\="com.mysql.jdbc.PreparedStatement"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="com.mysql.jdbc.PreparedStatement"/></lhs><lhs name\="com.mysql.jdbc.StatementImpl"><rhs name\="com.mysql.jdbc.PreparedStatement"/></lhs><lhs name\="com.mysql.jdbc.Statement"><rhs name\="com.mysql.jdbc.PreparedStatement"/></lhs><lhs name\="com.mysql.jdbc.PreparedStatement"><rhs name\="com.mysql.jdbc.PreparedStatement"/></lhs><lhs name\="Domaine.matiere.Module"><rhs name\="Domaine.matiere.Module"/></lhs><lhs name\="Domaine.matiere.Matiere"><rhs name\="Domaine.matiere.Matiere"/></lhs><lhs name\="Domaine.classe.Classe"><rhs name\="Domaine.classe.Classe"/></lhs><lhs name\="Domaine.locaux.Salle"><rhs name\="Domaine.locaux.Salle"/></lhs><lhs name\="java.lang.Exception"><rhs name\="java.sql.SQLException"/></lhs><lhs name\="java.lang.Throwable"><rhs name\="java.sql.SQLException"/></lhs><lhs name\="java.sql.SQLException"><rhs name\="java.sql.SQLException"/></lhs><lhs name\="Domaine.evaluation.Evaluation"><rhs name\="Domaine.evaluation.Controle"/></lhs><lhs name\="Domaine.evaluation.Controle"><rhs name\="Domaine.evaluation.Controle"/></lhs><lhs name\="dao.etudiant.ScolariteDAO"><rhs name\="dao.etudiant.ScolariteDAO"/></lhs><lhs name\="dao.evaluation.NoteControleDAO"><rhs name\="dao.evaluation.NoteControleDAO"/></lhs><lhs name\="Domaine.evaluation.NoteControle"><rhs name\="Domaine.evaluation.NoteControle"/></lhs><lhs name\="Domaine.etudiant.Etudiant"><rhs name\="Domaine.etudiant.Etudiant"/></lhs><lhs name\="dao.etudiant.EtudiantDAO"><rhs name\="dao.etudiant.EtudiantDAO"/></lhs><lhs name\="java.lang.reflect.AnnotatedElement"><rhs name\="java.lang.Module"/></lhs><lhs name\="Domaine.evaluation.TypeExamen"><rhs name\="Domaine.evaluation.TypeExamen"/></lhs><lhs name\="Domaine.document.Document"><rhs name\="Domaine.evaluation.DocumentEvaluation"/></lhs><lhs name\="Domaine.evaluation.DocumentEvaluation"><rhs name\="Domaine.evaluation.DocumentEvaluation"/></lhs></history>
+content_assist_number_of_computers=17
 content_assist_proposals_background=255,255,255
-org.eclipse.jdt.ui.formatterprofiles.version=11
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+escapeStrings=true
+fontPropagated=true
 org.eclipse.jdt.internal.ui.navigator.layout=1
-content_assist_number_of_computers=19
-useQuickDiffPrefPage=true
-org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=23
+org.eclipse.jdt.ui.javadoclocations.migrated=true
 org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+proposalOrderMigrated=true
+sourceHoverBackgroundColor=44,49,53
+spelling_locale_initialized=true
+tabWidthPropagated=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

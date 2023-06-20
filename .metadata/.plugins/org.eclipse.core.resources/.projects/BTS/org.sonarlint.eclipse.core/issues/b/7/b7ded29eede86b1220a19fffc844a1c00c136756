@@ -1,0 +1,92 @@
+
+…
+java:S1989m"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿH™Ó RMINORZVULNERABILITY
+}
+java:S1120("DMake this line start after 2 spaces to indent the code consistently.(É×¸êøÿÿÿÿ8è…‹Ñî0HöÌ RMINORZ
+CODE_SMELL
+}
+java:S1120)"DMake this line start after 4 spaces to indent the code consistently.(ŸäåÖıÿÿÿÿ8è…‹Ñî0H÷Ì RMINORZ
+CODE_SMELL
+x
+java:S1120Y"DMake this line start after 6 spaces to indent the code consistently.(Õší8ñÒ»Óî0H©Ó RMINORZ
+CODE_SMELL
+z
+java:S1106/"AMove this left curly brace to the beginning of next line of code.(Ïû©Öûÿÿÿÿ8è…‹Ñî0HšÓ RMINORZ
+CODE_SMELL
+t
+java:S1106#"AMove this left curly brace to the beginning of next line of code.(‡Ãü&8è…‹Ñî0H—Ó RMINORZ
+CODE_SMELL
+•
+java:S19897"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(«¦ì¿úÿÿÿÿ8ë Ì“Ú0H˜Ó RMINORZVULNERABILITY
+y
+java:S1858j"@"toJson" returns a string, there's no need to call "toString()".(ÁÃöÄıÿÿÿÿ8ë Ì“Ú0HœÓ RMINORZ
+CODE_SMELL
+}
+java:S11205"DMake this line start after 4 spaces to indent the code consistently.(ûİÙ¹şÿÿÿÿ8ñÒ»Óî0H¨Ó RMINORZ
+CODE_SMELL
+…
+java:S2226'"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÔÃËé8ñ¿¾Óî0H²Ó RMAJORZBUG
+f
+java:S1108f"2Move this "catch" keyword to a new dedicated line.(À‹ø„8è…‹Ñî0H–Ó RMINORZ
+CODE_SMELL
+z
+java:S1106("AMove this left curly brace to the beginning of next line of code.(É×¸êøÿÿÿÿ8è…‹Ñî0HùÌ RMINORZ
+CODE_SMELL
+p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8è…‹Ñî0H€Í RMINORZ
+CODE_SMELL
+u
+java:S1106]"AMove this left curly brace to the beginning of next line of code.(ø…–8ñÒ»Óî0H¬Ó RMINORZ
+CODE_SMELL
+S
+java:S4926$"Remove this "serialVersionUID".(‘Îê8è…‹Ñî0HÍ RMINORZ
+CODE_SMELL
+o	java:S125;"<This block of commented-out lines of code should be removed.(½Ø¹‹8è…‹Ñî0H£Ó RMAJORZ
+CODE_SMELL
+
+java:S1989:"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(°¦ĞÙ8è…‹Ñî0HÓ RMINORZVULNERABILITY
+u
+java:S11064"AMove this left curly brace to the beginning of next line of code.(‹¨¯¿8è…‹Ñî0H¡Ó RMINORZ
+CODE_SMELL
+T
+java:S1451"&Add or update the header of this file.8è…‹Ñî0HÿÌ RBLOCKERZ
+CODE_SMELL
+g
+java:S11614":Add the "@Override" annotation above this method signature(‹¨¯¿HŸÓ RMAJORZ
+CODE_SMELL
+l
+java:S1161/":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHéÌ RMAJORZ
+CODE_SMELL
+q	java:S106Z"9Replace this use of System.out or System.err by a logger.(„ÉÔ´úÿÿÿÿ8áŒÕÔî0HµÖ RMAJORZ
+CODE_SMELL
+Š
+java:S2226%"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(íØòáøÿÿÿÿ8ë Ì“Ú0HñÌ RMAJORZBUG
+z
+java:S1106X"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8è…‹Ñî0HúÌ RMINORZ
+CODE_SMELL
+…
+java:S2226&"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(µçèé8ñÒ»Óî0H­Ó RMAJORZBUG
+•
+java:S19898"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(áö­İüÿÿÿÿ8ë Ì“Ú0H›Ó RMINORZVULNERABILITY
+•
+java:S1989="YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(í¨ùÜûÿÿÿÿ8ë Ì“Ú0H¦Ó RMINORZVULNERABILITY
+}
+java:S1120^"DMake this line start after 8 spaces to indent the code consistently.(çû¤ñıÿÿÿÿ8ñÒ»Óî0HªÓ RMINORZ
+CODE_SMELL
+½
+java:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ïû©Öûÿÿÿÿ8ë Ì“Ú0HíÌ RCRITICALZ
+CODE_SMELL
+}
+java:S1120g"DMake this line start after 6 spaces to indent the code consistently.(«Å«Íøÿÿÿÿ8ñÒ»Óî0H«Ó RMINORZ
+CODE_SMELL
+Y
+java:S1166f"%Either log or rethrow this exception.(À‹ø„8è…‹Ñî0H¢Ó RMAJORZ
+CODE_SMELL
+u
+java:S1106f"AMove this left curly brace to the beginning of next line of code.(À‹ø„8è…‹Ñî0HûÌ RMINORZ
+CODE_SMELL
+
+java:S19899"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(’Œ´À8ë Ì“Ú0H¤Ó RMINORZVULNERABILITY
+q	java:S106^"9Replace this use of System.out or System.err by a logger.(çû¤ñıÿÿÿÿ8É´ÖÔî0HºÖ RMAJORZ
+CODE_SMELL
+q	java:S106d"9Replace this use of System.out or System.err by a logger.(ŒæÑûÿÿÿÿ8ªÆ×Ôî0H¿Ö RMAJORZ
+CODE_SMELL

@@ -1,0 +1,61 @@
+package dao.evaluation;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.PreparedStatement;
+
+import Domaine.classe.Classe;
+import Domaine.evaluation.Controle;
+import Domaine.locaux.Salle;
+import Domaine.matiere.Matiere;
+import Domaine.matiere.Module;
+import Domaine.personnel.Professeur;
+import dao.database.Db;
+
+public class ControleDAO {
+	private Connection con;
+	public ControleDAO() {
+		this.con = Db.getInstance().con;
+	}
+	public ArrayList<Controle> getAll() throws SQLException{
+		PreparedStatement statement = (PreparedStatement) con.prepareStatement("select c.ID,m.Nom_Fr as 'matiere',mo.Nom_Fr as "
+				+ "'module',c.ClasseID,c.SalleID,concat(u.Nom_Fr,' ',u.Prenom_Fr) as 'professeur',f.Nom_Fr "
+				+ "as 'form' from controle c,matiere m,formeevaluation f,module mo,utilisateur u where m.ID = "
+				+ "c.MatiereID and c.ProfesseurUtilisateurID = u.ID and c.ModuleID = mo.ID and c.FormeEvaluationID = f.ID;");
+		ResultSet rs = statement.executeQuery();
+		ArrayList<Controle> formeEvaluations = new ArrayList<Controle>();
+		while (rs.next()) {
+			Controle controle = new Controle();
+			controle.setId(rs.getInt("ID"));
+			controle.setFormeEvaluation(rs.getString(""));
+			
+			Matiere matiere = new Matiere();
+			matiere.setNom_Fr(rs.getString("matiere"));
+			controle.setMatiere(matiere);
+			
+			Module module = new Module();
+			module.setNom_Fr(rs.getString("module"));
+			controle.setModule(module);
+			
+			Classe classe = new Classe();
+			classe.setId(rs.getInt("ClasseID"));
+			controle.setClasse(classe);
+			
+			Salle salle = new Salle();
+			salle.setId(rs.getInt("SalleID"));
+			controle.setSalle(salle);
+			
+			Professeur professeur = new Professeur();
+			professeur.setNom_Fr(rs.getString("professeur"));
+			controle.setProfesseur(professeur);
+			
+			formeEvaluations.add(formeEvaluation);
+		}
+		rs.close();
+		statement.close();
+		return formeEvaluations;	
+	}
+}

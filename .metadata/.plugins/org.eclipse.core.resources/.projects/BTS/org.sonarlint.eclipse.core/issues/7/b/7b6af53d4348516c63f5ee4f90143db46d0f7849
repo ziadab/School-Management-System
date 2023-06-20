@@ -1,0 +1,154 @@
+
+…
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ã­«H…Í RMINORZ
+CODE_SMELL
+‹
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(„êéûûÿÿÿÿH‡Í RMINORZ
+CODE_SMELL
+…
+java:S2293:"YReplace the type specification in this constructor call with the diamond operator ("<>").(ã­«H‰Í RMINORZ
+CODE_SMELL
+‹
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(„êéûûÿÿÿÿH‹Í RMINORZ
+CODE_SMELL
+—
+java:S1319"jThe type of "scolarites" should be an interface such as "List" rather than the implementation "ArrayList".(ş´ÄÓHÍ RMINORZ
+CODE_SMELL
+
+java:S1319"pThe type of "absencesEtudiant" should be an interface such as "List" rather than the implementation "ArrayList".(Ÿ•”àHÍ RMINORZ
+CODE_SMELL
+¢
+java:S1319b"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‡ŞŒ€ıÿÿÿÿH“Í RMINORZ
+CODE_SMELL
+
+java:S1319h"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¤—ŒêH–Í RMINORZ
+CODE_SMELL
+‚	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¨ïÕûÿÿÿÿH™Í RMINORZ
+CODE_SMELL
+‚	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¨ïÕûÿÿÿÿHšÍ RMINORZ
+CODE_SMELL
+‚	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¨ïÕûÿÿÿÿH›Í RMINORZ
+CODE_SMELL
+}	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÂóHœÍ RMINORZ
+CODE_SMELL
+|	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸öö HÍ RMINORZ
+CODE_SMELL
+|	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸öö HÍ RMINORZ
+CODE_SMELL
+‚	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÍáÚúÿÿÿÿHŸÍ RMINORZ
+CODE_SMELL
+‚	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÍáÚúÿÿÿÿH Í RMINORZ
+CODE_SMELL
+ƒ
+java:S1104"VMake scolarites a static final constant or non-public and provide accessors if needed.(ş´ÄÓH¡Í RMINORZ
+CODE_SMELL
+‰
+java:S1104"\Make absencesEtudiant a static final constant or non-public and provide accessors if needed.(Ÿ•”àH¢Í RMINORZ
+CODE_SMELL
+K	java:S113"'Add a new line at the end of this file.H£Í RMINORZ
+CODE_SMELL
+†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“Û’ÑH¤Í RMINORZ
+CODE_SMELL
+s
+java:S1106"AMove this left curly brace to the beginning of next line of code.( ©é“úÿÿÿÿH¥Í RMINORZ
+CODE_SMELL
+s
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¡ÖßûÿÿÿÿH¦Í RMINORZ
+CODE_SMELL
+s
+java:S1106("AMove this left curly brace to the beginning of next line of code.(®„äøÿÿÿÿH§Í RMINORZ
+CODE_SMELL
+n
+java:S1106>"AMove this left curly brace to the beginning of next line of code.(Á±¿…H¨Í RMINORZ
+CODE_SMELL
+s
+java:S1106A"AMove this left curly brace to the beginning of next line of code.(‰ Í“ùÿÿÿÿH©Í RMINORZ
+CODE_SMELL
+s
+java:S1106D"AMove this left curly brace to the beginning of next line of code.(†×¹¤şÿÿÿÿHªÍ RMINORZ
+CODE_SMELL
+s
+java:S1106G"AMove this left curly brace to the beginning of next line of code.(Û»À·øÿÿÿÿH«Í RMINORZ
+CODE_SMELL
+n
+java:S1106J"AMove this left curly brace to the beginning of next line of code.(²úÔúH¬Í RMINORZ
+CODE_SMELL
+s
+java:S1106M"AMove this left curly brace to the beginning of next line of code.(­ö¶úÿÿÿÿH­Í RMINORZ
+CODE_SMELL
+s
+java:S1106P"AMove this left curly brace to the beginning of next line of code.(âÎŠîşÿÿÿÿH®Í RMINORZ
+CODE_SMELL
+n
+java:S1106S"AMove this left curly brace to the beginning of next line of code.(ßÿ£”H¯Í RMINORZ
+CODE_SMELL
+n
+java:S1106V"AMove this left curly brace to the beginning of next line of code.(ø£­¡H°Í RMINORZ
+CODE_SMELL
+s
+java:S1106Y"AMove this left curly brace to the beginning of next line of code.(©†ËÿÿÿÿÿH±Í RMINORZ
+CODE_SMELL
+s
+java:S1106\"AMove this left curly brace to the beginning of next line of code.(Éõ§ûúÿÿÿÿH²Í RMINORZ
+CODE_SMELL
+n
+java:S1106_"AMove this left curly brace to the beginning of next line of code.(Ï¬¨çH³Í RMINORZ
+CODE_SMELL
+s
+java:S1106b"AMove this left curly brace to the beginning of next line of code.(‡ŞŒ€ıÿÿÿÿH´Í RMINORZ
+CODE_SMELL
+s
+java:S1106e"AMove this left curly brace to the beginning of next line of code.(Ã‘”ÔüÿÿÿÿHµÍ RMINORZ
+CODE_SMELL
+n
+java:S1106h"AMove this left curly brace to the beginning of next line of code.(¤—ŒêH¶Í RMINORZ
+CODE_SMELL
+n
+java:S1106k"AMove this left curly brace to the beginning of next line of code.(Œ¤“ÓH·Í RMINORZ
+CODE_SMELL
+s
+java:S1106n"AMove this left curly brace to the beginning of next line of code.(†–ÏæúÿÿÿÿH¸Í RMINORZ
+CODE_SMELL
+s
+java:S1106q"AMove this left curly brace to the beginning of next line of code.(´Úş·úÿÿÿÿH¹Í RMINORZ
+CODE_SMELL
+s
+java:S1106t"AMove this left curly brace to the beginning of next line of code.(ÉõØªûÿÿÿÿHºÍ RMINORZ
+CODE_SMELL
+s
+java:S1106w"AMove this left curly brace to the beginning of next line of code.(Î¦«ÙúÿÿÿÿH»Í RMINORZ
+CODE_SMELL
+s
+java:S1106z"AMove this left curly brace to the beginning of next line of code.(ëÊÂ‰ùÿÿÿÿH¼Í RMINORZ
+CODE_SMELL
+n
+java:S1106}"AMove this left curly brace to the beginning of next line of code.(ãïõÕH½Í RMINORZ
+CODE_SMELL
+o
+java:S1106€"AMove this left curly brace to the beginning of next line of code.(“˜Ù€H¾Í RMINORZ
+CODE_SMELL
+o
+java:S1106ƒ"AMove this left curly brace to the beginning of next line of code.(åˆ’—H¿Í RMINORZ
+CODE_SMELL
+t
+java:S1106†"AMove this left curly brace to the beginning of next line of code.(ÎÅéšşÿÿÿÿHÀÍ RMINORZ
+CODE_SMELL
+o
+java:S1106‰"AMove this left curly brace to the beginning of next line of code.(‹«Â¥HÁÍ RMINORZ
+CODE_SMELL
+o
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Á»›êHÂÍ RMINORZ
+CODE_SMELL
+M
+java:S1451"&Add or update the header of this file.HÃÍ RBLOCKERZ
+CODE_SMELL
+i	java:S105"EReplace all tab characters in this file by sequences of white-spaces.HÄÍ RMINORZ
+CODE_SMELL
+s	java:S107 "BConstructor has 30 parameters, which is greater than 7 authorized.(¨¨ïÕûÿÿÿÿHÅÍ RMAJORZ
+CODE_SMELL
+†
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(„ÈëÁıÿÿÿÿHÆÍ RMINORZ
+CODE_SMELL
+
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.( Ä»HÈÍ RMINORZ
+CODE_SMELL

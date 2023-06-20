@@ -1,0 +1,380 @@
+
+{
+java:S1106Ÿ"AMove this left curly brace to the beginning of next line of code.(íôÚÇşÿÿÿÿ8Êú’ßí0H¨Ï RMINORZ
+CODE_SMELL
+›	java:S138‡"gThis method has 81 lines, which is greater than the 75 lines authorized. Split it into smaller methods.(–ë§é8ˆ…¯éè0HÏĞ RMAJORZ
+CODE_SMELL
+w
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ƒççíüÿÿÿÿ8ˆ…¯éè0H©Ğ RCRITICALZ
+CODE_SMELL
+~	java:S103&"KSplit this 482 characters long line (which is greater than 120 authorized).(âÖ÷8ˆ…¯éè0HúÏ RMAJORZ
+CODE_SMELL
+‰
+java:S11924"MDefine a constant instead of duplicating this literal "Comptabilise" 3 times.(Ôäƒèÿÿÿÿÿ8ˆ…¯éè0H©Ï RCRITICALZ
+CODE_SMELL
+‚
+java:S1192d"FDefine a constant instead of duplicating this literal "Titre" 3 times.(ñÀÎ°úÿÿÿÿ8ˆ…¯éè0H˜Ñ RCRITICALZ
+CODE_SMELL
+w
+java:S2479Š":Remove the non-escaped \u0009 character from this literal.(³Óƒ·úÿÿÿÿ8üÀÎ«ä0HìĞ RCRITICALZ
+CODE_SMELL
+u
+java:S1106“"AMove this left curly brace to the beginning of next line of code.(èÕ–T8ˆ…¯éè0H²Ñ RMINORZ
+CODE_SMELL
+…
+java:S1192}"IDefine a constant instead of duplicating this literal "feNom_Ar" 3 times.(ãİ³Éşÿÿÿÿ8ˆ…¯éè0H¨Ñ RCRITICALZ
+CODE_SMELL
+	java:S103”"KSplit this 482 characters long line (which is greater than 120 authorized).(âÖ÷8ˆ…¯éè0HéĞ RMAJORZ
+CODE_SMELL
+‹	java:S109ñ"RAssign this magic number 2 to a well-named constant, and use the constant instead.(ş¯Ø¼ıÿÿÿÿ8°ûúºë0H½Ù RMAJORZ
+CODE_SMELL
+`
+java:S1168ù"+Return an empty collection instead of null.(¥¹ï8à¥Œßí0HÛĞ RMAJORZ
+CODE_SMELL
+ƒ
+java:S1192|"GDefine a constant instead of duplicating this literal "feCode" 3 times.(áæ›ãıÿÿÿÿ8ˆ…¯éè0H›Ğ RCRITICALZ
+CODE_SMELL
+Z
+java:S1166ÿ"%Either log or rethrow this exception.(É®£8Êú’ßí0HÏÏ RMAJORZ
+CODE_SMELL
+‚
+java:S1192F"FDefine a constant instead of duplicating this literal "matID" 3 times.(ªÍ¬úûÿÿÿÿ8ˆ…¯éè0H÷Ğ RCRITICALZ
+CODE_SMELL
+‹	java:S109ö"RAssign this magic number 4 to a well-named constant, and use the constant instead.(ÔÍƒÉıÿÿÿÿ8ˆ…¯éè0HÈÏ RMAJORZ
+CODE_SMELL
+v
+java:S1106û"AMove this left curly brace to the beginning of next line of code.(Çµí‘8ˆ…¯éè0HÎÏ RMINORZ
+CODE_SMELL
+„	java:S103š"KSplit this 123 characters long line (which is greater than 120 authorized).(¢‘”Óşÿÿÿÿ8ˆ…¯éè0H‡Ğ RMAJORZ
+CODE_SMELL
+{
+java:S1106û"AMove this left curly brace to the beginning of next line of code.(òãã şÿÿÿÿ8ˆ…¯éè0HôÏ RMINORZ
+CODE_SMELL
+v
+java:S1106í"AMove this left curly brace to the beginning of next line of code.(òºÓš8ˆ…¯éè0HÀÏ RMINORZ
+CODE_SMELL
+b
+java:S1481ñ"-Remove this unused "controle" local variable.(Ø®şè8¨Şí0HøÏ RMINORZ
+CODE_SMELL
+†
+java:S1192I"JDefine a constant instead of duplicating this literal "matNom_Ar" 3 times.(‰ãíŸşÿÿÿÿ8ˆ…¯éè0HªĞ RCRITICALZ
+CODE_SMELL
+„
+java:S1192G"HDefine a constant instead of duplicating this literal "matCode" 3 times.(ŠŸøıÿÿÿÿ8ˆ…¯éè0HâÏ RCRITICALZ
+CODE_SMELL
+
+java:S1192j"KDefine a constant instead of duplicating this literal "Adresse_Fr" 3 times.(Ì³äq8ˆ…¯éè0HÄĞ RCRITICALZ
+CODE_SMELL
+‡
+java:S1192n"KDefine a constant instead of duplicating this literal "TeleMobile" 3 times.(™¾¿Úúÿÿÿÿ8ˆ…¯éè0HÈĞ RCRITICALZ
+CODE_SMELL
+k
+java:S1135€"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8Êú’ßí0HĞĞ RINFOZ
+CODE_SMELL
+{
+java:S1106ı"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8ˆ…¯éè0HÂØ RMINORZ
+CODE_SMELL
+{
+java:S1106"AMove this left curly brace to the beginning of next line of code.(§¼ºòùÿÿÿÿ8Êú’ßí0H¹Ï RMINORZ
+CODE_SMELL
+ƒ
+java:S1192h"LDefine a constant instead of duplicating this literal "LieuNais_Fr" 3 times.(‡„”Ğ8ˆ…¯éè0H‘Ñ RCRITICALZ
+CODE_SMELL
+
+java:S1192O"JDefine a constant instead of duplicating this literal "modNom_Fr" 3 times.(îª„õ8ˆ…¯éè0H±Ï RCRITICALZ
+CODE_SMELL
+…	java:S109‡"RAssign this magic number 5 to a well-named constant, and use the constant instead.(à¨¦	8ˆ…¯éè0H°Ù RMAJORZ
+CODE_SMELL
+‹	java:S109‰"RAssign this magic number 7 to a well-named constant, and use the constant instead.(äÒŒñüÿÿÿÿ8ˆ…¯éè0H¦Ï RMAJORZ
+CODE_SMELL
+…
+java:S1192]"NDefine a constant instead of duplicating this literal "UtilisateurID" 3 times.(‘íÛ©8ˆ…¯éè0H–Ğ RCRITICALZ
+CODE_SMELL
+ˆ
+java:S1192i"LDefine a constant instead of duplicating this literal "LieuNais_Ar" 3 times.(ôú’Àüÿÿÿÿ8ˆ…¯éè0H¶Ğ RCRITICALZ
+CODE_SMELL
+v
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Î†ÿ™8Êú’ßí0H¬Ñ RMINORZ
+CODE_SMELL
+{
+java:S1106ğ"AMove this left curly brace to the beginning of next line of code.(‡ƒääıÿÿÿÿ8ˆ…¯éè0HÉÏ RMINORZ
+CODE_SMELL
+„	java:S103‚"KSplit this 230 characters long line (which is greater than 120 authorized).(Ö¸µ®şÿÿÿÿ8ˆ…¯éè0HÿÏ RMAJORZ
+CODE_SMELL
+u	java:S125ª"<This block of commented-out lines of code should be removed.(»ŞíÂıÿÿÿÿ8Ïêì“Ú0H‰Ğ RMAJORZ
+CODE_SMELL
+‰
+java:S1192v"MDefine a constant instead of duplicating this literal "SpecialiteID" 3 times.(õÈ××ùÿÿÿÿ8ˆ…¯éè0HŞÏ RCRITICALZ
+CODE_SMELL
+u	java:S125¤"<This block of commented-out lines of code should be removed.(Êí°øÿÿÿÿ8“ñùğé0HáĞ RMAJORZ
+CODE_SMELL
+‹	java:S109ø"RAssign this magic number 6 to a well-named constant, and use the constant instead.(Ó² øıÿÿÿÿ8ˆ…¯éè0H¶Ø RMAJORZ
+CODE_SMELL
+r
+java:S2479Œ":Remove the non-escaped \u0009 character from this literal.(Ãë´ä8Ï–©“Ø0H§Ñ RCRITICALZ
+CODE_SMELL
+ƒ
+java:S11928"LDefine a constant instead of duplicating this literal "Description" 3 times.(É±ôö8ˆ…¯éè0H¼Ï RCRITICALZ
+CODE_SMELL
+z
+java:S11061"AMove this left curly brace to the beginning of next line of code.(íôÚÇşÿÿÿÿ8ˆ…¯éè0H”Ğ RMINORZ
+CODE_SMELL
+‡
+java:S1192k"KDefine a constant instead of duplicating this literal "Adresse_Ar" 3 times.(¢©Åõüÿÿÿÿ8ˆ…¯éè0HĞ RCRITICALZ
+CODE_SMELL
+†	java:S109ş"RAssign this magic number 3 to a well-named constant, and use the constant instead.(ÌôÌ¸8Êú’ßí0H»Ï RMAJORZ
+CODE_SMELL
+	java:S103ˆ"KSplit this 482 characters long line (which is greater than 120 authorized).(âÖ÷8ˆ…¯éè0H•Ğ RMAJORZ
+CODE_SMELL
+à
+java:S1192("£Define a constant instead of duplicating this literal "	LEFT JOIN `professeur` ON `controle`.`ProfesseurUtilisateurID` = `professeur`.`UtilisateurID` \r
+" 3 times.(³Óƒ·úÿÿÿÿ8ˆ…¯éè0HƒĞ RCRITICALZ
+CODE_SMELL
+ˆ
+java:S1192;"LDefine a constant instead of duplicating this literal "Observation" 3 times.(ù«ö—ÿÿÿÿÿ8ˆ…¯éè0HÚÏ RCRITICALZ
+CODE_SMELL
+u	java:S125À"<This block of commented-out lines of code should be removed.(•â˜øÿÿÿÿ8ˆ…¯éè0HçÏ RMAJORZ
+CODE_SMELL
+¼
+java:S1192*"„Define a constant instead of duplicating this literal "	LEFT JOIN `matiere` ON `controle`.`MatiereID` = `matiere`.`ID` \r
+" 3 times.(Ãë´ä8ˆ…¯éè0HÿĞ RCRITICALZ
+CODE_SMELL
+
+java:S1192a"JDefine a constant instead of duplicating this literal "Prenom_Fr" 3 times.(ï–’8ˆ…¯éè0HÕĞ RCRITICALZ
+CODE_SMELL
+„
+java:S1192B"HDefine a constant instead of duplicating this literal "SalleID" 3 times.(³Ñœäøÿÿÿÿ8ˆ…¯éè0H·Ñ RCRITICALZ
+CODE_SMELL
+†
+java:S11925"ODefine a constant instead of duplicating this literal "DateDepotNotes" 3 times.(‹Ñıê8ˆ…¯éè0H Ï RCRITICALZ
+CODE_SMELL
+‹	java:S109ó"RAssign this magic number 2 to a well-named constant, and use the constant instead.(¾§âÛûÿÿÿÿ8ˆ…¯éè0HòĞ RMAJORZ
+CODE_SMELL
+
+java:S2293”"YReplace the type specification in this constructor call with the diamond operator ("<>").(µ¶ÜÓ8ˆ…¯éè0HöÏ RMINORZ
+CODE_SMELL
+‹	java:S109ˆ"RAssign this magic number 6 to a well-named constant, and use the constant instead.(Ó² øıÿÿÿÿ8ˆ…¯éè0HÎĞ RMAJORZ
+CODE_SMELL
+‹	java:S109’"RAssign this magic number 2 to a well-named constant, and use the constant instead.(üÖıôüÿÿÿÿ8ˆ…¯éè0H±Ù RMAJORZ
+CODE_SMELL
+ƒ
+java:S11926"LDefine a constant instead of duplicating this literal "DatePassage" 3 times.(ÜçÎÊ8ˆ…¯éè0H£Ñ RCRITICALZ
+CODE_SMELL
+
+java:S1192r"HDefine a constant instead of duplicating this literal "CycleID" 3 times.(¢Ãù†8ˆ…¯éè0HÑ RCRITICALZ
+CODE_SMELL
+}
+java:S1192M"FDefine a constant instead of duplicating this literal "modID" 3 times.(™Ù¯˜8ˆ…¯éè0HîĞ RCRITICALZ
+CODE_SMELL
+q
+java:S2479*":Remove the non-escaped \u0009 character from this literal.(Ãë´ä8üÀÎ«ä0HæÏ RCRITICALZ
+CODE_SMELL
+„
+java:S1192N"HDefine a constant instead of duplicating this literal "modCode" 3 times.(â“•±ÿÿÿÿÿ8ˆ…¯éè0H»Ñ RCRITICALZ
+CODE_SMELL
+‹
+java:S1192'"TDefine a constant instead of duplicating this literal "FROM `controle` \r
+" 3 times.(ôŞ—¸8ˆ…¯éè0HÑ RCRITICALZ
+CODE_SMELL
+u
+java:S1106%"AMove this left curly brace to the beginning of next line of code.(›«»‘8°ûúºë0HÙÏ RMINORZ
+CODE_SMELL
+
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(µ¶ÜÓ8Ÿ¿Ìû×0HçĞ RMINORZ
+CODE_SMELL
+~
+java:S1120ó"DMake this line start after 6 spaces to indent the code consistently.(¾§âÛûÿÿÿÿ8ÙÑóÕî0HÚÙ RMINORZ
+CODE_SMELL
+v
+java:S2479)":Remove the non-escaped \u0009 character from this literal.(æË°şÿÿÿÿ8Ï–©“Ø0HæĞ RCRITICALZ
+CODE_SMELL
+T
+java:S1451"&Add or update the header of this file.8ˆ…¯éè0HµĞ RBLOCKERZ
+CODE_SMELL
+ƒ
+java:S1192f"LDefine a constant instead of duplicating this literal "Nationalite" 3 times.(©Í§8ˆ…¯éè0HµÏ RCRITICALZ
+CODE_SMELL
+š	java:S138%"gThis method has 76 lines, which is greater than the 75 lines authorized. Split it into smaller methods.(›«»‘8ˆ…¯éè0HšĞ RMAJORZ
+CODE_SMELL
+q
+java:S2479+":Remove the non-escaped \u0009 character from this literal.(²·í‚8Ï–©“Ø0HºÏ RCRITICALZ
+CODE_SMELL
+f
+java:S1108ò"1Move this "else" keyword to a new dedicated line.(å¥‡8°ûúºë0HøØ RMINORZ
+CODE_SMELL
+w
+java:S2479‹":Remove the non-escaped \u0009 character from this literal.(æË°şÿÿÿÿ8üÀÎ«ä0HÀÑ RCRITICALZ
+CODE_SMELL
+ƒ
+java:S1192_"GDefine a constant instead of duplicating this literal "Nom_Fr" 3 times.(ÍÍ½ºùÿÿÿÿ8ˆ…¯éè0HûÏ RCRITICALZ
+CODE_SMELL
+†
+java:S1192b"JDefine a constant instead of duplicating this literal "Prenom_Ar" 3 times.(¦ğÄõúÿÿÿÿ8ˆ…¯éè0H­Ï RCRITICALZ
+CODE_SMELL
+w
+java:S2479–":Remove the non-escaped \u0009 character from this literal.(³Óƒ·úÿÿÿÿ8ˆ…¯éè0H®Ğ RCRITICALZ
+CODE_SMELL
+o
+java:S1854÷";Remove this useless assignment to local variable "classId".(²¼³28öÏşÑî0HÂÑ RMAJORZ
+CODE_SMELL
+`
+java:S1481÷",Remove this unused "classId" local variable.(²¼³28öÏşÑî0HÃÑ RMINORZ
+CODE_SMELL
+¤
+java:S1319%"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(›«»‘8¨Şí0HÊÏ RMINORZ
+CODE_SMELL
+~
+java:S1120ü"DMake this line start after 6 spaces to indent the code consistently.(·Ç¹Ìûÿÿÿÿ8ÙÑóÕî0HÛÙ RMINORZ
+CODE_SMELL
+
+java:S1192H"JDefine a constant instead of duplicating this literal "matNom_Fr" 3 times.(éÙû8ˆ…¯éè0HûĞ RCRITICALZ
+CODE_SMELL
+‚
+java:S1192^"FDefine a constant instead of duplicating this literal "Photo" 3 times.( ‹øıÿÿÿÿ8ˆ…¯éè0HÕÏ RCRITICALZ
+CODE_SMELL
+~
+java:S1120ñ"DMake this line start after 6 spaces to indent the code consistently.(ş¯Ø¼ıÿÿÿÿ8ÙÑóÕî0HÙÙ RMINORZ
+CODE_SMELL
+‹	java:S109†"RAssign this magic number 4 to a well-named constant, and use the constant instead.(ÔÍƒÉıÿÿÿÿ8ˆ…¯éè0HôØ RMAJORZ
+CODE_SMELL
+w
+java:S2479š":Remove the non-escaped \u0009 character from this literal.(¢‘”Óşÿÿÿÿ8üÀÎ«ä0H“Ğ RCRITICALZ
+CODE_SMELL
+v
+java:S1106‡"AMove this left curly brace to the beginning of next line of code.(–ë§é8ˆ…¯éè0H¯Ğ RMINORZ
+CODE_SMELL
+‚
+java:S11929"FDefine a constant instead of duplicating this literal "Duree" 3 times.(³ëğııÿÿÿÿ8ˆ…¯éè0H³Ñ RCRITICALZ
+CODE_SMELL
+t	java:S125S"<This block of commented-out lines of code should be removed.(•â˜øÿÿÿÿ8Ïˆÿ•Ø0HƒÑ RMAJORZ
+CODE_SMELL
+p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8ˆ…¯éè0HÌĞ RMINORZ
+CODE_SMELL
+t	java:S125="<This block of commented-out lines of code should be removed.(»ŞíÂıÿÿÿÿ8ø±õŞí0HİĞ RMAJORZ
+CODE_SMELL
+…
+java:S1192~"IDefine a constant instead of duplicating this literal "feNom_Fr" 3 times.(¾Œø…ÿÿÿÿÿ8ˆ…¯éè0HïÏ RCRITICALZ
+CODE_SMELL
+ª
+java:S1319ğ"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(˜’¡Ñıÿÿÿÿ8ˆ…¯éè0H¡Ğ RMINORZ
+CODE_SMELL
+…	java:S109÷"RAssign this magic number 5 to a well-named constant, and use the constant instead.(à¨¦	8ˆ…¯éè0H¢Ñ RMAJORZ
+CODE_SMELL
+…
+java:S11927"NDefine a constant instead of duplicating this literal "DatePlanifiee" 3 times.(òêş¯8ˆ…¯éè0HÂÏ RCRITICALZ
+CODE_SMELL
+„
+java:S1192o"MDefine a constant instead of duplicating this literal "TeleDomicile" 3 times.(ŒÖ×â8ˆ…¯éè0H±Ğ RCRITICALZ
+CODE_SMELL
+†
+java:S1192P"JDefine a constant instead of duplicating this literal "modNom_Ar" 3 times.(§ˆ¾÷øÿÿÿÿ8ˆ…¯éè0H»Ğ RCRITICALZ
+CODE_SMELL
+u
+java:S1106""AMove this left curly brace to the beginning of next line of code.(á¬ôÏ8ˆ…¯éè0H˜Ù RMINORZ
+CODE_SMELL
+v
+java:S1106ò"AMove this left curly brace to the beginning of next line of code.(å¥‡8ˆ…¯éè0HÁÏ RMINORZ
+CODE_SMELL
+Ï
+java:S1192)"’Define a constant instead of duplicating this literal "	LEFT JOIN `utilisateur` ON `professeur`.`UtilisateurID` = `utilisateur`.`ID` \r
+" 3 times.(æË°şÿÿÿÿ8ˆ…¯éè0H¿Ğ RCRITICALZ
+CODE_SMELL
+q
+java:S1854ñ"<Remove this useless assignment to local variable "controle".(Ø®şè8¨Şí0H—Ï RMAJORZ
+CODE_SMELL
+v
+java:S2479(":Remove the non-escaped \u0009 character from this literal.(³Óƒ·úÿÿÿÿ8Ï–©“Ø0H€Ğ RCRITICALZ
+CODE_SMELL
+‹	java:S109„"RAssign this magic number 2 to a well-named constant, and use the constant instead.(ş¯Ø¼ıÿÿÿÿ8ˆ…¯éè0HõÏ RMAJORZ
+CODE_SMELL
+¹
+java:S1192+"Define a constant instead of duplicating this literal "	LEFT JOIN `module` ON `controle`.`ModuleID` = `module`.`ID` \r
+" 3 times.(²·í‚8ˆ…¯éè0HóĞ RCRITICALZ
+CODE_SMELL
+…
+java:S1192g"IDefine a constant instead of duplicating this literal "DateNais" 3 times.(Ê Ìãşÿÿÿÿ8ˆ…¯éè0H®Ñ RCRITICALZ
+CODE_SMELL
+‹	java:S109…"RAssign this magic number 3 to a well-named constant, and use the constant instead.(Â–€…üÿÿÿÿ8ˆ…¯éè0HÍĞ RMAJORZ
+CODE_SMELL
+w
+java:S2479—":Remove the non-escaped \u0009 character from this literal.(æË°şÿÿÿÿ8ˆ…¯éè0H§Ï RCRITICALZ
+CODE_SMELL
+q
+java:S2479,":Remove the non-escaped \u0009 character from this literal.(ÿ–îÖ8Ï–©“Ø0H¤Ğ RCRITICALZ
+CODE_SMELL
+‚
+java:S1192m"KDefine a constant instead of duplicating this literal "SituationF" 3 times.(ı«š²8ˆ…¯éè0HÑĞ RCRITICALZ
+CODE_SMELL
+u	java:S125¸"<This block of commented-out lines of code should be removed.(•â˜øÿÿÿÿ8‚û®ªä0H˜Ï RMAJORZ
+CODE_SMELL
+r
+java:S2479™":Remove the non-escaped \u0009 character from this literal.(²·í‚8ˆ…¯éè0HŒÑ RCRITICALZ
+CODE_SMELL
+ƒ
+java:S1192`"GDefine a constant instead of duplicating this literal "Nom_Ar" 3 times.(“•Áøøÿÿÿÿ8ˆ…¯éè0HâĞ RCRITICALZ
+CODE_SMELL
+¥
+java:S1319‡"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(–ë§é8Ÿ¿Ìû×0H•Ñ RMINORZ
+CODE_SMELL
+g
+java:S1108ÿ"2Move this "catch" keyword to a new dedicated line.(É®£8Êú’ßí0HàĞ RMINORZ
+CODE_SMELL
+}
+java:S1192l"FDefine a constant instead of duplicating this literal "Email" 3 times.(·³êÅ8ˆ…¯éè0H¥Ğ RCRITICALZ
+CODE_SMELL
+{
+java:S1106ğ"AMove this left curly brace to the beginning of next line of code.(˜’¡Ñıÿÿÿÿ8ˆ…¯éè0HÄÙ RMINORZ
+CODE_SMELL
+r
+java:S2479":Remove the non-escaped \u0009 character from this literal.(²·í‚8üÀÎ«ä0H­Ñ RCRITICALZ
+CODE_SMELL
+{
+java:S1106–"AMove this left curly brace to the beginning of next line of code.(íôÚÇşÿÿÿÿ8ÙÑóÕî0HÜÙ RMINORZ
+CODE_SMELL
+‹	java:S109õ"RAssign this magic number 3 to a well-named constant, and use the constant instead.(Â–€…üÿÿÿÿ8ˆ…¯éè0H©Ù RMAJORZ
+CODE_SMELL
+v
+java:S1106ÿ"AMove this left curly brace to the beginning of next line of code.(É®£8¨Şí0HíĞ RMINORZ
+CODE_SMELL
+È
+java:S1192&"Define a constant instead of duplicating this literal "SELECT `controle`.*, `professeur`.*, `utilisateur`.*, `matiere`.`ID` AS `matID`, `matiere`.`Code` AS `matCode`, `matiere`.`Nom_Fr` AS `matNom_Fr`, `matiere`.`Nom_Ar` AS `matNom_Ar`, `module`.`ID` AS `modID`, `module`.`Code` AS `modCode`, `module`.`Nom_Fr` AS `modNom_Fr`, `module`.`Nom_Ar` AS `modNom_Ar`, `formeevaluation`.`ID` AS `feID`, `formeevaluation`.`Code` AS `feCode`, `formeevaluation`.`Nom_Ar` AS `feNom_Ar`, `formeevaluation`.`Nom_Fr` AS `feNom_Fr`\r
+" 3 times.(âÖ÷8ˆ…¯éè0HĞÏ RCRITICALZ
+CODE_SMELL
+u
+java:S1106 "AMove this left curly brace to the beginning of next line of code.(ªÆ¬ï8°ûúºë0HóÏ RMINORZ
+CODE_SMELL
+r
+java:S2479˜":Remove the non-escaped \u0009 character from this literal.(Ãë´ä8ˆ…¯éè0H°Ğ RCRITICALZ
+CODE_SMELL
+‰
+java:S3242"TUse 'Domaine.evaluation.Evaluation' here; it is a more general type than 'Controle'.(Î†ÿ™8ˆ…¯éè0H‹Ñ RMINORZ
+CODE_SMELL
+y
+java:S1120î"DMake this line start after 4 spaces to indent the code consistently.(ğ‰‚Ò8éÄõÕî0H¼Ü RMINORZ
+CODE_SMELL
+	java:S103î"KSplit this 252 characters long line (which is greater than 120 authorized).(ğ‰‚Ò8éÄõÕî0H½Ü RMAJORZ
+CODE_SMELL
+€
+java:S3252î"HUse static access with "java.sql.Statement" for "RETURN_GENERATED_KEYS".(ğ‰‚Ò8éÄõÕî0H¾Ü RCRITICALZ
+CODE_SMELL
+i
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8éÄõÕî0HÀÜ RMINORZ
+CODE_SMELL
+v
+java:S1128	"BRemove this unused import 'org.codehaus.jackson.map.ObjectMapper'.(õÂè–8éÄõÕî0HÂÜ RMINORZ
+CODE_SMELL
+o
+java:S1128";Remove this unused import 'Domaine.classe.ClasseGenerique'.(ç÷ 8éÄõÕî0HÄÜ RMINORZ
+CODE_SMELL
+g
+java:S1128"3Remove this unused import 'Domaine.classe.Filiere'.(ãîöİ8éÄõÕî0HÆÜ RMINORZ
+CODE_SMELL
+f
+java:S1128"2Remove this unused import 'Domaine.classe.Niveau'.(Àõşü8éÄõÕî0HÈÜ RMINORZ
+CODE_SMELL
+v
+java:S1128"BRemove this unused import 'Domaine.evaluation.DocumentEvaluation'.(şºù†8éÄõÕî0HÊÜ RMINORZ
+CODE_SMELL
+p
+java:S1128"<Remove this unused import 'Domaine.utilisateur.Utilisateur'.(Ì¦¿Ä8éÄõÕî0HÌÜ RMINORZ
+CODE_SMELL

@@ -1,0 +1,97 @@
+
+€	java:S116"TRename this field "prenom_Fr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öú§µHøRMINORZ
+CODE_SMELL
+‚	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é»©ŠşÿÿÿÿHøRMINORZ
+CODE_SMELL
+ƒ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¥ŠıÿÿÿÿHŸøRMINORZ
+CODE_SMELL
+	java:S100Q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÇå†øÿÿÿÿH øRMINORZ
+CODE_SMELL
+…
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(šêıhH¡øRMINORZ
+CODE_SMELL
+†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú©ÍH£øRMINORZ
+CODE_SMELL
+
+java:S1319º"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ì…îŸH¤øRMINORZ
+CODE_SMELL
+|	java:S116"QRename this field "nom_Fr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚’Ü`H§øRMINORZ
+CODE_SMELL
+‡	java:S116"VRename this field "lieuNais_Fr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„¯ê¡ûÿÿÿÿH¨øRMINORZ
+CODE_SMELL
+|	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸öö H©øRMINORZ
+CODE_SMELL
+}	java:S116"QRename this field "nom_Ar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÎâHªøRMINORZ
+CODE_SMELL
+}	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÂóH«øRMINORZ
+CODE_SMELL
+	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ä²ıÿÿÿÿH¬øRMINORZ
+CODE_SMELL
+}	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÅ­ H­øRMINORZ
+CODE_SMELL
+‚	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÇå†øÿÿÿÿH®øRMINORZ
+CODE_SMELL
+n	java:S107$"BConstructor has 19 parameters, which is greater than 7 authorized.(ÏÅ­ H¯øRMAJORZ
+CODE_SMELL
+£
+java:S1319´"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(÷—’ÖşÿÿÿÿH°øRMINORZ
+CODE_SMELL
+†	java:S116"URename this field "adresse_Fr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çœ²éşÿÿÿÿH³øRMINORZ
+CODE_SMELL
+€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÓª©ıÿÿÿÿH´øRMINORZ
+CODE_SMELL
+}	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÅ­ HµøRMINORZ
+CODE_SMELL
+}	java:S117{"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª­ÍH¶øRMINORZ
+CODE_SMELL
+z	java:S100Z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÜéîH·øRMINORZ
+CODE_SMELL
+	java:S100x"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷»˜ÍüÿÿÿÿH¸øRMINORZ
+CODE_SMELL
+€	java:S100Š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©•™üÿÿÿÿH¹øRMINORZ
+CODE_SMELL
+€	java:S116"TRename this field "prenom_Ar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¡ïHºøRMINORZ
+CODE_SMELL
+z	java:S100N"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ëßËH»øRMINORZ
+CODE_SMELL
+}	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÅ­ H¼øRMINORZ
+CODE_SMELL
+‚	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÍáÚúÿÿÿÿH½øRMINORZ
+CODE_SMELL
+z	java:S100{"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª­ÍH¾øRMINORZ
+CODE_SMELL
+ƒ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÓª©ıÿÿÿÿH¿øRMINORZ
+CODE_SMELL
+†	java:S116"URename this field "adresse_Ar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë†İüÿÿÿÿHÀøRMINORZ
+CODE_SMELL
+{	java:S100„"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çè™HÁøRMINORZ
+CODE_SMELL
+€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¥ŠıÿÿÿÿHÂøRMINORZ
+CODE_SMELL
+‚	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ä²ıÿÿÿÿHÃøRMINORZ
+CODE_SMELL
+‹
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(ÂúšùÿÿÿÿHÄøRMINORZ
+CODE_SMELL
+‚	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÍáÚúÿÿÿÿHÆøRMINORZ
+CODE_SMELL
+}	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­—ãHÇøRMINORZ
+CODE_SMELL
+|	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸öö HÈøRMINORZ
+CODE_SMELL
+z	java:S100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚èµ¬HÉøRMINORZ
+CODE_SMELL
+ƒ	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘¥¡ùÿÿÿÿHÊøRMINORZ
+CODE_SMELL
+	java:S100~"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤“†«üÿÿÿÿHËøRMINORZ
+CODE_SMELL
+€	java:S100‡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘¥¡ùÿÿÿÿHÌøRMINORZ
+CODE_SMELL
+z	java:S100]"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­—ãHÍøRMINORZ
+CODE_SMELL
+z	java:S100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğµ—šHÎøRMINORZ
+CODE_SMELL
+‚	java:S116"VRename this field "lieuNais_Ar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ÇëÆHÏøRMINORZ
+CODE_SMELL
+	java:S100W"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é»©ŠşÿÿÿÿHĞøRMINORZ
+CODE_SMELL

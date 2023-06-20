@@ -1,0 +1,88 @@
+package dao.evaluation;
+
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.PreparedStatement;
+
+import Domaine.evaluation.NoteControle;
+import dao.database.Db;
+
+public class NoteControleDAO {
+			private Connection con;
+		    public NoteControleDAO() {
+		        this.con = Db.getInstance().con;
+		    }
+
+		    // insert a new record into notecontrole table
+		    public void addNoteControle(NoteControle noteControle) throws SQLException {
+		        String query = "INSERT INTO notecontrole (EtudiantUtilisateurID, ControleID) VALUES (?, ?) ON DUPLICATE KEY UPDATE Note=?, Valide=?, Observation=?";
+		        PreparedStatement statement = (PreparedStatement) con.prepareStatement(query);
+		        statement.setInt(1, noteControle.getEtudiant().getId());
+		        statement.setInt(2, noteControle.getControle().getId());
+		        statement.setFloat(3, noteControle.getNote());
+		        statement.setBoolean(4, noteControle.isValide());
+		        statement.setString(5, noteControle.getObservation());
+		        statement.executeUpdate();
+		    }
+
+		    // get all notecontrole records for a given student
+		    public ArrayList<NoteControle> getByEtudiant(int etudiantUtilisateurId) throws SQLException {
+		        ArrayList<NoteControle> result = new ArrayList<NoteControle>();
+		        PreparedStatement statement = null;
+		        ResultSet resultSet = null;
+		        try {
+		            String query = "SELECT * FROM notecontrole WHERE EtudiantUtilisateurID = ?";
+		            statement = db.getConnection().prepareStatement(query);
+		            statement.setInt(1, etudiantUtilisateurId);
+		            resultSet = statement.executeQuery();
+		            while (resultSet.next()) {
+		                int id = resultSet.getInt("ID");
+		                int controleId = resultSet.getInt("ControleID");
+		                float note = resultSet.getFloat("Note");
+		                boolean valide = resultSet.getBoolean("Valide");
+		                String observation = resultSet.getString("Observation");
+		                NoteControle noteControle = new NoteControle(id, etudiantUtilisateurId, controleId, note, valide, observation);
+		                result.add(noteControle);
+		            }
+		        } finally {
+		            if (resultSet != null) {
+		                resultSet.close();
+		            }
+		            if (statement != null) {
+		                statement.close();
+		            }
+		        }
+		        return result;
+		    }
+
+		    // get all notecontrole records for a given controle
+		    public ArrayList<NoteControle> getByControle(int controleId) throws SQLException {
+		        ArrayList<NoteControle> result = new ArrayList<NoteControle>();
+		        PreparedStatement statement = null;
+		        ResultSet resultSet = null;
+		        try {
+		            String query = "SELECT * FROM notecontrole WHERE ControleID = ?";
+		            statement = db.getConnection().prepareStatement(query);
+		            statement.setInt(1, controleId);
+		            resultSet = statement.executeQuery();
+		            while (resultSet.next()) {
+		                int id = resultSet.getInt("ID");
+		                int etudiantUtilisateurId = resultSet.getInt("EtudiantUtilisateurID");
+		                float note = resultSet.getFloat("Note");
+		                boolean valide = resultSet.getBoolean("Valide");
+		                String observation = resultSet.getString("Observation");
+		                NoteControle noteControle = new NoteControle(id, etudiantUtilisateurId, controleId, note, valide, observation);
+		                result.add(noteControle);
+		            }
+		        } finally {
+		            if (resultSet != null) {
+		                resultSet.close();
+		            }
+		            if (statement != null) {
+		                statement.close();
+		            }
+		        }
+		        return result;
+		    }
+}

@@ -1,0 +1,71 @@
+
+΅
+java:S1989,"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(ας‰ψÿÿÿÿH°‰ RMINORZVULNERABILITY
+…
+java:S1989<"PHandle the following exception that could be thrown by "getWriter": IOException.(οτ†ϊÿÿÿÿH±‰ RMINORZVULNERABILITY
+ƒ
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ήΜ„ƒϋÿÿÿÿH²‰ RMAJORZBUG
+c
+java:S1135A"2Complete the task associated to this TODO comment.(ΥΜ®ώÿÿÿÿH³‰ RINFOZ
+CODE_SMELL
+±
+java:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹¨―ΏH΄‰ RCRITICALZ
+CODE_SMELL
+Ώ
+java:S19898"‰Handle the following exceptions that could be thrown by "writeValueAsString": IOException, JsonGenerationException, JsonMappingException.(ζ‹ªψÿÿÿÿH¶‰ RMINORZVULNERABILITY
+g
+java:S1161F":Add the "@Override" annotation above this method signature(‹¨―ΏH·‰ RMAJORZ
+CODE_SMELL
+‹
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(ξΑΧκϋÿÿÿÿHΉ‰ RMINORZ
+CODE_SMELL
+l
+java:S1161+":Add the "@Override" annotation above this method signature(Οϋ©ΦϋÿÿÿÿH»‰ RMAJORZ
+CODE_SMELL
+g
+java:S1161&":Add the "@Override" annotation above this method signature(®΄¥H½‰ RMAJORZ
+CODE_SMELL
+c
+java:S1135'"2Complete the task associated to this TODO comment.(» ζÿÿÿÿÿHΏ‰ RINFOZ
+CODE_SMELL
+}
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ήΜ„ƒϋÿÿÿÿ8κάν0Hΐ‰ RMINORZ
+CODE_SMELL
+}
+java:S1120!"DMake this line start after 4 spaces to indent the code consistently.(δεΦύÿÿÿÿ8κάν0HΑ‰ RMINORZ
+CODE_SMELL
+Y
+java:S1166@"%Either log or rethrow this exception.(Ι®£8κάν0HΒ‰ RMAJORZ
+CODE_SMELL
+u
+java:S1106"AMove this left curly brace to the beginning of next line of code.(“¥8κάν0HΓ‰ RMINORZ
+CODE_SMELL
+z
+java:S1106 "AMove this left curly brace to the beginning of next line of code.(ζχ‚Τϋÿÿÿÿ8κάν0HΔ‰ RMINORZ
+CODE_SMELL
+u
+java:S1106&"AMove this left curly brace to the beginning of next line of code.(®΄¥8κάν0HΕ‰ RMINORZ
+CODE_SMELL
+z
+java:S1106+"AMove this left curly brace to the beginning of next line of code.(Οϋ©Φϋÿÿÿÿ8κάν0HΖ‰ RMINORZ
+CODE_SMELL
+z
+java:S1106/"AMove this left curly brace to the beginning of next line of code.(΅»Άόωÿÿÿÿ8κάν0HΗ‰ RMINORZ
+CODE_SMELL
+u
+java:S1106@"AMove this left curly brace to the beginning of next line of code.(Ι®£8κάν0HΘ‰ RMINORZ
+CODE_SMELL
+u
+java:S1106F"AMove this left curly brace to the beginning of next line of code.(‹¨―Ώ8κάν0HΙ‰ RMINORZ
+CODE_SMELL
+T
+java:S1451"&Add or update the header of this file.8κάν0HΚ‰ RBLOCKERZ
+CODE_SMELL
+p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8κάν0HΛ‰ RMINORZ
+CODE_SMELL
+S
+java:S4926"Remove this "serialVersionUID".(‘Ξκ8κάν0HΜ‰ RMINORZ
+CODE_SMELL
+f
+java:S1108@"2Move this "catch" keyword to a new dedicated line.(Ι®£8κάν0HΝ‰ RMINORZ
+CODE_SMELL

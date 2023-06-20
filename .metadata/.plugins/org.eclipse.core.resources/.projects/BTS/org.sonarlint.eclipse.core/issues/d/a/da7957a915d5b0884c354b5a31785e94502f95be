@@ -1,0 +1,56 @@
+
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(æ™µ¤ÿÿÿÿÿ8Ä„ÕÓî0HÔÜ RMINORZ
+CODE_SMELL
+c
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHÕÜ RINFOZ
+CODE_SMELL
+u
+java:S1106("AMove this left curly brace to the beginning of next line of code.(”ı¾8Ä„ÕÓî0HÖÜ RMINORZ
+CODE_SMELL
+h
+java:S2221("4Catch a list of specific exception subtypes instead.(”ı¾8Ä„ÕÓî0H×Ü RMINORZ
+CODE_SMELL
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Òîøÿÿÿÿ8Ä„ÕÓî0HØÜ RMINORZ
+CODE_SMELL
+…
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÔÃËé8¢¶àÓî0HÙÜ RMAJORZBUG
+z
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Ïû©Öûÿÿÿÿ8Ä„ÕÓî0HÚÜ RMINORZ
+CODE_SMELL
+}
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(íØòáøÿÿÿÿ8¢¶àÓî0HÛÜ RMINORZ
+CODE_SMELL
+}
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ŸäåÖıÿÿÿÿ8Ä„ÕÓî0HÜÜ RMINORZ
+CODE_SMELL
+f
+java:S1108("2Move this "catch" keyword to a new dedicated line.(”ı¾8Ä„ÕÓî0HİÜ RMINORZ
+CODE_SMELL
+l
+java:S1161":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHŞÜ RMAJORZ
+CODE_SMELL
+s
+java:S1858,"@"toJson" returns a string, there's no need to call "toString()".(Ëî­j8¡Ïİªä0HàÜ RMINORZ
+CODE_SMELL
+z
+java:S1106$"AMove this left curly brace to the beginning of next line of code.(¡»¢üùÿÿÿÿ8Ä„ÕÓî0HâÜ RMINORZ
+CODE_SMELL
+Š
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(íØòáøÿÿÿÿ8úÉÙªä0HãÜ RMAJORZBUG
+p	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8Ä„ÕÓî0HäÜ RMINORZ
+CODE_SMELL
+
+java:S1989 "YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ˆÛƒ8úÉÙªä0HåÜ RMINORZVULNERABILITY
+Y
+java:S1166("%Either log or rethrow this exception.(”ı¾8Ä„ÕÓî0HæÜ RMAJORZ
+CODE_SMELL
+S
+java:S4926"Remove this "serialVersionUID".(‘Îê8Ä„ÕÓî0HçÜ RMINORZ
+CODE_SMELL
+T
+java:S1451"&Add or update the header of this file.8Ä„ÕÓî0HèÜ RBLOCKERZ
+CODE_SMELL
+Œ
+java:S1989/"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿ8ó‘Üªä0HéÜ RMINORZVULNERABILITY

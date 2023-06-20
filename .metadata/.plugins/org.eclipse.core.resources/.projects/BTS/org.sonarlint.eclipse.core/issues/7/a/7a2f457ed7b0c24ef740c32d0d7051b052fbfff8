@@ -1,0 +1,127 @@
+
+‡
+java:S2293«"YReplace the type specification in this constructor call with the diamond operator ("<>").(Š¯…¼H‚æRMINORZ
+CODE_SMELL
+
+java:S1319’"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ö º®H„æRMINORZ
+CODE_SMELL
+o
+java:S2479":Remove the non-escaped \u0009 character from this literal.(Ñ‡ãœùÿÿÿÿH‡æRCRITICALZ
+CODE_SMELL
+o
+java:S2479":Remove the non-escaped \u0009 character from this literal.(Öô°öùÿÿÿÿHˆæRCRITICALZ
+CODE_SMELL
+o
+java:S2479":Remove the non-escaped \u0009 character from this literal.(øÔ¾ûÿÿÿÿH‰æRCRITICALZ
+CODE_SMELL
+j
+java:S2479":Remove the non-escaped \u0009 character from this literal.(’õêÖHŠæRCRITICALZ
+CODE_SMELL
+j
+java:S2479":Remove the non-escaped \u0009 character from this literal.(†Ö›³H‹æRCRITICALZ
+CODE_SMELL
+j
+java:S2479 ":Remove the non-escaped \u0009 character from this literal.(ÀØŸ†HŒæRCRITICALZ
+CODE_SMELL
+o
+java:S2479!":Remove the non-escaped \u0009 character from this literal.(²½ÍœüÿÿÿÿHæRCRITICALZ
+CODE_SMELL
+j
+java:S2479"":Remove the non-escaped \u0009 character from this literal.(¥ÉHæRCRITICALZ
+CODE_SMELL
+o
+java:S2479#":Remove the non-escaped \u0009 character from this literal.(«ğœ«ûÿÿÿÿHæRCRITICALZ
+CODE_SMELL
+j
+java:S2479$":Remove the non-escaped \u0009 character from this literal.(ä²¤¡HæRCRITICALZ
+CODE_SMELL
+o
+java:S2479%":Remove the non-escaped \u0009 character from this literal.(”ªË­øÿÿÿÿH‘æRCRITICALZ
+CODE_SMELL
+j
+java:S2479&":Remove the non-escaped \u0009 character from this literal.(«ÚÃÓH’æRCRITICALZ
+CODE_SMELL
+j
+java:S2479'":Remove the non-escaped \u0009 character from this literal.(š¶Ò…H“æRCRITICALZ
+CODE_SMELL
+j
+java:S2479(":Remove the non-escaped \u0009 character from this literal.(ÙÆªH”æRCRITICALZ
+CODE_SMELL
+j
+java:S2479)":Remove the non-escaped \u0009 character from this literal.(Ö…§ÔH•æRCRITICALZ
+CODE_SMELL
+j
+java:S2479*":Remove the non-escaped \u0009 character from this literal.(âö¸“H–æRCRITICALZ
+CODE_SMELL
+o
+java:S2479+":Remove the non-escaped \u0009 character from this literal.(êÎİ›şÿÿÿÿH—æRCRITICALZ
+CODE_SMELL
+w
+java:S3252k"HUse static access with "java.sql.Statement" for "RETURN_GENERATED_KEYS".(‹»é2H˜æRCRITICALZ
+CODE_SMELL
+k
+java:S2479”":Remove the non-escaped \u0009 character from this literal.(Ó³øÂHšæRCRITICALZ
+CODE_SMELL
+p
+java:S2479•":Remove the non-escaped \u0009 character from this literal.(Ò·Ï®úÿÿÿÿH›æRCRITICALZ
+CODE_SMELL
+p
+java:S2479–":Remove the non-escaped \u0009 character from this literal.(Ñ»”ˆıÿÿÿÿHœæRCRITICALZ
+CODE_SMELL
+k
+java:S2479—":Remove the non-escaped \u0009 character from this literal.(§Õ˜HæRCRITICALZ
+CODE_SMELL
+k
+java:S2479˜":Remove the non-escaped \u0009 character from this literal.(ï½ñ±HæRCRITICALZ
+CODE_SMELL
+k
+java:S2479™":Remove the non-escaped \u0009 character from this literal.(ÿá°˜HŸæRCRITICALZ
+CODE_SMELL
+p
+java:S2479š":Remove the non-escaped \u0009 character from this literal.(„÷Ó¡ıÿÿÿÿH æRCRITICALZ
+CODE_SMELL
+p
+java:S2479›":Remove the non-escaped \u0009 character from this literal.(Ğú€”ûÿÿÿÿH¡æRCRITICALZ
+CODE_SMELL
+p
+java:S2479œ":Remove the non-escaped \u0009 character from this literal.(¨ßª£ıÿÿÿÿH¢æRCRITICALZ
+CODE_SMELL
+p
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ÈòúÿÿÿÿH£æRCRITICALZ
+CODE_SMELL
+p
+java:S2479":Remove the non-escaped \u0009 character from this literal.(”¾¥ˆúÿÿÿÿH¤æRCRITICALZ
+CODE_SMELL
+p
+java:S2479Ÿ":Remove the non-escaped \u0009 character from this literal.(³ÛŒıÿÿÿÿH¥æRCRITICALZ
+CODE_SMELL
+p
+java:S2479 ":Remove the non-escaped \u0009 character from this literal.(ªÿÍğùÿÿÿÿH¦æRCRITICALZ
+CODE_SMELL
+k
+java:S2479¡":Remove the non-escaped \u0009 character from this literal.(‹à™H§æRCRITICALZ
+CODE_SMELL
+j
+java:S2479¢":Remove the non-escaped \u0009 character from this literal.(‹íšeH¨æRCRITICALZ
+CODE_SMELL
+p
+java:S2479£":Remove the non-escaped \u0009 character from this literal.(Àı®“şÿÿÿÿH©æRCRITICALZ
+CODE_SMELL
+p
+java:S2479¤":Remove the non-escaped \u0009 character from this literal.(”ÎüÿÿÿÿHªæRCRITICALZ
+CODE_SMELL
+k
+java:S2479¥":Remove the non-escaped \u0009 character from this literal.(Ó´ÄH«æRCRITICALZ
+CODE_SMELL
+p
+java:S2479¦":Remove the non-escaped \u0009 character from this literal.(÷ª˜ìıÿÿÿÿH¬æRCRITICALZ
+CODE_SMELL
+k
+java:S2479§":Remove the non-escaped \u0009 character from this literal.(«ÚÃÓH­æRCRITICALZ
+CODE_SMELL
+j
+java:S2479¨":Remove the non-escaped \u0009 character from this literal.(ËøKH®æRCRITICALZ
+CODE_SMELL
+x
+java:S3252á"HUse static access with "java.sql.Statement" for "RETURN_GENERATED_KEYS".(‹»é2H¯æRCRITICALZ
+CODE_SMELL

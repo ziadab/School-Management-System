@@ -1,0 +1,17 @@
+
+q	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(קֳûÿÿÿÿ8כאר»כ0Hף„!RMAJORZBUG
+x	Web:S5255«"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(₪¢²ט8כאר»כ0Hנ„!RMAJORZ
+CODE_SMELL
+dWeb:ImgWithoutAltCheckֹ"%Add an "alt" attribute to this image.(ײ”ֱ¸תÿÿÿÿ8כאר»כ0Hל„!RMINORZBUG
+eWeb:TableWithoutCaptionCheck" Add a description to this table.(Úü‏ÿÿÿÿ8כאר»כ0Hפ„!RMINORZBUG
+h	Web:S1827"/Remove this deprecated "cellspacing" attribute.(Úü‏ÿÿÿÿ8כאר»כ0Hמ„!RMAJORZ
+CODE_SMELL
+x	Web:S5255ף"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(¡˜ֱ8כאר»כ0Hץ„!RMAJORZ
+CODE_SMELL
+b	Web:S1827")Remove this deprecated "width" attribute.(Úü‏ÿÿÿÿ8כאר»כ0Hם„!RMAJORZ
+CODE_SMELL
+}	Web:S5255ֶ"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(„חÚטשÿÿÿÿ8כאר»כ0Hן„!RMAJORZ
+CODE_SMELL
+_Web:ImgWithoutAltCheck־"%Add an "alt" attribute to this image.(¦±סׂ8כאר»כ0Hע„!RMINORZBUG
+w	Web:S5255±"DAdd an "aria-label" or "aria-labbelledby" attribute to this element.(₪“ל08כאר»כ0Hס„!RMAJORZ
+CODE_SMELL
